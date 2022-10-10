@@ -3,10 +3,11 @@
 Ant Design SVG Icons v4.2.1 for Svelte. Svelte-Ant-Design-Icons support major CSS framework. You can add additional CSS using the `class` props.
 
 <p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-heros-v2/main/static/images/heros-outline1.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-heros-v2/main/static/images/heros-outline2.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-heros-v2/main/static/images/heros-solid1.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-heros-v2/main/static/images/heros-solid2.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-1.png" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-2.png" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-3.png" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-4.png" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-5.png" />
 </p>
 
 ## Original source
@@ -31,9 +32,9 @@ npm i -D svelte-ant-design-icons@latest
 
 ## REPL
 
-[Outline demo](https://svelte.dev/repl/1948d7b5157f44709cff380d9783342c?version=3.49.0)
+[REPL 1](https://svelte.dev/repl/375c734a6ec74f44adfe4aa76b117ab9?version=3.50.1)
 
-[Solid demo](https://svelte.dev/repl/e26c4ea516a0493cb64797879b1fe46d?version=3.49.0)
+[REPL 2](https://svelte.dev/repl/38a6fcd635c14255b7a30c1a7d4b05c2?version=3.50.1)
 
 ## Usage
 
@@ -180,4 +181,3 @@ on:focus
 ## Other icons
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
-- [Svelte-Heros v1](https://github.com/shinokada/svelte-heros)

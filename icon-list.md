@@ -789,4 +789,3 @@
 - ZhihuSquareFilled.svelte
 - ZoomInOutlined.svelte
 - ZoomOutOutlined.svelte
-- index.js

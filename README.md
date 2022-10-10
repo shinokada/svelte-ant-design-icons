@@ -3,11 +3,11 @@
 Ant Design SVG Icons v4.2.1 for Svelte. Svelte-Ant-Design-Icons support major CSS framework. You can add additional CSS using the `class` props.
 
 <p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-1.png" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-2.png" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-3.png" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-4.png" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-5.png" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-1.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-2.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-3.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-4.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-5.webp" />
 </p>
 
 ## Original source
@@ -51,7 +51,7 @@ npm i -D svelte-ant-design-icons@latest
   } from 'svelte-ant-design-icons';
 </script>
 
-<AcademicCap />
+<AlertFilled />
 ```
 
 ## Props
@@ -89,7 +89,8 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code for Filled and Outlined components.
 
 ```html
-<AlertFilled color="#ff0000" /> <AlertOutlined color="#00ffd8" />
+<AlertFilled color="#ff0000" /> 
+<AlertOutlined color="#00ffd8" />
 ```
 
 ## Twotone icons

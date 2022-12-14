@@ -62,7 +62,7 @@ npm i -D svelte-ant-design-icons@latest
 
 ## List of icons
 
-[Icon names](icon-list.md)
+[Icon names](svelte-ant-design-icons/icon-list.md)
 
 ## Variation
 

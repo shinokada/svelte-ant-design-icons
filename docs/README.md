@@ -4,6 +4,13 @@
 <a href="https://shinokada.github.io/svelte-ant-design-icons">Svelte-Ant-Design-Icons</a>
 </p>
 
+<p align="center">
+<a href="https://www.npmjs.com/package/svelte-ant-design-icons" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-ant-design-icons" alt="npm"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
+<a href="http://www.apache.org/licenses/" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-ant-design-icons" alt="License"></a>
+<a href="https://www.npmjs.com/package/svelte-ant-design-icons" rel="nofollow"><img src="https://img.shields.io/npm/dw/svelte-ant-design-icons.svg" alt="npm"></a>
+</p>
+
 Ant Design SVG Icons v4.2.1 for Svelte. Svelte-Ant-Design-Icons support major CSS framework. You can add additional CSS using the `class` props.
 
 <p align="center">

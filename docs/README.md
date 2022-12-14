@@ -1,7 +1,7 @@
 # Svelte-Ant-Design-Icons
 
 <p align="center">
-<a href="https://shinokada.github.io/svelte-ant-design.icons">Svelte-Ant-Design-Icons</a>
+<a href="https://shinokada.github.io/svelte-ant-design-icons">Svelte-Ant-Design-Icons</a>
 </p>
 
 Ant Design SVG Icons v4.2.1 for Svelte. Svelte-Ant-Design-Icons support major CSS framework. You can add additional CSS using the `class` props.

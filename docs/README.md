@@ -1,5 +1,9 @@
 # Svelte-Ant-Design-Icons
 
+<p align="center">
+<a href="https://shinokada.github.io/svelte-ant-design.icons">Svelte-Ant-Design-Icons</a>
+</p>
+
 Ant Design SVG Icons v4.2.1 for Svelte. Svelte-Ant-Design-Icons support major CSS framework. You can add additional CSS using the `class` props.
 
 <p align="center">
@@ -9,14 +13,6 @@ Ant Design SVG Icons v4.2.1 for Svelte. Svelte-Ant-Design-Icons support major CS
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-4.webp" />
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-5.webp" />
 </p>
-
-## Original source
-
-[ant-design/ant-design-icons v4.2.1](https://github.com/ant-design/ant-design-icons/tree/master/packages/icons-svg)
-
-## List of icons
-
-[Icon names](https://github.com/shinokada/svelte-ant-design-icons/blob/main/icon-list.md)
 
 ## Installation
 
@@ -64,6 +60,10 @@ npm i -D svelte-ant-design-icons@latest
 | strokeColor for twotone | currentColor or #333 |
 | insideColor for twotone | #E6E6E6 or #D9D9D9   |
 
+## List of icons
+
+[Icon names](./icon-list.md)
+
 ## Variation
 
 Some icons have Filled, Outlined, and Twotone. You can find them at the end of filenames.
@@ -89,8 +89,7 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code for Filled and Outlined components.
 
 ```html
-<AlertFilled color="#ff0000" /> 
-<AlertOutlined color="#00ffd8" />
+<AlertFilled color="#ff0000" /> <AlertOutlined color="#00ffd8" />
 ```
 
 ## Twotone icons
@@ -178,6 +177,10 @@ on:mouseout
 on:blur
 on:focus
 ```
+
+## Original source
+
+[ant-design/ant-design-icons v4.2.1](https://github.com/ant-design/ant-design-icons/tree/master/packages/icons-svg)
 
 ## Other icons
 

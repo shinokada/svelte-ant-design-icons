@@ -1,7 +1,7 @@
 # Svelte-Ant-Design-Icons
 
 <p align="center">
-<a href="https://shinokada.github.io/svelte-ant-design-icons">Svelte-Ant-Design-Icons</a>
+<a href="https://shinokada.github.io/svelte-ant-design-icons/" rel="nofollow">Svelte-Ant-Design-Icons</a>
 </p>
 
 <p align="center">

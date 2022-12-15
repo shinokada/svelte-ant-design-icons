@@ -1,5 +1,4 @@
-# Svelte-Ant-Design-Icons
-
+<h1 align="center">Svelte-Ant-Design-Icons</h1>
 <p align="center">
 <a href="https://shinokada.github.io/svelte-ant-design-icons/" rel="nofollow">Svelte-Ant-Design-Icons</a>
 </p>

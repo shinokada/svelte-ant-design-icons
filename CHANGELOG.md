@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.0.6...v0.0.7) (2022-12-15)
+
+
+### Bug Fixes
+
+* change homepage in package.json ([c05403f](https://github.com/shinokada/svelte-ant-design-icons/commit/c05403f8de7edd8e37d9e5c85d77bc9168ab216c))
+* move files in docs to root since npm.js does not show README file. Delete docsfolder ([0e8e6d0](https://github.com/shinokada/svelte-ant-design-icons/commit/0e8e6d0db92502d0303785ff74bf82c76d647b16))
+
 ### [0.0.6](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.0.5...v0.0.6) (2022-12-15)
 
 ### Bug Fixes

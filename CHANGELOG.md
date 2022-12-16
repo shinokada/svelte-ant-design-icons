@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.0.8...v0.0.9) (2022-12-16)
+
+
+### Bug Fixes
+
+* remove version from REPL ([e6d2674](https://github.com/shinokada/svelte-ant-design-icons/commit/e6d2674ae170c2a388a603c89e25c29373946cdc))
+
 ### [0.0.8](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.0.7...v0.0.8) (2022-12-16)
 
 ### Bug Fixes

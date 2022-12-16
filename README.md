@@ -34,9 +34,9 @@ npm i -D svelte-ant-design-icons@latest
 
 ## REPL
 
-[REPL 1](https://svelte.dev/repl/375c734a6ec74f44adfe4aa76b117ab9?version=3.50.1)
+[REPL 1](https://svelte.dev/repl/375c734a6ec74f44adfe4aa76b117ab9?version=3.55.0)
 
-[REPL 2](https://svelte.dev/repl/38a6fcd635c14255b7a30c1a7d4b05c2?version=3.50.1)
+[REPL 2](https://svelte.dev/repl/38a6fcd635c14255b7a30c1a7d4b05c2?version=3.55.0)
 
 ## Usage
 

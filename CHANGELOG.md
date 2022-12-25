@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.0.10](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.0.9...v0.0.10) (2022-12-25)
 
-
 ### Bug Fixes
 
-* url updates ([cba579c](https://github.com/shinokada/svelte-ant-design-icons/commit/cba579c33be275696e08b0e2409f18e0fe6accc6))
+- url updates ([cba579c](https://github.com/shinokada/svelte-ant-design-icons/commit/cba579c33be275696e08b0e2409f18e0fe6accc6))
 
 ### [0.0.9](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.0.8...v0.0.9) (2022-12-16)
 

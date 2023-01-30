@@ -4,6 +4,9 @@
 </p>
 
 <p align="center">
+<a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps">
+  <img src="https://img.shields.io/badge/PWA-enabled-brightgreen" alt="PWA Shield">
+</a>
 <a href="https://www.npmjs.com/package/svelte-ant-design-icons" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-ant-design-icons" alt="npm"></a>
 <a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
 <a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-ant-design-icons" alt="License"></a>
@@ -191,3 +194,9 @@ on:focus
 ## Other icons
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+
+## Experience offline access with our Progressive Web App - Learn how to install it now!
+
+This website can be downloaded and installed on your device for offline access as a Progressive Web App.
+
+To install a PWA, look for the "Add to Home Screen" option in the browser's menu or settings. On most mobile devices, this option can be found by visiting the website, then selecting the "Options" or "Menu" button in the browser, and look for the "Add to Home Screen" option. On some desktop browsers, right-click on the page and select "Install"

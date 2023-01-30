@@ -1,8 +1,8 @@
 // Change this to your repository name
-const GHPATH = 'https://svelte-ant-design.codewithshin.com/';
+const GHPATH = 'https://svelte-ant-design-icons.codewithshin.com/';
 
 // Choose a different app prefix name
-const APP_PREFIX = 'svelte_ant_design_';
+const APP_PREFIX = 'svelte_ant_design_icons_';
 
 // The version of the cache. Every time you change any of the files
 // you need to change this version (version_01, version_02…).

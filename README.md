@@ -71,7 +71,7 @@ npm i -D svelte-ant-design-icons@latest
 
 ## List of icons
 
-[Icon names](https://github.com/shinokada/svelte-ant-design-icons/blob/main/icon-list.md)
+[Icon names](/icon-list.md)
 
 ## Variation
 

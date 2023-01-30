@@ -195,7 +195,7 @@ on:focus
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
 
-## Experience offline access with our Progressive Web App - Learn how to install it now!
+## Experience lightning-fast browsing and offline access with Our PWA
 
 This website can be downloaded and installed on your device for offline access as a Progressive Web App.
 

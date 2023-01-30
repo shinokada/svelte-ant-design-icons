@@ -1,4 +1,4 @@
-<h1 align="center">Svelte-Ant-Design-Icons</h1>
+<h1 align="center">Svelte Ant Design Icons</h1>
 <p align="center">
 <a href="https://svelte-ant-design-icons.codewithshin.com/" rel="nofollow">Svelte-Ant-Design-Icons</a>
 </p>

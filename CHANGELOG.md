@@ -4,21 +4,19 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.0.12](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.0.11...v0.0.12) (2023-01-30)
 
-
 ### Features
 
-* add pwa ([a513cfc](https://github.com/shinokada/svelte-ant-design-icons/commit/a513cfc810fd6c1f17d8c45c484073d134473662))
-
+- add pwa ([a513cfc](https://github.com/shinokada/svelte-ant-design-icons/commit/a513cfc810fd6c1f17d8c45c484073d134473662))
 
 ### Bug Fixes
 
-* add -icons to names ([25b83f9](https://github.com/shinokada/svelte-ant-design-icons/commit/25b83f9bee2fbd13c73e854f08c142745c422f02))
-* icon list link and verion update ([60454ac](https://github.com/shinokada/svelte-ant-design-icons/commit/60454ac8da6ebf7157138a87e43ec0f444412066))
-* logo link ([f8a90da](https://github.com/shinokada/svelte-ant-design-icons/commit/f8a90daefaf17323ac4b964276765cb20d56b7f5))
-* manifest and service-worker ([3a63f49](https://github.com/shinokada/svelte-ant-design-icons/commit/3a63f493a3d44d060c8a6b4abb0565875116b2ea))
-* remove .github to use organization-wide FUNDING.yml file. ([79aae56](https://github.com/shinokada/svelte-ant-design-icons/commit/79aae56027aad9f57b685cf150009fec66594130))
-* service-worker version update ([b0cba4a](https://github.com/shinokada/svelte-ant-design-icons/commit/b0cba4a45439c55b8b27b379ad0ed75cb5faef7f))
-* version update ([4271eaf](https://github.com/shinokada/svelte-ant-design-icons/commit/4271eaf1c6cae8859173a6d7d05ee8c36bfec23a))
+- add -icons to names ([25b83f9](https://github.com/shinokada/svelte-ant-design-icons/commit/25b83f9bee2fbd13c73e854f08c142745c422f02))
+- icon list link and verion update ([60454ac](https://github.com/shinokada/svelte-ant-design-icons/commit/60454ac8da6ebf7157138a87e43ec0f444412066))
+- logo link ([f8a90da](https://github.com/shinokada/svelte-ant-design-icons/commit/f8a90daefaf17323ac4b964276765cb20d56b7f5))
+- manifest and service-worker ([3a63f49](https://github.com/shinokada/svelte-ant-design-icons/commit/3a63f493a3d44d060c8a6b4abb0565875116b2ea))
+- remove .github to use organization-wide FUNDING.yml file. ([79aae56](https://github.com/shinokada/svelte-ant-design-icons/commit/79aae56027aad9f57b685cf150009fec66594130))
+- service-worker version update ([b0cba4a](https://github.com/shinokada/svelte-ant-design-icons/commit/b0cba4a45439c55b8b27b379ad0ed75cb5faef7f))
+- version update ([4271eaf](https://github.com/shinokada/svelte-ant-design-icons/commit/4271eaf1c6cae8859173a6d7d05ee8c36bfec23a))
 
 ### [0.0.11](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.0.10...v0.0.11) (2022-12-25)
 

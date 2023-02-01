@@ -16,11 +16,7 @@
 Ant Design SVG Icons v4.2.1 for Svelte. Svelte-Ant-Design-Icons support major CSS framework. You can add additional CSS using the `class` props.
 
 <p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-1.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-2.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-3.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-4.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-ant-design-icons/main/static/images/svelte-ant-5.webp" />
+<img width="650" src="/static/images/ant-optimized-650-1050.png" />
 </p>
 
 ## Installation
@@ -69,9 +65,13 @@ npm i -D svelte-ant-design-icons@latest
 | strokeColor for twotone | currentColor or #333 |
 | insideColor for twotone | #E6E6E6 or #D9D9D9   |
 
-## List of icons
+## Icon names
 
 [Icon names](/icon-list.md)
+
+## Icon images
+
+[Icon images](/icon-images.md)
 
 ## Variation
 
@@ -195,8 +195,8 @@ on:focus
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
 
-## Experience lightning-fast browsing and offline access with Our PWA
+## PWA: Fast & Offline
 
 This website can be downloaded and installed on your device for offline access as a Progressive Web App.
 
-To install a PWA, look for the "Add to Home Screen" option in the browser's menu or settings. On most mobile devices, this option can be found by visiting the website, then selecting the "Options" or "Menu" button in the browser, and look for the "Add to Home Screen" option. On some desktop browsers, right-click on the page and select "Install"
+To install a PWA, look for the "Add to Home Screen" option in the browser's menu or settings. On most mobile devices, this option can be found by visiting the website, then selecting the "Options" or "Menu" button in the browser, and looking for the "Add to Home Screen" option. On some desktop browsers, right-click on the page and select "Install".

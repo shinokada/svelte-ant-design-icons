@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.0.14](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.0.13...v0.0.14) (2023-02-01)
 
-
 ### Bug Fixes
 
-* badges target, height, and add links to crossOriginLinks ([faf85ef](https://github.com/shinokada/svelte-ant-design-icons/commit/faf85efc26c55b7fb8c045c4796e18b3e57e5b41))
+- badges target, height, and add links to crossOriginLinks ([faf85ef](https://github.com/shinokada/svelte-ant-design-icons/commit/faf85efc26c55b7fb8c045c4796e18b3e57e5b41))
 
 ### [0.0.13](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.0.12...v0.0.13) (2023-02-01)
 

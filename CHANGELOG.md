@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.1.1...v0.2.0) (2023-02-21)
+
+
+### Features
+
+* add microsoft webmaster tools meta tag ([ad9f5d0](https://github.com/shinokada/svelte-ant-design-icons/commit/ad9f5d0f3ceed6947a231e9ce3be221686729aaa))
+* add microsoft webmaster tools meta tag ([53ed72e](https://github.com/shinokada/svelte-ant-design-icons/commit/53ed72e1bf0cf0a8c4b546000622eea2ff93b2ae))
+* svelte new package system ([2f7bd04](https://github.com/shinokada/svelte-ant-design-icons/commit/2f7bd049187f1fae0cf535f23f85a26c2c267e69))
+
+
+### Bug Fixes
+
+* update index.html ([1ece740](https://github.com/shinokada/svelte-ant-design-icons/commit/1ece74087a19c5f48ece64144820caa24fb481d1))
+
 ### [0.1.1](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.1.0...v0.1.1) (2023-02-03)
 
 ## [0.1.0](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.0.14...v0.1.0) (2023-02-03)

@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '18'
           cache: 'pnpm'
-            - name: Get pnpm store directory
+      - name: Get pnpm store directory
         id: pnpm-cache
         shell: bash
         run: |

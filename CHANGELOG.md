@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.1](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.2.1...v0.3.1) (2023-03-06)
+
+
+### Features
+
+* add script add-exports and update README ([b2ec5b5](https://github.com/shinokada/svelte-ant-design-icons/commit/b2ec5b5dc63e02e1606c6ac55c777aff623e5091))
+
 ### [0.2.1](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.2.0...v0.2.1) (2023-02-21)
 
 ## [0.2.0](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.1.1...v0.2.0) (2023-02-21)

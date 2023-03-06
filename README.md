@@ -53,15 +53,21 @@ If you are a TypeScript user, Add `"moduleResolution": "bundler"` to `tsconfig.j
 
 ```html
 <script>
-  import {
-    AlertFilled,
-    AlertOutlined,
-    AlertTwotone,
-    BookTwotone,
-    BellTwotone,
-    VideoCameraTwotone,
-    UpSquareTwotone
-  } from 'svelte-ant-design-icons';
+  import { AlertFilled } from 'svelte-ant-design-icons';
+</script>
+
+<AlertFilled />
+```
+
+## Faster compiling
+
+**This require `"typescript": "^5.0.0"`.**
+
+For faster compilation, you can import the icon directly.
+
+```html
+<script>
+  import AlertFilled from 'svelte-ant-design-icons/AlertFilled.svelte';
 </script>
 
 <AlertFilled />

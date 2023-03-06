@@ -1,0 +1,47 @@
+/** @typedef {typeof __propDef.props}  ContactsTwotoneProps */
+/** @typedef {typeof __propDef.events}  ContactsTwotoneEvents */
+/** @typedef {typeof __propDef.slots}  ContactsTwotoneSlots */
+export default class ContactsTwotone extends SvelteComponentTyped<{
+    [x: string]: any;
+    size?: string | undefined;
+    ariaLabel?: string | undefined;
+    strokeColor?: string | undefined;
+    insideColor?: string | undefined;
+}, {
+    click: MouseEvent;
+    mouseenter: MouseEvent;
+    mouseleave: MouseEvent;
+    mouseover: MouseEvent;
+    mouseout: MouseEvent;
+    blur: FocusEvent;
+    focus: FocusEvent;
+} & {
+    [evt: string]: CustomEvent<any>;
+}, {}> {
+}
+export type ContactsTwotoneProps = typeof __propDef.props;
+export type ContactsTwotoneEvents = typeof __propDef.events;
+export type ContactsTwotoneSlots = typeof __propDef.slots;
+import { SvelteComponentTyped } from "svelte";
+declare const __propDef: {
+    props: {
+        [x: string]: any;
+        size?: string | undefined;
+        ariaLabel?: string | undefined;
+        strokeColor?: string | undefined;
+        insideColor?: string | undefined;
+    };
+    events: {
+        click: MouseEvent;
+        mouseenter: MouseEvent;
+        mouseleave: MouseEvent;
+        mouseover: MouseEvent;
+        mouseout: MouseEvent;
+        blur: FocusEvent;
+        focus: FocusEvent;
+    } & {
+        [evt: string]: CustomEvent<any>;
+    };
+    slots: {};
+};
+export {};

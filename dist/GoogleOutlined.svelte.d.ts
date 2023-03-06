@@ -1,0 +1,45 @@
+/** @typedef {typeof __propDef.props}  GoogleOutlinedProps */
+/** @typedef {typeof __propDef.events}  GoogleOutlinedEvents */
+/** @typedef {typeof __propDef.slots}  GoogleOutlinedSlots */
+export default class GoogleOutlined extends SvelteComponentTyped<{
+    [x: string]: any;
+    size?: string | undefined;
+    color?: string | undefined;
+    ariaLabel?: string | undefined;
+}, {
+    click: MouseEvent;
+    mouseenter: MouseEvent;
+    mouseleave: MouseEvent;
+    mouseover: MouseEvent;
+    mouseout: MouseEvent;
+    blur: FocusEvent;
+    focus: FocusEvent;
+} & {
+    [evt: string]: CustomEvent<any>;
+}, {}> {
+}
+export type GoogleOutlinedProps = typeof __propDef.props;
+export type GoogleOutlinedEvents = typeof __propDef.events;
+export type GoogleOutlinedSlots = typeof __propDef.slots;
+import { SvelteComponentTyped } from "svelte";
+declare const __propDef: {
+    props: {
+        [x: string]: any;
+        size?: string | undefined;
+        color?: string | undefined;
+        ariaLabel?: string | undefined;
+    };
+    events: {
+        click: MouseEvent;
+        mouseenter: MouseEvent;
+        mouseleave: MouseEvent;
+        mouseover: MouseEvent;
+        mouseout: MouseEvent;
+        blur: FocusEvent;
+        focus: FocusEvent;
+    } & {
+        [evt: string]: CustomEvent<any>;
+    };
+    slots: {};
+};
+export {};

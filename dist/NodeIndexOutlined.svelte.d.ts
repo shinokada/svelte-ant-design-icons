@@ -1,0 +1,45 @@
+/** @typedef {typeof __propDef.props}  NodeIndexOutlinedProps */
+/** @typedef {typeof __propDef.events}  NodeIndexOutlinedEvents */
+/** @typedef {typeof __propDef.slots}  NodeIndexOutlinedSlots */
+export default class NodeIndexOutlined extends SvelteComponentTyped<{
+    [x: string]: any;
+    size?: string | undefined;
+    color?: string | undefined;
+    ariaLabel?: string | undefined;
+}, {
+    click: MouseEvent;
+    mouseenter: MouseEvent;
+    mouseleave: MouseEvent;
+    mouseover: MouseEvent;
+    mouseout: MouseEvent;
+    blur: FocusEvent;
+    focus: FocusEvent;
+} & {
+    [evt: string]: CustomEvent<any>;
+}, {}> {
+}
+export type NodeIndexOutlinedProps = typeof __propDef.props;
+export type NodeIndexOutlinedEvents = typeof __propDef.events;
+export type NodeIndexOutlinedSlots = typeof __propDef.slots;
+import { SvelteComponentTyped } from "svelte";
+declare const __propDef: {
+    props: {
+        [x: string]: any;
+        size?: string | undefined;
+        color?: string | undefined;
+        ariaLabel?: string | undefined;
+    };
+    events: {
+        click: MouseEvent;
+        mouseenter: MouseEvent;
+        mouseleave: MouseEvent;
+        mouseover: MouseEvent;
+        mouseout: MouseEvent;
+        blur: FocusEvent;
+        focus: FocusEvent;
+    } & {
+        [evt: string]: CustomEvent<any>;
+    };
+    slots: {};
+};
+export {};

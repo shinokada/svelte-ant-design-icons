@@ -1,0 +1,45 @@
+/** @typedef {typeof __propDef.props}  RightCircleFilledProps */
+/** @typedef {typeof __propDef.events}  RightCircleFilledEvents */
+/** @typedef {typeof __propDef.slots}  RightCircleFilledSlots */
+export default class RightCircleFilled extends SvelteComponentTyped<{
+    [x: string]: any;
+    size?: string | undefined;
+    color?: string | undefined;
+    ariaLabel?: string | undefined;
+}, {
+    click: MouseEvent;
+    mouseenter: MouseEvent;
+    mouseleave: MouseEvent;
+    mouseover: MouseEvent;
+    mouseout: MouseEvent;
+    blur: FocusEvent;
+    focus: FocusEvent;
+} & {
+    [evt: string]: CustomEvent<any>;
+}, {}> {
+}
+export type RightCircleFilledProps = typeof __propDef.props;
+export type RightCircleFilledEvents = typeof __propDef.events;
+export type RightCircleFilledSlots = typeof __propDef.slots;
+import { SvelteComponentTyped } from "svelte";
+declare const __propDef: {
+    props: {
+        [x: string]: any;
+        size?: string | undefined;
+        color?: string | undefined;
+        ariaLabel?: string | undefined;
+    };
+    events: {
+        click: MouseEvent;
+        mouseenter: MouseEvent;
+        mouseleave: MouseEvent;
+        mouseover: MouseEvent;
+        mouseout: MouseEvent;
+        blur: FocusEvent;
+        focus: FocusEvent;
+    } & {
+        [evt: string]: CustomEvent<any>;
+    };
+    slots: {};
+};
+export {};

@@ -1,0 +1,45 @@
+/** @typedef {typeof __propDef.props}  ApartmentOutlinedProps */
+/** @typedef {typeof __propDef.events}  ApartmentOutlinedEvents */
+/** @typedef {typeof __propDef.slots}  ApartmentOutlinedSlots */
+export default class ApartmentOutlined extends SvelteComponentTyped<{
+    [x: string]: any;
+    size?: string | undefined;
+    color?: string | undefined;
+    ariaLabel?: string | undefined;
+}, {
+    click: MouseEvent;
+    mouseenter: MouseEvent;
+    mouseleave: MouseEvent;
+    mouseover: MouseEvent;
+    mouseout: MouseEvent;
+    blur: FocusEvent;
+    focus: FocusEvent;
+} & {
+    [evt: string]: CustomEvent<any>;
+}, {}> {
+}
+export type ApartmentOutlinedProps = typeof __propDef.props;
+export type ApartmentOutlinedEvents = typeof __propDef.events;
+export type ApartmentOutlinedSlots = typeof __propDef.slots;
+import { SvelteComponentTyped } from "svelte";
+declare const __propDef: {
+    props: {
+        [x: string]: any;
+        size?: string | undefined;
+        color?: string | undefined;
+        ariaLabel?: string | undefined;
+    };
+    events: {
+        click: MouseEvent;
+        mouseenter: MouseEvent;
+        mouseleave: MouseEvent;
+        mouseover: MouseEvent;
+        mouseout: MouseEvent;
+        blur: FocusEvent;
+        focus: FocusEvent;
+    } & {
+        [evt: string]: CustomEvent<any>;
+    };
+    slots: {};
+};
+export {};

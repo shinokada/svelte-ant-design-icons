@@ -1,0 +1,45 @@
+/** @typedef {typeof __propDef.props}  AlignRightOutlinedProps */
+/** @typedef {typeof __propDef.events}  AlignRightOutlinedEvents */
+/** @typedef {typeof __propDef.slots}  AlignRightOutlinedSlots */
+export default class AlignRightOutlined extends SvelteComponentTyped<{
+    [x: string]: any;
+    size?: string | undefined;
+    color?: string | undefined;
+    ariaLabel?: string | undefined;
+}, {
+    click: MouseEvent;
+    mouseenter: MouseEvent;
+    mouseleave: MouseEvent;
+    mouseover: MouseEvent;
+    mouseout: MouseEvent;
+    blur: FocusEvent;
+    focus: FocusEvent;
+} & {
+    [evt: string]: CustomEvent<any>;
+}, {}> {
+}
+export type AlignRightOutlinedProps = typeof __propDef.props;
+export type AlignRightOutlinedEvents = typeof __propDef.events;
+export type AlignRightOutlinedSlots = typeof __propDef.slots;
+import { SvelteComponentTyped } from "svelte";
+declare const __propDef: {
+    props: {
+        [x: string]: any;
+        size?: string | undefined;
+        color?: string | undefined;
+        ariaLabel?: string | undefined;
+    };
+    events: {
+        click: MouseEvent;
+        mouseenter: MouseEvent;
+        mouseleave: MouseEvent;
+        mouseover: MouseEvent;
+        mouseout: MouseEvent;
+        blur: FocusEvent;
+        focus: FocusEvent;
+    } & {
+        [evt: string]: CustomEvent<any>;
+    };
+    slots: {};
+};
+export {};

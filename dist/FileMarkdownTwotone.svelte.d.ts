@@ -1,0 +1,47 @@
+/** @typedef {typeof __propDef.props}  FileMarkdownTwotoneProps */
+/** @typedef {typeof __propDef.events}  FileMarkdownTwotoneEvents */
+/** @typedef {typeof __propDef.slots}  FileMarkdownTwotoneSlots */
+export default class FileMarkdownTwotone extends SvelteComponentTyped<{
+    [x: string]: any;
+    size?: string | undefined;
+    ariaLabel?: string | undefined;
+    strokeColor?: string | undefined;
+    insideColor?: string | undefined;
+}, {
+    click: MouseEvent;
+    mouseenter: MouseEvent;
+    mouseleave: MouseEvent;
+    mouseover: MouseEvent;
+    mouseout: MouseEvent;
+    blur: FocusEvent;
+    focus: FocusEvent;
+} & {
+    [evt: string]: CustomEvent<any>;
+}, {}> {
+}
+export type FileMarkdownTwotoneProps = typeof __propDef.props;
+export type FileMarkdownTwotoneEvents = typeof __propDef.events;
+export type FileMarkdownTwotoneSlots = typeof __propDef.slots;
+import { SvelteComponentTyped } from "svelte";
+declare const __propDef: {
+    props: {
+        [x: string]: any;
+        size?: string | undefined;
+        ariaLabel?: string | undefined;
+        strokeColor?: string | undefined;
+        insideColor?: string | undefined;
+    };
+    events: {
+        click: MouseEvent;
+        mouseenter: MouseEvent;
+        mouseleave: MouseEvent;
+        mouseover: MouseEvent;
+        mouseout: MouseEvent;
+        blur: FocusEvent;
+        focus: FocusEvent;
+    } & {
+        [evt: string]: CustomEvent<any>;
+    };
+    slots: {};
+};
+export {};

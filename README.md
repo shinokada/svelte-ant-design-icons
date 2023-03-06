@@ -31,6 +31,18 @@ To update
 npm i -D svelte-ant-design-icons@latest
 ```
 
+If you are a TypeScript user, Add `"moduleResolution": "bundler"` to `tsconfig.json`:
+
+```
+{
+	//...
+	"compilerOptions": {
+		// ...
+		"moduleResolution": "bundler"
+	}
+}
+```
+
 ## REPL
 
 [REPL 1](https://svelte.dev/repl/375c734a6ec74f44adfe4aa76b117ab9)

@@ -79,15 +79,15 @@ As of March 2023, the `typescript@beta` version is now available:
 pnpm i -D typescript@beta
 ```
 
-To avoid any complaints from the editor, add the following code to your tsconfig.json file.
+To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
 
 ```json
 {
-    //...
-    "compilerOptions": {
-        // ...
-        "moduleResolution": "bundler"
-    }
+  //...
+  "compilerOptions": {
+    // ...
+    "moduleResolution": "nodenext"
+  }
 }
 ```
 

@@ -73,6 +73,24 @@ For faster compilation, you can import the icon directly.
 <AlertFilled />
 ```
 
+As of March 2023, the `typescript@beta` version is now available:
+
+```sh
+pnpm i -D typescript@beta
+```
+
+To avoid any complaints from the editor, add the following code to your tsconfig.json file.
+
+```json
+{
+    //...
+    "compilerOptions": {
+        // ...
+        "moduleResolution": "bundler"
+    }
+}
+```
+
 ## Props
 
 | Name                    | Default              |

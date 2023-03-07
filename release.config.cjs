@@ -5,7 +5,7 @@ const config = {
     '@semantic-release/release-notes-generator',
     '@semantic-release/changelog',
     ["@semantic-release/npm", {
-      "npmPublish": true,
+      "npmPublish": false,
     }],
     ["@semantic-release/git", {
       "assets": ["dist/*.svelte", "dist/*.svelte.d.ts", "dist/*.js", "dist/*.d.ts"],

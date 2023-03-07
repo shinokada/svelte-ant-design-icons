@@ -182,6 +182,14 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 <AcountBook ariaLabel="red acount book" class="text-red-500" />
 ```
 
+## Unfocusable icon
+
+If you want to make an icon unfocusable, add `tabindex="-1"`.
+
+```html
+<BadgeAr tabindex="-1" />
+```
+
 ## Passing down other attributes
 
 You can pass other attibutes as well.

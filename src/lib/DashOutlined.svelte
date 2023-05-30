@@ -13,12 +13,14 @@
   class={$$props.class}
   aria-label={ariaLabel}
   on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
   on:mouseenter
   on:mouseleave
   on:mouseover
   on:mouseout
-  on:blur
-  on:focus
   viewBox="0 0 1024 1024"
 >
   <path d="M112 476h160v72H112zm320 0h160v72H432zm320 0h160v72H752z" />
@@ -33,10 +35,12 @@
 @prop ariaLabel = 'icon name';
 ## Event
 - on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
 - on:mouseenter
 - on:mouseleave
 - on:mouseover
 - on:mouseout
-- on:blur
-- on:focus
 -->

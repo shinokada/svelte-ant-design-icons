@@ -16,13 +16,15 @@
  * - on:blur
  * - on:focus
  */
-export default class InfoCircleTwotone extends SvelteComponentTyped<{
+export default class InfoCircleTwotone extends SvelteComponentTyped<
+  {
     [x: string]: any;
     size?: string | undefined;
     ariaLabel?: string | undefined;
     strokeColor?: string | undefined;
     insideColor?: string | undefined;
-}, {
+  },
+  {
     click: MouseEvent;
     mouseenter: MouseEvent;
     mouseleave: MouseEvent;
@@ -30,33 +32,34 @@ export default class InfoCircleTwotone extends SvelteComponentTyped<{
     mouseout: MouseEvent;
     blur: FocusEvent;
     focus: FocusEvent;
-} & {
+  } & {
     [evt: string]: CustomEvent<any>;
-}, {}> {
-}
+  },
+  {}
+> {}
 export type InfoCircleTwotoneProps = typeof __propDef.props;
 export type InfoCircleTwotoneEvents = typeof __propDef.events;
 export type InfoCircleTwotoneSlots = typeof __propDef.slots;
-import { SvelteComponentTyped } from "svelte";
+import { SvelteComponentTyped } from 'svelte';
 declare const __propDef: {
-    props: {
-        [x: string]: any;
-        size?: string | undefined;
-        ariaLabel?: string | undefined;
-        strokeColor?: string | undefined;
-        insideColor?: string | undefined;
-    };
-    events: {
-        click: MouseEvent;
-        mouseenter: MouseEvent;
-        mouseleave: MouseEvent;
-        mouseover: MouseEvent;
-        mouseout: MouseEvent;
-        blur: FocusEvent;
-        focus: FocusEvent;
-    } & {
-        [evt: string]: CustomEvent<any>;
-    };
-    slots: {};
+  props: {
+    [x: string]: any;
+    size?: string | undefined;
+    ariaLabel?: string | undefined;
+    strokeColor?: string | undefined;
+    insideColor?: string | undefined;
+  };
+  events: {
+    click: MouseEvent;
+    mouseenter: MouseEvent;
+    mouseleave: MouseEvent;
+    mouseover: MouseEvent;
+    mouseout: MouseEvent;
+    blur: FocusEvent;
+    focus: FocusEvent;
+  } & {
+    [evt: string]: CustomEvent<any>;
+  };
+  slots: {};
 };
 export {};

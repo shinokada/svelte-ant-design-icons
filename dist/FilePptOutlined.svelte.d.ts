@@ -16,12 +16,14 @@
  * - on:blur
  * - on:focus
  */
-export default class FilePptOutlined extends SvelteComponentTyped<{
+export default class FilePptOutlined extends SvelteComponentTyped<
+  {
     [x: string]: any;
     size?: string | undefined;
     color?: string | undefined;
     ariaLabel?: string | undefined;
-}, {
+  },
+  {
     click: MouseEvent;
     mouseenter: MouseEvent;
     mouseleave: MouseEvent;
@@ -29,32 +31,33 @@ export default class FilePptOutlined extends SvelteComponentTyped<{
     mouseout: MouseEvent;
     blur: FocusEvent;
     focus: FocusEvent;
-} & {
+  } & {
     [evt: string]: CustomEvent<any>;
-}, {}> {
-}
+  },
+  {}
+> {}
 export type FilePptOutlinedProps = typeof __propDef.props;
 export type FilePptOutlinedEvents = typeof __propDef.events;
 export type FilePptOutlinedSlots = typeof __propDef.slots;
-import { SvelteComponentTyped } from "svelte";
+import { SvelteComponentTyped } from 'svelte';
 declare const __propDef: {
-    props: {
-        [x: string]: any;
-        size?: string | undefined;
-        color?: string | undefined;
-        ariaLabel?: string | undefined;
-    };
-    events: {
-        click: MouseEvent;
-        mouseenter: MouseEvent;
-        mouseleave: MouseEvent;
-        mouseover: MouseEvent;
-        mouseout: MouseEvent;
-        blur: FocusEvent;
-        focus: FocusEvent;
-    } & {
-        [evt: string]: CustomEvent<any>;
-    };
-    slots: {};
+  props: {
+    [x: string]: any;
+    size?: string | undefined;
+    color?: string | undefined;
+    ariaLabel?: string | undefined;
+  };
+  events: {
+    click: MouseEvent;
+    mouseenter: MouseEvent;
+    mouseleave: MouseEvent;
+    mouseover: MouseEvent;
+    mouseout: MouseEvent;
+    blur: FocusEvent;
+    focus: FocusEvent;
+  } & {
+    [evt: string]: CustomEvent<any>;
+  };
+  slots: {};
 };
 export {};

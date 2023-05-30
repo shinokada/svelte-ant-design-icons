@@ -16,12 +16,14 @@
  * - on:blur
  * - on:focus
  */
-export default class InsuranceOutlined extends SvelteComponentTyped<{
+export default class InsuranceOutlined extends SvelteComponentTyped<
+  {
     [x: string]: any;
     size?: string | undefined;
     color?: string | undefined;
     ariaLabel?: string | undefined;
-}, {
+  },
+  {
     click: MouseEvent;
     mouseenter: MouseEvent;
     mouseleave: MouseEvent;
@@ -29,32 +31,33 @@ export default class InsuranceOutlined extends SvelteComponentTyped<{
     mouseout: MouseEvent;
     blur: FocusEvent;
     focus: FocusEvent;
-} & {
+  } & {
     [evt: string]: CustomEvent<any>;
-}, {}> {
-}
+  },
+  {}
+> {}
 export type InsuranceOutlinedProps = typeof __propDef.props;
 export type InsuranceOutlinedEvents = typeof __propDef.events;
 export type InsuranceOutlinedSlots = typeof __propDef.slots;
-import { SvelteComponentTyped } from "svelte";
+import { SvelteComponentTyped } from 'svelte';
 declare const __propDef: {
-    props: {
-        [x: string]: any;
-        size?: string | undefined;
-        color?: string | undefined;
-        ariaLabel?: string | undefined;
-    };
-    events: {
-        click: MouseEvent;
-        mouseenter: MouseEvent;
-        mouseleave: MouseEvent;
-        mouseover: MouseEvent;
-        mouseout: MouseEvent;
-        blur: FocusEvent;
-        focus: FocusEvent;
-    } & {
-        [evt: string]: CustomEvent<any>;
-    };
-    slots: {};
+  props: {
+    [x: string]: any;
+    size?: string | undefined;
+    color?: string | undefined;
+    ariaLabel?: string | undefined;
+  };
+  events: {
+    click: MouseEvent;
+    mouseenter: MouseEvent;
+    mouseleave: MouseEvent;
+    mouseover: MouseEvent;
+    mouseout: MouseEvent;
+    blur: FocusEvent;
+    focus: FocusEvent;
+  } & {
+    [evt: string]: CustomEvent<any>;
+  };
+  slots: {};
 };
 export {};

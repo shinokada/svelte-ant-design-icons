@@ -16,12 +16,14 @@
  * - on:blur
  * - on:focus
  */
-export default class MailFilled extends SvelteComponentTyped<{
+export default class MailFilled extends SvelteComponentTyped<
+  {
     [x: string]: any;
     size?: string | undefined;
     color?: string | undefined;
     ariaLabel?: string | undefined;
-}, {
+  },
+  {
     click: MouseEvent;
     mouseenter: MouseEvent;
     mouseleave: MouseEvent;
@@ -29,32 +31,33 @@ export default class MailFilled extends SvelteComponentTyped<{
     mouseout: MouseEvent;
     blur: FocusEvent;
     focus: FocusEvent;
-} & {
+  } & {
     [evt: string]: CustomEvent<any>;
-}, {}> {
-}
+  },
+  {}
+> {}
 export type MailFilledProps = typeof __propDef.props;
 export type MailFilledEvents = typeof __propDef.events;
 export type MailFilledSlots = typeof __propDef.slots;
-import { SvelteComponentTyped } from "svelte";
+import { SvelteComponentTyped } from 'svelte';
 declare const __propDef: {
-    props: {
-        [x: string]: any;
-        size?: string | undefined;
-        color?: string | undefined;
-        ariaLabel?: string | undefined;
-    };
-    events: {
-        click: MouseEvent;
-        mouseenter: MouseEvent;
-        mouseleave: MouseEvent;
-        mouseover: MouseEvent;
-        mouseout: MouseEvent;
-        blur: FocusEvent;
-        focus: FocusEvent;
-    } & {
-        [evt: string]: CustomEvent<any>;
-    };
-    slots: {};
+  props: {
+    [x: string]: any;
+    size?: string | undefined;
+    color?: string | undefined;
+    ariaLabel?: string | undefined;
+  };
+  events: {
+    click: MouseEvent;
+    mouseenter: MouseEvent;
+    mouseleave: MouseEvent;
+    mouseover: MouseEvent;
+    mouseout: MouseEvent;
+    blur: FocusEvent;
+    focus: FocusEvent;
+  } & {
+    [evt: string]: CustomEvent<any>;
+  };
+  slots: {};
 };
 export {};

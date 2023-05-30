@@ -16,12 +16,14 @@
  * - on:blur
  * - on:focus
  */
-export default class DownCircleFilled extends SvelteComponentTyped<{
+export default class DownCircleFilled extends SvelteComponentTyped<
+  {
     [x: string]: any;
     size?: string | undefined;
     color?: string | undefined;
     ariaLabel?: string | undefined;
-}, {
+  },
+  {
     click: MouseEvent;
     mouseenter: MouseEvent;
     mouseleave: MouseEvent;
@@ -29,32 +31,33 @@ export default class DownCircleFilled extends SvelteComponentTyped<{
     mouseout: MouseEvent;
     blur: FocusEvent;
     focus: FocusEvent;
-} & {
+  } & {
     [evt: string]: CustomEvent<any>;
-}, {}> {
-}
+  },
+  {}
+> {}
 export type DownCircleFilledProps = typeof __propDef.props;
 export type DownCircleFilledEvents = typeof __propDef.events;
 export type DownCircleFilledSlots = typeof __propDef.slots;
-import { SvelteComponentTyped } from "svelte";
+import { SvelteComponentTyped } from 'svelte';
 declare const __propDef: {
-    props: {
-        [x: string]: any;
-        size?: string | undefined;
-        color?: string | undefined;
-        ariaLabel?: string | undefined;
-    };
-    events: {
-        click: MouseEvent;
-        mouseenter: MouseEvent;
-        mouseleave: MouseEvent;
-        mouseover: MouseEvent;
-        mouseout: MouseEvent;
-        blur: FocusEvent;
-        focus: FocusEvent;
-    } & {
-        [evt: string]: CustomEvent<any>;
-    };
-    slots: {};
+  props: {
+    [x: string]: any;
+    size?: string | undefined;
+    color?: string | undefined;
+    ariaLabel?: string | undefined;
+  };
+  events: {
+    click: MouseEvent;
+    mouseenter: MouseEvent;
+    mouseleave: MouseEvent;
+    mouseover: MouseEvent;
+    mouseout: MouseEvent;
+    blur: FocusEvent;
+    focus: FocusEvent;
+  } & {
+    [evt: string]: CustomEvent<any>;
+  };
+  slots: {};
 };
 export {};

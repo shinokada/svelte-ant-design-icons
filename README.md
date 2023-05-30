@@ -227,15 +227,15 @@ Use `import * as Icon from 'svelte-ant-design-icons'`.
 
 All icons have the following events:
 
-```md
-on:click
-on:mouseenter
-on:mouseleave
-on:mouseover
-on:mouseout
-on:blur
-on:focus
-```
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
 
 ## Original source
 

@@ -4,16 +4,14 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.3.5](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.4...v0.3.5) (2023-05-30)
 
-
 ### Features
 
-* add events to component doc ([3dc06de](https://github.com/shinokada/svelte-ant-design-icons/commit/3dc06de485d095bedf496e64587ec64d52c5a484))
-
+- add events to component doc ([3dc06de](https://github.com/shinokada/svelte-ant-design-icons/commit/3dc06de485d095bedf496e64587ec64d52c5a484))
 
 ### Bug Fixes
 
-* add @semantic-release/npm, modify CHANGELOG.md ([743880d](https://github.com/shinokada/svelte-ant-design-icons/commit/743880de7486e318c7e16c2b467c63dbbe6d5cd9))
-* CHANGELOG.md update ([34a5564](https://github.com/shinokada/svelte-ant-design-icons/commit/34a55646945140bbfad9685d8b6a115ed74b9898))
+- add @semantic-release/npm, modify CHANGELOG.md ([743880d](https://github.com/shinokada/svelte-ant-design-icons/commit/743880de7486e318c7e16c2b467c63dbbe6d5cd9))
+- CHANGELOG.md update ([34a5564](https://github.com/shinokada/svelte-ant-design-icons/commit/34a55646945140bbfad9685d8b6a115ed74b9898))
 
 ### [0.3.4](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.3...v0.3.4) (2023-03-07)
 

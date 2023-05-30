@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  WechatOutlinedProps */
 /** @typedef {typeof __propDef.events}  WechatOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  WechatOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class WechatOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

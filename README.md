@@ -17,7 +17,6 @@ Ant Design SVG Icons v4.2.1 for Svelte. Svelte-Ant-Design-Icons support major CS
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
-
 <p align="center">
 <img width="650" src="/static/images/ant-optimized-650-1050.png" />
 </p>
@@ -103,6 +102,10 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 | ariaLabel               | file name            |
 | strokeColor for twotone | currentColor or #333 |
 | insideColor for twotone | #E6E6E6 or #D9D9D9   |
+
+## IDE support
+
+If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link, props, and events.
 
 ## Icon names
 

@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  PieChartOutlinedProps */
 /** @typedef {typeof __propDef.events}  PieChartOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  PieChartOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class PieChartOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

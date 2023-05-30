@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  SlackSquareFilledProps */
 /** @typedef {typeof __propDef.events}  SlackSquareFilledEvents */
 /** @typedef {typeof __propDef.slots}  SlackSquareFilledSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class SlackSquareFilled extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

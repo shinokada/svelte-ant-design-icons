@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  TrademarkCircleOutlinedProps */
 /** @typedef {typeof __propDef.events}  TrademarkCircleOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  TrademarkCircleOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class TrademarkCircleOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

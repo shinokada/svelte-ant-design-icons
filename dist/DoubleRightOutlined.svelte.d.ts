@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  DoubleRightOutlinedProps */
 /** @typedef {typeof __propDef.events}  DoubleRightOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  DoubleRightOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class DoubleRightOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  ItalicOutlinedProps */
 /** @typedef {typeof __propDef.events}  ItalicOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  ItalicOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class ItalicOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

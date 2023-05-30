@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  ReconciliationTwotoneProps */
 /** @typedef {typeof __propDef.events}  ReconciliationTwotoneEvents */
 /** @typedef {typeof __propDef.slots}  ReconciliationTwotoneSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class ReconciliationTwotone extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

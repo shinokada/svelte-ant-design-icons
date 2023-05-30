@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  FolderViewOutlinedProps */
 /** @typedef {typeof __propDef.events}  FolderViewOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  FolderViewOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class FolderViewOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

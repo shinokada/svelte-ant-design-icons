@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  MedicineBoxOutlinedProps */
 /** @typedef {typeof __propDef.events}  MedicineBoxOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  MedicineBoxOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class MedicineBoxOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

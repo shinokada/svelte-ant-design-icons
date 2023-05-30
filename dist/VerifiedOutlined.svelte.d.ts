@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  VerifiedOutlinedProps */
 /** @typedef {typeof __propDef.events}  VerifiedOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  VerifiedOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class VerifiedOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

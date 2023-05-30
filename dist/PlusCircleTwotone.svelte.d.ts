@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  PlusCircleTwotoneProps */
 /** @typedef {typeof __propDef.events}  PlusCircleTwotoneEvents */
 /** @typedef {typeof __propDef.slots}  PlusCircleTwotoneSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class PlusCircleTwotone extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

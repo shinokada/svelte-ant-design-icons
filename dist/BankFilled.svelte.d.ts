@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  BankFilledProps */
 /** @typedef {typeof __propDef.events}  BankFilledEvents */
 /** @typedef {typeof __propDef.slots}  BankFilledSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class BankFilled extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

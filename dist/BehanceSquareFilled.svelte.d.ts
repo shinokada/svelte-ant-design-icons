@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  BehanceSquareFilledProps */
 /** @typedef {typeof __propDef.events}  BehanceSquareFilledEvents */
 /** @typedef {typeof __propDef.slots}  BehanceSquareFilledSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class BehanceSquareFilled extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

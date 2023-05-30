@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  SearchOutlinedProps */
 /** @typedef {typeof __propDef.events}  SearchOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  SearchOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class SearchOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

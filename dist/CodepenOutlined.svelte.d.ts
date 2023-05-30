@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  CodepenOutlinedProps */
 /** @typedef {typeof __propDef.events}  CodepenOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  CodepenOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class CodepenOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

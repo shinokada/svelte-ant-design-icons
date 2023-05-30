@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  RestOutlinedProps */
 /** @typedef {typeof __propDef.events}  RestOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  RestOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class RestOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

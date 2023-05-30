@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  FileAddOutlinedProps */
 /** @typedef {typeof __propDef.events}  FileAddOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  FileAddOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class FileAddOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

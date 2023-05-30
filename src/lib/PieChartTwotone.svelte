@@ -41,3 +41,20 @@
     d="M952 462.4l-2.6-28.2c-8.5-92.1-49.4-179-115.2-244.6A399.4 399.4 0 0 0 589 74.6L560.7 72c-3.4-.3-6.4 1.5-7.8 4.3a8.7 8.7 0 0 0-.9 3.6V464c0 4.4 3.6 8 8 8l384-1c1.2 0 2.3-.3 3.4-.7a8.1 8.1 0 0 0 4.6-7.9zm-332.2-58.2V147.6a332.24 332.24 0 0 1 166.4 89.8c45.7 45.6 77 103.6 90 166.1l-256.4.7z"
   />
 </svg>
+
+<!--
+@component
+[Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+## Props
+@prop size = '24';
+@prop color = 'currentColor';
+@prop ariaLabel = 'icon name';
+## Event
+- on:click
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+- on:blur
+- on:focus
+-->

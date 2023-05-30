@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  CrownFilledProps */
 /** @typedef {typeof __propDef.events}  CrownFilledEvents */
 /** @typedef {typeof __propDef.slots}  CrownFilledSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class CrownFilled extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

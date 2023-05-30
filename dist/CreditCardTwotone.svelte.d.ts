@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  CreditCardTwotoneProps */
 /** @typedef {typeof __propDef.events}  CreditCardTwotoneEvents */
 /** @typedef {typeof __propDef.slots}  CreditCardTwotoneSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class CreditCardTwotone extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

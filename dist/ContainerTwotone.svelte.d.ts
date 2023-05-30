@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  ContainerTwotoneProps */
 /** @typedef {typeof __propDef.events}  ContainerTwotoneEvents */
 /** @typedef {typeof __propDef.slots}  ContainerTwotoneSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class ContainerTwotone extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

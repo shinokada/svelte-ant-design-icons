@@ -40,3 +40,20 @@
     d="M508,624c-3.46,0-6.87-.16-10.25-.47l-52.82,52.82A176.09,176.09,0,0,0,672.35,448.93l-52.82,52.82c.31,3.38.47,6.79.47,10.25A111.94,111.94,0,0,1,508,624Z"
   />
 </svg>
+
+<!--
+@component
+[Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+## Props
+@prop size = '24';
+@prop color = 'currentColor';
+@prop ariaLabel = 'icon name';
+## Event
+- on:click
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+- on:blur
+- on:focus
+-->

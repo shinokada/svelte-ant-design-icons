@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  IdcardFilledProps */
 /** @typedef {typeof __propDef.events}  IdcardFilledEvents */
 /** @typedef {typeof __propDef.slots}  IdcardFilledSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class IdcardFilled extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  BellTwotoneProps */
 /** @typedef {typeof __propDef.events}  BellTwotoneEvents */
 /** @typedef {typeof __propDef.slots}  BellTwotoneSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class BellTwotone extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

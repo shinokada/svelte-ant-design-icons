@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  GithubOutlinedProps */
 /** @typedef {typeof __propDef.events}  GithubOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  GithubOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class GithubOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

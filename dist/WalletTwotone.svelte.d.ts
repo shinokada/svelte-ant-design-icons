@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  WalletTwotoneProps */
 /** @typedef {typeof __propDef.events}  WalletTwotoneEvents */
 /** @typedef {typeof __propDef.slots}  WalletTwotoneSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class WalletTwotone extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

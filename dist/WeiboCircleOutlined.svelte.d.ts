@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  WeiboCircleOutlinedProps */
 /** @typedef {typeof __propDef.events}  WeiboCircleOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  WeiboCircleOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class WeiboCircleOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

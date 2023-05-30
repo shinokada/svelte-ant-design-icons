@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  RestTwotoneProps */
 /** @typedef {typeof __propDef.events}  RestTwotoneEvents */
 /** @typedef {typeof __propDef.slots}  RestTwotoneSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class RestTwotone extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

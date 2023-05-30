@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  SecurityScanTwotoneProps */
 /** @typedef {typeof __propDef.events}  SecurityScanTwotoneEvents */
 /** @typedef {typeof __propDef.slots}  SecurityScanTwotoneSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class SecurityScanTwotone extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

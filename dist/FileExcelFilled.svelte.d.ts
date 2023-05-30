@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  FileExcelFilledProps */
 /** @typedef {typeof __propDef.events}  FileExcelFilledEvents */
 /** @typedef {typeof __propDef.slots}  FileExcelFilledSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class FileExcelFilled extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

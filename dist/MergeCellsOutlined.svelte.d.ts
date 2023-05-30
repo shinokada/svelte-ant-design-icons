@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  MergeCellsOutlinedProps */
 /** @typedef {typeof __propDef.events}  MergeCellsOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  MergeCellsOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class MergeCellsOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

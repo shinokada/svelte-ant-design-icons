@@ -1,6 +1,21 @@
 /** @typedef {typeof __propDef.props}  CaretUpOutlinedProps */
 /** @typedef {typeof __propDef.events}  CaretUpOutlinedEvents */
 /** @typedef {typeof __propDef.slots}  CaretUpOutlinedSlots */
+/**
+ * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @prop size = '24';
+ * @prop color = 'currentColor';
+ * @prop ariaLabel = 'icon name';
+ * ## Event
+ * - on:click
+ * - on:mouseenter
+ * - on:mouseleave
+ * - on:mouseover
+ * - on:mouseout
+ * - on:blur
+ * - on:focus
+ */
 export default class CaretUpOutlined extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;

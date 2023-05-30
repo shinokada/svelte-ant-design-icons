@@ -1,6 +1,6 @@
 {
   "name": "svelte-ant-design-icons",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "Ant Design SVG Icon components for Svelte",
   "author": {
     "name": "Shinichi Okada",

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.8](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.7...v0.3.8) (2023-06-01)
+
+
+### Features
+
+* add || ^4.0.0 to peerDependencies ([6b67f2a](https://github.com/shinokada/svelte-ant-design-icons/commit/6b67f2afb6260647c1cd6310a59bd646f5aa69ed))
+
 ### [0.3.7](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.6...v0.3.7) (2023-05-30)
 
 

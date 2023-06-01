@@ -18,13 +18,15 @@
  * - on:mouseover
  * - on:mouseout
  */
-export default class FileExclamationTwotone extends SvelteComponentTyped<{
+export default class FileExclamationTwotone extends SvelteComponentTyped<
+  {
     [x: string]: any;
     size?: string | undefined;
     ariaLabel?: string | undefined;
     strokeColor?: string | undefined;
     insideColor?: string | undefined;
-}, {
+  },
+  {
     click: MouseEvent;
     keydown: KeyboardEvent;
     keyup: KeyboardEvent;
@@ -34,35 +36,36 @@ export default class FileExclamationTwotone extends SvelteComponentTyped<{
     mouseleave: MouseEvent;
     mouseover: MouseEvent;
     mouseout: MouseEvent;
-} & {
+  } & {
     [evt: string]: CustomEvent<any>;
-}, {}> {
-}
+  },
+  {}
+> {}
 export type FileExclamationTwotoneProps = typeof __propDef.props;
 export type FileExclamationTwotoneEvents = typeof __propDef.events;
 export type FileExclamationTwotoneSlots = typeof __propDef.slots;
-import { SvelteComponentTyped } from "svelte";
+import { SvelteComponentTyped } from 'svelte';
 declare const __propDef: {
-    props: {
-        [x: string]: any;
-        size?: string | undefined;
-        ariaLabel?: string | undefined;
-        strokeColor?: string | undefined;
-        insideColor?: string | undefined;
-    };
-    events: {
-        click: MouseEvent;
-        keydown: KeyboardEvent;
-        keyup: KeyboardEvent;
-        focus: FocusEvent;
-        blur: FocusEvent;
-        mouseenter: MouseEvent;
-        mouseleave: MouseEvent;
-        mouseover: MouseEvent;
-        mouseout: MouseEvent;
-    } & {
-        [evt: string]: CustomEvent<any>;
-    };
-    slots: {};
+  props: {
+    [x: string]: any;
+    size?: string | undefined;
+    ariaLabel?: string | undefined;
+    strokeColor?: string | undefined;
+    insideColor?: string | undefined;
+  };
+  events: {
+    click: MouseEvent;
+    keydown: KeyboardEvent;
+    keyup: KeyboardEvent;
+    focus: FocusEvent;
+    blur: FocusEvent;
+    mouseenter: MouseEvent;
+    mouseleave: MouseEvent;
+    mouseover: MouseEvent;
+    mouseout: MouseEvent;
+  } & {
+    [evt: string]: CustomEvent<any>;
+  };
+  slots: {};
 };
 export {};

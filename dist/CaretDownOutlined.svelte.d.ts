@@ -18,12 +18,14 @@
  * - on:mouseover
  * - on:mouseout
  */
-export default class CaretDownOutlined extends SvelteComponentTyped<{
+export default class CaretDownOutlined extends SvelteComponentTyped<
+  {
     [x: string]: any;
     size?: string | undefined;
     color?: string | undefined;
     ariaLabel?: string | undefined;
-}, {
+  },
+  {
     click: MouseEvent;
     keydown: KeyboardEvent;
     keyup: KeyboardEvent;
@@ -33,34 +35,35 @@ export default class CaretDownOutlined extends SvelteComponentTyped<{
     mouseleave: MouseEvent;
     mouseover: MouseEvent;
     mouseout: MouseEvent;
-} & {
+  } & {
     [evt: string]: CustomEvent<any>;
-}, {}> {
-}
+  },
+  {}
+> {}
 export type CaretDownOutlinedProps = typeof __propDef.props;
 export type CaretDownOutlinedEvents = typeof __propDef.events;
 export type CaretDownOutlinedSlots = typeof __propDef.slots;
-import { SvelteComponentTyped } from "svelte";
+import { SvelteComponentTyped } from 'svelte';
 declare const __propDef: {
-    props: {
-        [x: string]: any;
-        size?: string | undefined;
-        color?: string | undefined;
-        ariaLabel?: string | undefined;
-    };
-    events: {
-        click: MouseEvent;
-        keydown: KeyboardEvent;
-        keyup: KeyboardEvent;
-        focus: FocusEvent;
-        blur: FocusEvent;
-        mouseenter: MouseEvent;
-        mouseleave: MouseEvent;
-        mouseover: MouseEvent;
-        mouseout: MouseEvent;
-    } & {
-        [evt: string]: CustomEvent<any>;
-    };
-    slots: {};
+  props: {
+    [x: string]: any;
+    size?: string | undefined;
+    color?: string | undefined;
+    ariaLabel?: string | undefined;
+  };
+  events: {
+    click: MouseEvent;
+    keydown: KeyboardEvent;
+    keyup: KeyboardEvent;
+    focus: FocusEvent;
+    blur: FocusEvent;
+    mouseenter: MouseEvent;
+    mouseleave: MouseEvent;
+    mouseover: MouseEvent;
+    mouseout: MouseEvent;
+  } & {
+    [evt: string]: CustomEvent<any>;
+  };
+  slots: {};
 };
 export {};

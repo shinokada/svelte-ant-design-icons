@@ -4,24 +4,21 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.3.8](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.7...v0.3.8) (2023-06-01)
 
-
 ### Features
 
-* add || ^4.0.0 to peerDependencies ([6b67f2a](https://github.com/shinokada/svelte-ant-design-icons/commit/6b67f2afb6260647c1cd6310a59bd646f5aa69ed))
+- add || ^4.0.0 to peerDependencies ([6b67f2a](https://github.com/shinokada/svelte-ant-design-icons/commit/6b67f2afb6260647c1cd6310a59bd646f5aa69ed))
 
 ### [0.3.7](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.6...v0.3.7) (2023-05-30)
 
-
 ### Features
 
-* event update ([5d19738](https://github.com/shinokada/svelte-ant-design-icons/commit/5d19738753cd853dfbfc94a4bd282c161582ae64))
+- event update ([5d19738](https://github.com/shinokada/svelte-ant-design-icons/commit/5d19738753cd853dfbfc94a4bd282c161582ae64))
 
 ### [0.3.6](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.5...v0.3.6) (2023-05-30)
 
-
 ### Features
 
-* event update ([e86105e](https://github.com/shinokada/svelte-ant-design-icons/commit/e86105e15a6091e9962b7ebb9d3710ef2affed14))
+- event update ([e86105e](https://github.com/shinokada/svelte-ant-design-icons/commit/e86105e15a6091e9962b7ebb9d3710ef2affed14))
 
 ### [0.3.5](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.4...v0.3.5) (2023-05-30)
 

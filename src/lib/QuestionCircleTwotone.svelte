@@ -1,5 +1,6 @@
 <script>
   export let size = '24';
+  export let role = 'img';
   export let strokeColor = '#333';
   export let insideColor = '#E6E6E6';
   export let ariaLabel = 'question circle';
@@ -8,6 +9,7 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   {...$$restProps}
+  {role}
   width={size}
   height={size}
   class={$$props.class}
@@ -42,6 +44,7 @@
 [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
 ## Props
 @prop size = '24';
+@prop role = 'img';
 @prop color = 'currentColor';
 @prop ariaLabel = 'icon name';
 ## Event

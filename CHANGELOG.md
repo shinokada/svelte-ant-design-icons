@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.9](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.8...v0.3.9) (2023-06-01)
+
+
+### Features
+
+* add prop role="img" ([9d58826](https://github.com/shinokada/svelte-ant-design-icons/commit/9d588266388c05899083876e62bc1e78630d5aa9))
+
 ### [0.3.8](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.7...v0.3.8) (2023-06-01)
 
 ### Features

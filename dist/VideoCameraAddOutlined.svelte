@@ -1,5 +1,6 @@
 <script>
   export let size = '24';
+  export let role = 'img';
   export let color = 'currentColor';
   export let ariaLabel = 'video camera add';
 </script>
@@ -7,6 +8,7 @@
 <svg
   t="1569683915274"
   {...$$restProps}
+  {role}
   width={size}
   height={size}
   fill={color}
@@ -42,6 +44,7 @@
 [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
 ## Props
 @prop size = '24';
+@prop role = 'img';
 @prop color = 'currentColor';
 @prop ariaLabel = 'icon name';
 ## Event

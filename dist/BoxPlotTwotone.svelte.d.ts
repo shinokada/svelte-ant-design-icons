@@ -5,6 +5,7 @@
  * [Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
  * ## Props
  * @prop size = '24';
+ * @prop role = 'img';
  * @prop color = 'currentColor';
  * @prop ariaLabel = 'icon name';
  * ## Event
@@ -18,15 +19,14 @@
  * - on:mouseover
  * - on:mouseout
  */
-export default class BoxPlotTwotone extends SvelteComponentTyped<
-  {
+export default class BoxPlotTwotone extends SvelteComponentTyped<{
     [x: string]: any;
     size?: string | undefined;
+    role?: string | undefined;
     ariaLabel?: string | undefined;
     strokeColor?: string | undefined;
     insideColor?: string | undefined;
-  },
-  {
+}, {
     click: MouseEvent;
     keydown: KeyboardEvent;
     keyup: KeyboardEvent;
@@ -36,36 +36,36 @@ export default class BoxPlotTwotone extends SvelteComponentTyped<
     mouseleave: MouseEvent;
     mouseover: MouseEvent;
     mouseout: MouseEvent;
-  } & {
+} & {
     [evt: string]: CustomEvent<any>;
-  },
-  {}
-> {}
+}, {}> {
+}
 export type BoxPlotTwotoneProps = typeof __propDef.props;
 export type BoxPlotTwotoneEvents = typeof __propDef.events;
 export type BoxPlotTwotoneSlots = typeof __propDef.slots;
-import { SvelteComponentTyped } from 'svelte';
+import { SvelteComponentTyped } from "svelte";
 declare const __propDef: {
-  props: {
-    [x: string]: any;
-    size?: string | undefined;
-    ariaLabel?: string | undefined;
-    strokeColor?: string | undefined;
-    insideColor?: string | undefined;
-  };
-  events: {
-    click: MouseEvent;
-    keydown: KeyboardEvent;
-    keyup: KeyboardEvent;
-    focus: FocusEvent;
-    blur: FocusEvent;
-    mouseenter: MouseEvent;
-    mouseleave: MouseEvent;
-    mouseover: MouseEvent;
-    mouseout: MouseEvent;
-  } & {
-    [evt: string]: CustomEvent<any>;
-  };
-  slots: {};
+    props: {
+        [x: string]: any;
+        size?: string | undefined;
+        role?: string | undefined;
+        ariaLabel?: string | undefined;
+        strokeColor?: string | undefined;
+        insideColor?: string | undefined;
+    };
+    events: {
+        click: MouseEvent;
+        keydown: KeyboardEvent;
+        keyup: KeyboardEvent;
+        focus: FocusEvent;
+        blur: FocusEvent;
+        mouseenter: MouseEvent;
+        mouseleave: MouseEvent;
+        mouseover: MouseEvent;
+        mouseout: MouseEvent;
+    } & {
+        [evt: string]: CustomEvent<any>;
+    };
+    slots: {};
 };
 export {};

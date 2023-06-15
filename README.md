@@ -99,7 +99,7 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 | ----------------------- | -------------------- |
 | size                    | 24                   |
 | class                   |                      |
-| role | img |
+| role                    | img                  |
 | ariaLabel               | file name            |
 | strokeColor for twotone | currentColor or #333 |
 | insideColor for twotone | #E6E6E6 or #D9D9D9   |

@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.3.10](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.9...v0.3.10) (2023-06-01)
 
-
 ### Features
 
-* add prop role="img" ([5f8288b](https://github.com/shinokada/svelte-ant-design-icons/commit/5f8288b7592d14504fe267e58cea19e7b547ca20))
+- add prop role="img" ([5f8288b](https://github.com/shinokada/svelte-ant-design-icons/commit/5f8288b7592d14504fe267e58cea19e7b547ca20))
 
 ### [0.3.9](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.8...v0.3.9) (2023-06-01)
 
-
 ### Features
 
-* add prop role="img" ([9d58826](https://github.com/shinokada/svelte-ant-design-icons/commit/9d588266388c05899083876e62bc1e78630d5aa9))
+- add prop role="img" ([9d58826](https://github.com/shinokada/svelte-ant-design-icons/commit/9d588266388c05899083876e62bc1e78630d5aa9))
 
 ### [0.3.8](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.7...v0.3.8) (2023-06-01)
 

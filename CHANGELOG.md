@@ -2,23 +2,6 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.3.11](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.4...v0.3.11) (2023-06-15)
-
-
-### Features
-
-* add || ^4.0.0 to peerDependencies ([6b67f2a](https://github.com/shinokada/svelte-ant-design-icons/commit/6b67f2afb6260647c1cd6310a59bd646f5aa69ed))
-* add events to component doc ([3dc06de](https://github.com/shinokada/svelte-ant-design-icons/commit/3dc06de485d095bedf496e64587ec64d52c5a484))
-* add prop role="img" ([5f8288b](https://github.com/shinokada/svelte-ant-design-icons/commit/5f8288b7592d14504fe267e58cea19e7b547ca20))
-* add prop role="img" ([9d58826](https://github.com/shinokada/svelte-ant-design-icons/commit/9d588266388c05899083876e62bc1e78630d5aa9))
-* event update ([5d19738](https://github.com/shinokada/svelte-ant-design-icons/commit/5d19738753cd853dfbfc94a4bd282c161582ae64))
-* event update ([e86105e](https://github.com/shinokada/svelte-ant-design-icons/commit/e86105e15a6091e9962b7ebb9d3710ef2affed14))
-
-
-### Bug Fixes
-
-* CHANGELOG.md update ([34a5564](https://github.com/shinokada/svelte-ant-design-icons/commit/34a55646945140bbfad9685d8b6a115ed74b9898))
-
 ### [0.3.10](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.9...v0.3.10) (2023-06-01)
 
 ### Features

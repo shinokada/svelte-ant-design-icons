@@ -36,10 +36,12 @@
       <span slot="title" class="text-lg">Mono</span>
       <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
         {#each filteredEntries as [name, component]}
+        {#if name.includes('Filled')}
           <div class="flex gap-4 items-center text-lg">
             <svelte:component this={component} class="shrink-0 h-8 w-8" />
             {name}
           </div>
+          {/if}
         {/each}
       </div>
     </TabItem>
@@ -47,6 +49,7 @@
       <span slot="title" class="text-lg">Random Hex Colors</span>
       <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
         {#each filteredEntries as [name, component]}
+        {#if name.includes('Filled')}
           <div class="flex gap-4 items-center text-lg">
             <svelte:component
               this={component}
@@ -55,6 +58,7 @@
             />
             {name}
           </div>
+          {/if}
         {/each}
       </div>
     </TabItem>
@@ -62,10 +66,12 @@
       <span slot="title" class="text-lg">Random Tailwind CSS Colors</span>
       <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
         {#each filteredEntries as [name, component]}
+        {#if name.includes('Filled')}
           <div class="flex gap-4 items-center text-lg">
             <svelte:component this={component} class={random_tailwind_color()} />
             {name}
           </div>
+          {/if}
         {/each}
       </div>
     </TabItem>

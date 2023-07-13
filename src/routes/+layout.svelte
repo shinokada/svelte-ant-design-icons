@@ -38,7 +38,7 @@
   
 <Navbar let:hidden let:toggle class="dark:bg-sky-950" >
   <NavBrand href="/">
-    <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+    <span class="self-center whitespace-nowrap text-xl font-semibold text-primary-700 dark:text-primary-500">
       Svelte Ant Design Icons
     </span>
   </NavBrand>
@@ -63,6 +63,7 @@
     <FooterBrand
     href="https://svelte-ant-design-icons.vercel.app/"
     name="Svelte Ant Design Icons"
+    classSpan="text-primary-700 dark:text-primary-500"
   />
   <FooterLinkGroup ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
     <FooterLink href="/">Home</FooterLink>

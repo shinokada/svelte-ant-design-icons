@@ -1,64 +1,35 @@
-<h1 align="center">Svelte Ant Design Icons</h1>
-<p align="center">
-<a href="https://svelte-ant-design-icons.codewithshin.com/" rel="nofollow">Svelte-Ant-Design-Icons</a>
-</p>
+# Svelte Ant Design Icons
 
-<p align="center">
-<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" height="25"></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" target="_blank"><img src="https://img.shields.io/badge/PWA-enabled-brightgreen" alt="PWA Shield" height="25">
+<div class="flex gap-2 my-8">
+<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" height="25" style="height: 25px !important;"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" target="_blank"><img src="https://img.shields.io/badge/PWA-enabled-brightgreen" alt="PWA Shield" height="25" style="height: 25px !important;">
 </a>
-<a href="https://www.npmjs.com/package/svelte-ant-design-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-ant-design-icons" alt="npm" height="25"></a>
-<a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25"></a>
-<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-ant-design-icons" alt="License" height="25"></a>
-<a href="https://www.npmjs.com/package/svelte-ant-design-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-ant-design-icons.svg" alt="npm" height="25"></a>
-</p>
+<a href="https://www.npmjs.com/package/svelte-ant-design-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-ant-design-icons" alt="npm" height="25" style="height: 25px !important;"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25" style="height: 25px !important;"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-ant-design-icons" alt="License" height="25" style="height: 25px !important;"></a>
+<a href="https://www.npmjs.com/package/svelte-ant-design-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-ant-design-icons.svg" alt="npm" height="25" style="height: 25px !important;"></a>
+</div>
 
 Ant Design SVG Icons v4.2.1 for Svelte. Svelte-Ant-Design-Icons support major CSS framework. You can add additional CSS using the `class` props.
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
-<p align="center">
-<img width="650" src="/static/images/ant-optimized-650-1050.png" />
-</p>
-
 ## Installation
 
 ```sh
-npm i -D svelte-ant-design-icons
+pnpm i -D svelte-ant-design-icons
 ```
-
-To update
-
-```sh
-npm i -D svelte-ant-design-icons@latest
-```
-
-If you are a TypeScript user, Add `"moduleResolution": "bundler"` to `tsconfig.json`:
-
-```
-{
-	//...
-	"compilerOptions": {
-		// ...
-		"moduleResolution": "bundler"
-	}
-}
-```
-
-## REPL
-
-[REPL 1](https://svelte.dev/repl/375c734a6ec74f44adfe4aa76b117ab9)
-
-[REPL 2](https://svelte.dev/repl/38a6fcd635c14255b7a30c1a7d4b05c2)
 
 ## Usage
 
+In a svelte file:
+
 ```html
 <script>
-  import { AlertFilled } from 'svelte-ant-design-icons';
+  import { AccountBookFilled } from 'svelte-ant-design-icons';
 </script>
 
-<AlertFilled />
+<AccountBookFilled />
 ```
 
 ## Faster compiling
@@ -67,18 +38,16 @@ If you need only a few icons from this library in your Svelte app, import them d
 
 ```html
 <script>
-  import AlertFilled from 'svelte-ant-design-icons/AlertFilled.svelte';
+  import AccountBookFilled from 'svelte-ant-design-icons/AccountBookFilled.svelte';
 </script>
 
-<AlertFilled />
+<Add />
 ```
 
-If you are a TypeScript user, **install typescript version 5.0.0 or above.**
-
-As of March 2023, the `typescript@beta` version is now available:
+If you are a TypeScript user, install **typescript version 5.0.0 or above**.
 
 ```sh
-pnpm i -D typescript@beta
+pnpm i -D typescript@latest
 ```
 
 To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
@@ -92,6 +61,7 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
   }
 }
 ```
+
 
 ## Props
 
@@ -108,13 +78,6 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 
 If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link, props, and events.
 
-## Icon names
-
-[Icon names](/icon-list.md)
-
-## Icon images
-
-[Icon images](/icon-images.md)
 
 ## Variation
 

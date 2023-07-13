@@ -48,7 +48,7 @@
     <NavLi href="/filled" active={activeUrl === '/filled'}>Filled</NavLi>
     <NavLi href="/outlined" active={activeUrl === '/outlined'}>Outlined</NavLi>
     <NavLi href="/twotone" active={activeUrl === '/twotone'}>Twotone</NavLi>
-    <NavLi href="/docs" active={activeUrl === '/docs'}>Docs</NavLi>
+    <NavLi href="/all" active={activeUrl === '/all'}>All</NavLi>
     <NavLi href="https://github.com/shinokada/svelte-ant-design-icons">GitHub</NavLi>
     <NavLi href="https://svelte-svg-icons.vercel.app/">Icon sets</NavLi>
   </NavUl>
@@ -58,7 +58,7 @@
   <slot />
 </div>
 
-<Footer footerType="logo" class="dark:bg-sky-950">
+<Footer footerType="logo" class="dark:bg-sky-950 mx-8">
   <div class="sm:flex sm:items-center sm:justify-between">
     <FooterBrand
     href="https://svelte-ant-design-icons.vercel.app/"

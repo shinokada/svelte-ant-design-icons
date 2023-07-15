@@ -74,7 +74,6 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 }
 ```
 
-
 ## Props
 
 | Name                    | Default              |
@@ -109,6 +108,12 @@ Use the `size` prop to change the size of icons.
 <AlertFilled size="30" />
 <AlertFilled size="40" />
 <AlertFilled size="50" />
+```
+
+If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
+
+```html
+<AlertFilled class="shrink-0 h-20 w-20" />
 ```
 
 ## CSS HEX Colors

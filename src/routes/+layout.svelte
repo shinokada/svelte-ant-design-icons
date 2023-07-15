@@ -75,9 +75,12 @@
   />
   <FooterLinkGroup ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
     <FooterLink href="/">Home</FooterLink>
-    <FooterLink href="/docs">Docs</FooterLink>
-    <FooterLink href="https://github.com/shinokada/svelte-ant-design-icons/blob/main/LICENSE">Licensing</FooterLink>
-    <FooterLink href="https://github.com/shinokada/svelte-ant-design-icons/">GitHub</FooterLink>
+    <FooterLink href="/filled">Filled</FooterLink>
+    <FooterLink href="/outlined">Outlined</FooterLink>
+    <FooterLink href="/twotone">Twotone</FooterLink>
+    <FooterLink href="/all">All</FooterLink>
+    <FooterLink href="https://github.com/shinokada/svelte-ant-design-icons">GitHub</FooterLink>
+    <FooterLink href="https://svelte-svg-icons.vercel.app/">Icon sets</FooterLink>
   </FooterLinkGroup>
   </div>
 </Footer>

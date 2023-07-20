@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.11](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.10...v0.3.11) (2023-07-20)
+
+
+### Features
+
+* add docs ([195f836](https://github.com/shinokada/svelte-ant-design-icons/commit/195f8364164937147b63f295d99e2e777867565d))
+
+
+### Bug Fixes
+
+* footer links ([a6fd10d](https://github.com/shinokada/svelte-ant-design-icons/commit/a6fd10d0a12c5ff6f85450a4d42ac5d3fcdb1d55))
+* menu order ([c2efb14](https://github.com/shinokada/svelte-ant-design-icons/commit/c2efb14e300e83326aa470de3a9f8aab29f51d74))
+* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([70a5f26](https://github.com/shinokada/svelte-ant-design-icons/commit/70a5f26aab8fdf18a447c0650b5cc991ce4df1fc))
+* update homepage ([6f0c188](https://github.com/shinokada/svelte-ant-design-icons/commit/6f0c1886c9117f2c505ebba60d679d8ebf335579))
+* update license ([4ca8b24](https://github.com/shinokada/svelte-ant-design-icons/commit/4ca8b245410e14c3eea961ba042cf5d8c8f500b8))
+* update range ([38898ca](https://github.com/shinokada/svelte-ant-design-icons/commit/38898cae694fdcbeae68a38f442bebb3c9ab6986))
+* update range ([42535ab](https://github.com/shinokada/svelte-ant-design-icons/commit/42535ab619aa50899aa03c1ed4cd374c3b182686))
+
 ### [0.3.10](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.3.9...v0.3.10) (2023-06-01)
 
 ### Features

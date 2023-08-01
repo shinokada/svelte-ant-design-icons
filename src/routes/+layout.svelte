@@ -53,7 +53,7 @@
     <NavLi href="/filled" active={activeUrl === '/filled'}>Filled</NavLi>
     <NavLi href="/outlined" active={activeUrl === '/outlined'}>Outlined</NavLi>
     <NavLi href="/twotone" active={activeUrl === '/twotone'}>Twotone</NavLi>
-    <NavLi href="/all" active={activeUrl === '/all'}>All</NavLi>
+    <NavLi href="/icons" active={activeUrl === '/icons'}>Icons</NavLi>
     <NavLi href="https://github.com/shinokada/svelte-ant-design-icons">GitHub</NavLi>
     <NavLi href="https://svelte-svg-icons.vercel.app/">Icon sets</NavLi>
   </NavUl>

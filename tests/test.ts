@@ -5,11 +5,6 @@ test('index page has expected h1', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Svelte Ant Design Icons' })).toBeVisible();
 });
 
-test('All page has expected h1', async ({ page }) => {
-  await page.goto('/all');
-  await expect(page.getByRole('heading', { name: 'Svelte Ant Design Icons: All icons' })).toBeVisible();
-});
-
 test('Filled page has expected h1', async ({ page }) => {
   await page.goto('/filled');
   await expect(page.getByRole('heading', { name: 'Svelte Ant Design Icons: Filled' })).toBeVisible();

@@ -4,7 +4,7 @@
   import TableSearch from 'flowbite-svelte/TableSearch.svelte';
   import IconTwotone from '$lib/IconTwotone.svelte';
   import icons from '$lib/icons.js';
-  import { filterIconsByKeyword } from '../utils/filter.js'
+  import { filterIconsByKeyword } from '../utils.js'
 
   const twotoneIcons = filterIconsByKeyword(icons, '-twotone');
   

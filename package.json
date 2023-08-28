@@ -1,6 +1,6 @@
 {
   "name": "svelte-ant-design-icons",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "main": "dist/index.js",
   "description": "Ant Design SVG Icon components for Svelte",
   "author": {

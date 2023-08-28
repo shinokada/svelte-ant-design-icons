@@ -62,18 +62,6 @@ If you are a TypeScript user, install **typescript version 5.0.0 or above**.
 pnpm i -D typescript@latest
 ```
 
-To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
-
-```json
-{
-  //...
-  "compilerOptions": {
-    // ...
-    "moduleResolution": "nodenext"
-  }
-}
-```
-
 ## Props
 
 | Name                    | Default              |

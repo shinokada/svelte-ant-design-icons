@@ -7,15 +7,21 @@ test('index page has expected h1', async ({ page }) => {
 
 test('Filled page has expected h1', async ({ page }) => {
   await page.goto('/filled');
-  await expect(page.getByRole('heading', { name: 'Svelte Ant Design Icons: Filled' })).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: 'Svelte Ant Design Icons: Filled' })
+  ).toBeVisible();
 });
 
 test('Outlined page has expected h1', async ({ page }) => {
   await page.goto('/outlined');
-  await expect(page.getByRole('heading', { name: 'Svelte Ant Design Icons: Outlined' })).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: 'Svelte Ant Design Icons: Outlined' })
+  ).toBeVisible();
 });
 
 test('Twotone page has expected h1', async ({ page }) => {
   await page.goto('/twotone');
-  await expect(page.getByRole('heading', { name: 'Svelte Ant Design Icons: Twotone' })).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: 'Svelte Ant Design Icons: Twotone' })
+  ).toBeVisible();
 });

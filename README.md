@@ -89,7 +89,6 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 
 If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link, props, and events.
 
-
 ## Variation
 
 Some icons have Filled, Outlined, and Twotone. You can find them at the end of filenames.
@@ -225,4 +224,3 @@ All icons have the following events:
 ## Other icons
 
 [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
-

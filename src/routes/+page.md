@@ -38,95 +38,122 @@ In a svelte file:
 
 ```html
 <script>
-  import { Icon, IconTwotone } from 'svelte-ant-design-icons';
+  import { AccountBookFilled } from 'svelte-ant-design-icons';
 </script>
 
-<Icon name="account-book-filled" />
-<Icon name="account-book-outlined" />
-<IconTwotone name="account-book-twotone" />
+<AccountBookFilled />
 ```
 
+## Faster compiling
+
+If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
+
+```html
+<script>
+  import AccountBookFilled from 'svelte-ant-design-icons/AccountBookFilled.svelte';
+</script>
+
+<Add />
+```
+
+If you are a TypeScript user, install **typescript version 5.0.0 or above**.
+
+```sh
+pnpm i -D typescript@latest
+```
 
 ## Props
 
-### Outlined/Filled
-
-- @prop name;
-- @prop width = "24";
-- @prop height = "24";
-- @prop role = 'img';
-- @prop color = 'currentColor'
-- @prop ariaLabel='icon name'
-
-### Twotone
-
-- @prop name;
-- @prop width = "24";
-- @prop height = "24";
-- @prop strokeColor = 'currentColor';
-- @prop insideColor = '#D9D9D9';
-- @prop role = 'img';
-- @prop ariaLabel='icon name'
+| Name                    | Default              |
+| ----------------------- | -------------------- |
+| size                    | 24                   |
+| class                   |                      |
+| role                    | img                  |
+| ariaLabel               | file name            |
+| strokeColor for twotone | currentColor or #333 |
+| insideColor for twotone | #E6E6E6 or #D9D9D9   |
 
 ## IDE support
 
 If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link, props, and events.
 
+## Variation
+
+Some icons have Filled, Outlined, and Twotone. You can find them at the end of filenames.
+
+```md
+AlertFilled.svelte
+AlertOutlined.svelte
+AlertTwotone.svelte
+```
+
 ## Size
 
-Use the `width` and `height` props to change the size of icons.
+Use the `size` prop to change the size of icons.
 
 ```html
-<Icon name="account-book-filled" width="100" height="100" />
+<AlertFilled size="30" />
+<AlertFilled size="40" />
+<AlertFilled size="50" />
 ```
 
 If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
 
 ```html
-<Icon name="account-book-filled" class="shrink-0 h-20 w-20" />
+<AlertFilled class="shrink-0 h-20 w-20" />
 ```
 
 ## CSS HEX Colors
 
-Use the `color` prop to change colors with HEX color code.
+Use the `color` prop to change colors with HEX color code for Filled and Outlined components.
 
 ```html
-<Icon name="account-book-filled" color="#c61515" />
+<AlertFilled color="#ff0000" /> <AlertOutlined color="#00ffd8" />
 ```
 
-## CSS frameworks suport
+## Twotone icons
 
-You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
-
-Tailwind CSS example:
+Use `strokeColor` and `insideColor` to change colors.
 
 ```html
-<Icon name="account-book-filled" class="text-red-700 inline m-1" />
+<AlertTwotone size="80" strokeColor="#c61515" insideColor="#84ffc9" />
+<BellTwotone size="80" strokeColor="#c61515" insideColor="#cdaaff" />
+<VideoCameraTwotone size="80" strokeColor="#c61515" insideColor="#9ec1ff" />
+<BookTwotone size="80" strokeColor="#c61515" insideColor="#ef6667" />
+<UpSquareTwotone size="80" strokeColor="#657ced" insideColor="#6eed65" />
 ```
 
-Bootstrap examples:
+## CSS framework support
+
+Use the `class` prop to change colors and additional CSS.
+
+For example, Tailwind CSS:
 
 ```html
-<Icon name="account-book-filled" class="position-absolute top-0 px-1" />
+<AlertFilled class="text-pink-700 mr-4" />
 ```
 
-## Dark mode
-
-If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
+If you use the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<Icon name="account-book-filled" class="text-blue-700 dark:text-red-500" />
+<AlertFilled class="text-pink-700 dark:text-blue-300" />
+```
+
+Bootstrap example:
+
+```html
+<AlertFilled class="position-absolute top-0 px-1" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `account-book-filled` has `aria-label="account book filled"`.
+All icons have aria-label. For example `AcountBook` has `aria-label="account book"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<Icon name="account-book-filled" ariaLabel="red account book" color="#c61515"/>
+<AcountBook ariaLabel="red acount book" class="text-red-500" />
 ```
 
 ## Unfocusable icon
@@ -134,7 +161,34 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<Icon name="account-book-filled"  tabindex="-1" />
+<BadgeAr tabindex="-1" />
+```
+
+## Passing down other attributes
+
+You can pass other attibutes as well.
+
+```html
+<AlertFilled tabindex="0" />
+```
+
+## Using svelte:component
+
+```html
+<svelte:component this="{AlertFilled}" size="40" />
+```
+
+## Import all
+
+Use `import * as Icon from 'svelte-ant-design-icons'`.
+
+```html
+<script>
+  import * as Icon from 'svelte-ant-design-icons';
+</script>
+
+<Icon.AlertFilled size="30" class="text-red-500" />
+<Icon.VideoCameraTwotone size="40" class="text-blue-700" />
 ```
 
 ## Events
@@ -151,63 +205,9 @@ All icons have the following events:
 - on:mouseover
 - on:mouseout
 
-## Passing down other attributes
+## Original source
 
-You can pass other attibutes as well.
-
-```html
-<Icon name="account-book-filled"  tabindex="0" />
-```
-
-## Using svelte:component
-
-```html
-<svelte:component this="{Icon}" name="account-book-filled" />
-```
-
-## Using onMount
-
-```html
-<script>
-  import { Icon } from 'svelte-heros-v2';
-  import { onMount } from 'svelte';
-  const props = {
-    name: 'account-book-filled',
-    size: '50',
-    color: '#ff0000'
-  };
-  onMount(() => {
-    const icon = new Icon({ target: document.body, props });
-  });
-</script>
-```
-
-## Import all
-
-Use `import { Icon, icons } from 'svelte-heros-v2';`.
-
-```html
-<script>
-  import { Icon, icons } from 'svelte-heros-v2';
-  function filterIconsByKeyword(icons, keyword) {
-    const filteredIcons = {};
-    for (const key in icons) {
-      if (key.includes(keyword)) {
-        filteredIcons[key] = icons[key];
-      }
-    }
-    return filteredIcons;
-  }
-  const outlinedIcons = filterIconsByKeyword(icons, '-outlined');
-</script>
-
-{#each Object.keys(outlinedIcons) as name}
-<div class="flex gap-4 items-center text-lg">
-  <IconOutline name={name} class="shrink-0"/>
-  {name}
-</div>
-{/each}
-```
+[ant-design/ant-design-icons v4.2.1](https://github.com/ant-design/ant-design-icons/tree/master/packages/icons-svg)
 
 ## Other icons
 

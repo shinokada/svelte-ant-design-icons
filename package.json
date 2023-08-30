@@ -1,6 +1,6 @@
 {
   "name": "svelte-ant-design-icons",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "main": "dist/index.js",
   "description": "Ant Design SVG Icon components for Svelte",
   "author": {
@@ -20,15 +20,15 @@
     "test": "npm run test:integration && npm run test:unit",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "lint": "prettier --plugin-search-dir . --check . && eslint .",
-    "format": "prettier --plugin-search-dir . --write .",
+    "lint": "prettier --check --plugin prettier-plugin-svelte . && eslint .",
+    "format": "prettier --write  --plugin prettier-plugin-svelte .",
     "test:integration": "playwright test",
     "test:unit": "vitest",
     "gen:exports": "svelte-lib-helpers exports",
     "gen:docs": "svelte-lib-helpers docs",
     "gen:compo-data": "svelte-lib-helpers compo-data",
     "copy:package": "svelte-lib-helpers package",
-    "lib-helpers": "npm run gen:docs && npm run build && npm run gen:exports && npm run copy:package",
+    "lib-helpers": "npm run format && npm run gen:docs && npm run build && npm run gen:exports && npm run copy:package",
     "package:publish": "standard-version && git push --follow-tags origin main && npm run lib-helpers && npm publish"
   },
   "files": [
@@ -1714,6 +1714,10 @@
     "./Html5Twotone.svelte": {
       "types": "./dist/Html5Twotone.svelte.d.ts",
       "svelte": "./dist/Html5Twotone.svelte"
+    },
+    "./Icon.svelte": {
+      "types": "./dist/Icon.svelte.d.ts",
+      "svelte": "./dist/Icon.svelte"
     },
     "./IdcardFilled.svelte": {
       "types": "./dist/IdcardFilled.svelte.d.ts",

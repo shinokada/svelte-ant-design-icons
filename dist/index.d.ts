@@ -405,6 +405,7 @@ export { default as HourglassTwotone } from "./HourglassTwotone.svelte";
 export { default as Html5Filled } from "./Html5Filled.svelte";
 export { default as Html5Outlined } from "./Html5Outlined.svelte";
 export { default as Html5Twotone } from "./Html5Twotone.svelte";
+export { default as Icon } from "./Icon.svelte";
 export { default as IdcardFilled } from "./IdcardFilled.svelte";
 export { default as IdcardOutlined } from "./IdcardOutlined.svelte";
 export { default as IdcardTwotone } from "./IdcardTwotone.svelte";

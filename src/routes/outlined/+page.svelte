@@ -27,6 +27,7 @@
   let size = '24';
 </script>
 
+<div class="m-8 w-full">
 <h1>Svelte Ant Design Icons: Outlined</h1>
 <TableSearch
   placeholder="Search by icon name"
@@ -91,3 +92,4 @@
     </TabItem>
   </Tabs>
 </TableSearch>
+</div>

@@ -36,7 +36,7 @@
         alt: 'Svelte Ant Design Icons'
       }
     ],
-    site_name: 'Svelte Ant Design Icons'
+    siteName: 'Svelte Ant Design Icons'
   }}
   twitter={{
     handle: '@shinokada',
@@ -47,58 +47,62 @@
     imageAlt: 'Svelte Ant Design Icons'
   }}
 />
+<div class="max-h-screen overflow-auto relative w-full">
+  <header
+    class="sticky top-0 z-40 flex-none w-full mx-auto bg-white border-b border-gray-200 dark:border-gray-600 dark:bg-sky-950"
+  >
+    <Navbar color="default" fluid let:hidden let:toggle class="dark:bg-sky-950 ">
+      <NavBrand href="/">
+        <span
+          class="self-center whitespace-nowrap text-2xl font-semibold text-primary-900 dark:text-primary-500"
+        >
+          {title}
+        </span>
+      </NavBrand>
 
-<header class="flex-none w-full mx-auto bg-white dark:bg-sky-950">
-  <Navbar color="default" fluid let:hidden let:toggle class="dark:bg-sky-950 ">
-    <NavBrand href="/">
-      <span
-        class="self-center whitespace-nowrap text-2xl font-semibold text-primary-900 dark:text-primary-500"
+      <NavUl
+        {hidden}
+        {divClass}
+        {ulClass}
+        on:click={() => setTimeout(toggle, 1)}
+        nonActiveClass="md:!pl-3 md:!py-2 lg:!pl-0 text-gray-700 hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 dark:text-white lg:dark:hover:text-primary-700 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
+        activeClass="md:!pl-3 md:!py-2 lg:!pl-0 lg:text-primary-700 text-white dark:text-white dark:lg:text-primary-500 bg-primary-700 lg:bg-transparent dark:bg-primary-600 lg:dark:bg-transparent cursor-default"
       >
-        {title}
-      </span>
-    </NavBrand>
+        <NavLi href="/" active={activeUrl === '/'}>Home</NavLi>
+        <NavLi href="/filled" active={activeUrl === '/filled'}>Filled</NavLi>
+        <NavLi href="/outlined" active={activeUrl === '/outlined'}>Outlined</NavLi>
+        <NavLi href="/twotone" active={activeUrl === '/twotone'}>Twotone</NavLi>
+        <NavLi href="https://github.com/shinokada/svelte-ant-design-icons">GitHub</NavLi>
+        <NavLi href="https://svelte-svg-icons.vercel.app/">Icon sets</NavLi>
+      </NavUl>
+      <div class="flex items-center ml-auto">
+        <DarkMode class="inline-block dark:hover:text-white hover:text-gray-900" />
+      </div>
+      <NavHamburger on:click={toggle} btnClass="ml-3 m-0 lg:hidden" />
+    </Navbar>
+  </header>
 
-    <NavUl
-      {hidden}
-      {divClass}
-      {ulClass}
-      on:click={() => setTimeout(toggle, 1)}
-      nonActiveClass="md:!pl-3 md:!py-2 lg:!pl-0 text-gray-700 hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 dark:text-white lg:dark:hover:text-primary-700 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
-      activeClass="md:!pl-3 md:!py-2 lg:!pl-0 lg:text-primary-700 text-white dark:text-white dark:lg:text-primary-500 bg-primary-700 lg:bg-transparent dark:bg-primary-600 lg:dark:bg-transparent cursor-default"
-    >
-      <NavLi href="/" active={activeUrl === '/'}>Home</NavLi>
-      <NavLi href="/filled" active={activeUrl === '/filled'}>Filled</NavLi>
-      <NavLi href="/outlined" active={activeUrl === '/outlined'}>Outlined</NavLi>
-      <NavLi href="/twotone" active={activeUrl === '/twotone'}>Twotone</NavLi>
-      <NavLi href="https://github.com/shinokada/svelte-ant-design-icons">GitHub</NavLi>
-      <NavLi href="https://svelte-svg-icons.vercel.app/">Icon sets</NavLi>
-    </NavUl>
-    <div class="flex items-center ml-auto">
-      <DarkMode class="inline-block dark:hover:text-white hover:text-gray-900" />
-    </div>
-    <NavHamburger on:click={toggle} btnClass="ml-3 m-0 lg:hidden" />
-  </Navbar>
-</header>
-<div class="mx-8 mb-16">
-  <slot />
-</div>
-
-<Footer footerType="logo" class="dark:bg-sky-950">
-  <div class="sm:flex sm:items-center sm:justify-between">
-    <FooterBrand
-      href="https://svelte-ant-design-icons.vercel.app/"
-      name="Svelte Ant Design Icons"
-      classSpan="text-primary-700 dark:text-primary-500"
-    />
-    <FooterLinkGroup
-      ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0"
-    >
-      <FooterLink href="/">Home</FooterLink>
-      <FooterLink href="/filled">Filled</FooterLink>
-      <FooterLink href="/outlined">Outlined</FooterLink>
-      <FooterLink href="/twotone">Twotone</FooterLink>
-      <FooterLink href="https://github.com/shinokada/svelte-ant-design-icons">GitHub</FooterLink>
-      <FooterLink href="https://svelte-svg-icons.vercel.app/">Icon sets</FooterLink>
-    </FooterLinkGroup>
+  <div class="lg:flex">
+    <slot />
   </div>
-</Footer>
+
+  <Footer footerType="logo" class="dark:bg-sky-950">
+    <div class="sm:flex sm:items-center sm:justify-between">
+      <FooterBrand
+        href="https://svelte-ant-design-icons.vercel.app/"
+        name="Svelte Ant Design Icons"
+        classSpan="text-primary-700 dark:text-primary-500"
+      />
+      <FooterLinkGroup
+        ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0"
+      >
+        <FooterLink href="/">Home</FooterLink>
+        <FooterLink href="/filled">Filled</FooterLink>
+        <FooterLink href="/outlined">Outlined</FooterLink>
+        <FooterLink href="/twotone">Twotone</FooterLink>
+        <FooterLink href="https://github.com/shinokada/svelte-ant-design-icons">GitHub</FooterLink>
+        <FooterLink href="https://svelte-svg-icons.vercel.app/">Icon sets</FooterLink>
+      </FooterLinkGroup>
+    </div>
+  </Footer>
+</div>

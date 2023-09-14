@@ -1,8 +1,10 @@
 <script>
-  export let size = '24';
-  export let role = 'img';
-  export let strokeColor = '#333';
-  export let insideColor = '#E6E6E6';
+  import { getContext } from 'svelte';
+  const ctx = getContext('iconCtx') ?? {};
+  export let size = ctx.size || '24';
+  export let role = ctx.role || 'img';
+  export let strokeColor = ctx.strokeColor || '#333';
+  export let insideColor = ctx.insideColor || '#E6E6E6';
   export let ariaLabel = 'html5';
 </script>
 
@@ -38,14 +40,3 @@
     d="M281 249l1.7 24.3 22.7 253.5h206.5v-.1h112.9l-11.4 118.5L511 672.9v.2h-.8l-102.4-27.7-6.5-73.2h-91l11.3 144.7 188.6 52h1.7v-.4l187.7-51.7 1.7-16.3 21.2-242.2 3.2-24.3H511v.2H389.9l-8.2-94.2h352.1l1.7-19.5 4.8-47.2L742 249H511z"
   />
 </svg>
-
-<!--
-@component
-[Go to docs](https://svelte-ant-design-icons.vercel.app/)
-## Props
-@prop export let size = '24';
-@prop export let role = 'img';
-@prop export let strokeColor = '#333';
-@prop export let insideColor = '#E6E6E6';
-@prop export let ariaLabel = 'html5';
--->

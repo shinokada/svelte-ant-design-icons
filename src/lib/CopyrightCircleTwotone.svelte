@@ -1,8 +1,10 @@
 <script>
-  export let size = '24';
-  export let role = 'img';
-  export let strokeColor = '#333';
-  export let insideColor = '#E6E6E6';
+  import { getContext } from 'svelte';
+  const ctx = getContext('iconCtx') ?? {};
+  export let size = ctx.size || '24';
+  export let role = ctx.role || 'img';
+  export let strokeColor = ctx.strokeColor || '#333';
+  export let insideColor = ctx.insideColor || '#E6E6E6';
   export let ariaLabel = 'copyright circle';
 </script>
 
@@ -38,14 +40,3 @@
     d="M517.6 351.3c53 0 89 33.8 93 83.4.3 4.2 3.8 7.4 8 7.4h56.7c2.6 0 4.7-2.1 4.7-4.7 0-86.7-68.4-147.4-162.7-147.4C407.4 290 344 364.2 344 486.8v52.3C344 660.8 407.4 734 517.3 734c94 0 162.7-58.8 162.7-141.4 0-2.6-2.1-4.7-4.7-4.7h-56.8c-4.2 0-7.6 3.2-8 7.3-4.2 46.1-40.1 77.8-93 77.8-65.3 0-102.1-47.9-102.1-133.6v-52.6c.1-87 37-135.5 102.2-135.5z"
   />
 </svg>
-
-<!--
-@component
-[Go to docs](https://svelte-ant-design-icons.vercel.app/)
-## Props
-@prop export let size = '24';
-@prop export let role = 'img';
-@prop export let strokeColor = '#333';
-@prop export let insideColor = '#E6E6E6';
-@prop export let ariaLabel = 'copyright circle';
--->

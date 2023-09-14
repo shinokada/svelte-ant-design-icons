@@ -16,14 +16,3 @@
   class={$$props.class}
   aria-label={ariaLabel}
 />
-
-<!--
-@component
-[Go to docs](https://svelte-ant-design-icons.vercel.app/)
-## Props
-@prop export let icon: ComponentType;
-@prop export let size: number = 24;
-@prop export let color: string = '';
-@prop export let role: string = 'img';
-@prop export let ariaLabel: string = 'Icon';
--->

@@ -40,10 +40,10 @@
           class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white"
         >
           {#each filteredEntries as [name, component]}
-              <div class="flex gap-4 items-center text-lg">
-                <svelte:component this={component} class="shrink-0" bind:size />
-                {name}
-              </div>
+            <div class="flex gap-4 items-center text-lg">
+              <svelte:component this={component} class="shrink-0" bind:size />
+              {name}
+            </div>
           {/each}
         </div>
       </TabItem>
@@ -53,15 +53,15 @@
           class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white"
         >
           {#each filteredEntries as [name, component]}
-              <div class="flex gap-4 items-center text-lg">
-                <svelte:component
-                  this={component}
-                  color={random_hex_color_code()}
-                  class="shrink-0"
-                  bind:size
-                />
-                {name}
-              </div>
+            <div class="flex gap-4 items-center text-lg">
+              <svelte:component
+                this={component}
+                color={random_hex_color_code()}
+                class="shrink-0"
+                bind:size
+              />
+              {name}
+            </div>
           {/each}
         </div>
       </TabItem>
@@ -71,10 +71,10 @@
           class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white"
         >
           {#each filteredEntries as [name, component]}
-              <div class="flex gap-4 items-center text-lg">
-                <svelte:component this={component} class={random_tailwind_color()} bind:size />
-                {name}
-              </div>
+            <div class="flex gap-4 items-center text-lg">
+              <svelte:component this={component} class={random_tailwind_color()} bind:size />
+              {name}
+            </div>
           {/each}
         </div>
       </TabItem>

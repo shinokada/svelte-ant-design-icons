@@ -40,3 +40,14 @@
     d="M229.1 709.7c3.1 3.1 8.2 3.1 11.3 0l172.5-172.5 114.4 114.5c3.1 3.1 8.2 3.1 11.3 0l297-297.2c3.1-3.1 3.1-8.2 0-11.3l-36.8-36.8a8.03 8.03 0 0 0-11.3 0L533 561 418.6 446.5a8.03 8.03 0 0 0-11.3 0l-214.9 215a8.03 8.03 0 0 0 0 11.3l36.7 36.9z"
   />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-ant-design-icons.vercel.app/)
+## Props
+@prop export let size = ctx.size || '24';
+@prop export let role = ctx.role || 'img';
+@prop export let strokeColor = ctx.strokeColor || '#333';
+@prop export let insideColor = ctx.insideColor || '#E6E6E6';
+@prop export let ariaLabel = 'fund';
+-->

@@ -31,3 +31,13 @@
     d="M456 231a56 56 0 1 0 112 0 56 56 0 1 0-112 0zm0 280a56 56 0 1 0 112 0 56 56 0 1 0-112 0zm0 280a56 56 0 1 0 112 0 56 56 0 1 0-112 0z"
   /></svg
 >
+
+<!--
+@component
+[Go to docs](https://svelte-ant-design-icons.vercel.app/)
+## Props
+@prop export let size = ctx.size || '24';
+@prop export let role = ctx.role || 'img';
+@prop export let color = ctx.color || 'currentColor';
+@prop export let ariaLabel = 'more';
+-->

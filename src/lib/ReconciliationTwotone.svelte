@@ -43,3 +43,14 @@
     d="M676 565c-50.8 0-92 41.2-92 92s41.2 92 92 92 92-41.2 92-92-41.2-92-92-92zm0 126c-18.8 0-34-15.2-34-34s15.2-34 34-34 34 15.2 34 34-15.2 34-34 34z"
   />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-ant-design-icons.vercel.app/)
+## Props
+@prop export let size = ctx.size || '24';
+@prop export let role = ctx.role || 'img';
+@prop export let strokeColor = ctx.strokeColor || 'currentColor';
+@prop export let insideColor = ctx.insideColor || '#D9D9D9';
+@prop export let ariaLabel = 'reconciliation';
+-->

@@ -39,3 +39,14 @@
     d="M820 436h-40c-4.4 0-8 3.6-8 8v40c0 4.4 3.6 8 8 8h40c4.4 0 8-3.6 8-8v-40c0-4.4-3.6-8-8-8z"
   />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-ant-design-icons.vercel.app/)
+## Props
+@prop export let size = ctx.size || '24';
+@prop export let role = ctx.role || 'img';
+@prop export let strokeColor = ctx.strokeColor || 'currentColor';
+@prop export let insideColor = ctx.insideColor || '#D9D9D9';
+@prop export let ariaLabel = 'printer';
+-->

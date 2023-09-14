@@ -36,3 +36,14 @@
     d="M212 212h200v200H212zm400 0h200v200H612zM212 612h200v200H212zm400 0h200v200H612z"
   />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-ant-design-icons.vercel.app/)
+## Props
+@prop export let size = ctx.size || '24';
+@prop export let role = ctx.role || 'img';
+@prop export let strokeColor = ctx.strokeColor || '#333';
+@prop export let insideColor = ctx.insideColor || '#E6E6E6';
+@prop export let ariaLabel = 'appstore';
+-->

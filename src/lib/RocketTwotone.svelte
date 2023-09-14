@@ -37,3 +37,14 @@
   />
   <path d="M464 400a48 48 0 1 0 96 0 48 48 0 1 0-96 0z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-ant-design-icons.vercel.app/)
+## Props
+@prop export let size = ctx.size || '24';
+@prop export let role = ctx.role || 'img';
+@prop export let strokeColor = ctx.strokeColor || 'currentColor';
+@prop export let insideColor = ctx.insideColor || '#D9D9D9';
+@prop export let ariaLabel = 'rocket';
+-->

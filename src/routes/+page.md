@@ -68,14 +68,20 @@ pnpm i -D typescript@latest
 
 ## Props
 
-| Name                    | Default              |
-| ----------------------- | -------------------- |
-| size                    | 24                   |
-| class                   |                      |
-| role                    | img                  |
-| ariaLabel               | file name            |
-| strokeColor for twotone | currentColor or #333 |
-| insideColor for twotone | #E6E6E6 or #D9D9D9   |
+### Filled and Outlined
+
+- @prop export let size = ctx.size || '24';
+- @prop export let role = ctx.role || 'img';
+- @prop export let color = ctx.color || 'currentColor';
+- @prop export let ariaLabel = 'icon file name';
+
+### Twotone
+
+- @prop export let size = ctx.size || '24';
+- @prop export let role = ctx.role || 'img';
+- @prop export let strokeColor = ctx.strokeColor || 'currentColor';
+- @prop export let insideColor = ctx.insideColor || '#D9D9D9';
+- @prop export let ariaLabel = 'icon file name';
 
 ## IDE support
 
@@ -106,7 +112,6 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 ```html
 <AlertFilled class="shrink-0 h-20 w-20" />
 ```
-
 
 ## Setting Global Icon using setContext
 

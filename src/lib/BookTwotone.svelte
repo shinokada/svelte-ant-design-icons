@@ -37,3 +37,14 @@
     d="M727.9 136v296.5c0 8.8-7.2 16-16 16-3.4 0-6.7-1.1-9.4-3.1L621.1 386l-83.8 59.9a15.9 15.9 0 0 1-22.3-3.7c-2-2.7-3-6-3-9.3V136H232v752h559.9V136h-64z"
   />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-ant-design-icons.vercel.app/)
+## Props
+@prop export let size = ctx.size || '24';
+@prop export let role = ctx.role || 'img';
+@prop export let strokeColor = ctx.strokeColor || '#333';
+@prop export let insideColor = ctx.insideColor || '#E6E6E6';
+@prop export let ariaLabel = 'book';
+-->

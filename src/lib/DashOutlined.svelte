@@ -29,3 +29,13 @@
 >
   <path d="M112 476h160v72H112zm320 0h160v72H432zm320 0h160v72H752z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-ant-design-icons.vercel.app/)
+## Props
+@prop export let size = ctx.size || '24';
+@prop export let role = ctx.role || 'img';
+@prop export let color = ctx.color || 'currentColor';
+@prop export let ariaLabel = 'dash';
+-->

@@ -37,3 +37,14 @@
   />
   <path fill={strokeColor} d="M472 786a40 40 0 1 0 80 0 40 40 0 1 0-80 0z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-ant-design-icons.vercel.app/)
+## Props
+@prop export let size = ctx.size || '24';
+@prop export let role = ctx.role || 'img';
+@prop export let strokeColor = ctx.strokeColor || '#333';
+@prop export let insideColor = ctx.insideColor || '#E6E6E6';
+@prop export let ariaLabel = 'mobile';
+-->

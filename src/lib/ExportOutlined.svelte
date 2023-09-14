@@ -33,3 +33,13 @@
     transform="matrix(1 0 0 -1 0 1024)"
   />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-ant-design-icons.vercel.app/)
+## Props
+@prop export let size = ctx.size || '24';
+@prop export let role = ctx.role || 'img';
+@prop export let color = ctx.color || 'currentColor';
+@prop export let ariaLabel = 'export';
+-->

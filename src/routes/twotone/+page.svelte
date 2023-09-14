@@ -4,24 +4,19 @@
   import Tabs from 'flowbite-svelte/Tabs.svelte';
   import TabItem from 'flowbite-svelte/TabItem.svelte';
   import TableSearch from 'flowbite-svelte/TableSearch.svelte';
-
+  import {
+    filterIconsByKeyword,
+    random_tailwind_color,
+    random_hex_color_code
+  } from '../utils/utils.js';
   import * as Icons from '$lib';
+  const keywordsToInclude = 'Twotone';
+  const keyIcons = filterIconsByKeyword(Icons, keywordsToInclude);
 
-  const random_tailwind_color = () => {
-    const colors = ['red', 'yellow', 'green', 'blue', 'indigo', 'purple', 'pink'];
-    const shades = ['300', '400', '500'];
-    const randomColor = colors[Math.floor(Math.random() * colors.length)];
-    const randomShade = shades[Math.floor(Math.random() * shades.length)];
-    return `text-${randomColor}-${randomShade} dark:text-${randomColor}-${randomShade} shrink-0`;
-  };
-  const random_hex_color_code = () => {
-    let n = (Math.random() * 0xfffff * 1000000).toString(16);
-    return '#' + n.slice(0, 6);
-  };
   const contentClass = 'rounded-lg dark:bg-sky-950 mt-4';
   let searchTerm = '';
 
-  $: filteredEntries = Object.entries(Icons).filter(([name, component]) => {
+  $: filteredEntries = Object.entries(keyIcons).filter(([name, component]) => {
     return name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1;
   });
   let size = '24';
@@ -46,12 +41,10 @@
           class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white"
         >
           {#each filteredEntries as [name, component]}
-            {#if name.includes('Twotone')}
               <div class="flex gap-4 items-center text-lg">
                 <svelte:component this={component} class="shrink-0" bind:size />
                 {name}
               </div>
-            {/if}
           {/each}
         </div>
       </TabItem>
@@ -61,7 +54,6 @@
           class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white"
         >
           {#each filteredEntries as [name, component]}
-            {#if name.includes('Twotone')}
               <div class="flex gap-4 items-center text-lg">
                 <svelte:component
                   this={component}
@@ -71,7 +63,6 @@
                 />
                 {name}
               </div>
-            {/if}
           {/each}
         </div>
       </TabItem>
@@ -81,12 +72,10 @@
           class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white"
         >
           {#each filteredEntries as [name, component]}
-            {#if name.includes('Twotone')}
               <div class="flex gap-4 items-center text-lg">
                 <svelte:component this={component} class={random_tailwind_color()} bind:size />
                 {name}
               </div>
-            {/if}
           {/each}
         </div>
       </TabItem>

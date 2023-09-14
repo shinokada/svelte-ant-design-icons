@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.6](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.5.5...v0.5.6) (2023-09-14)
+
+
+### Bug Fixes
+
+* move mdsvex(mdsvexConfig) to the first line ([de96605](https://github.com/shinokada/svelte-ant-design-icons/commit/de96605eb4f57a637c177f08b7b4439b38dc5fc9))
+* remove ids ([4095095](https://github.com/shinokada/svelte-ant-design-icons/commit/4095095d41784fb6819dde9851bee9ebf2ba1138))
+* use utils.js ([984afeb](https://github.com/shinokada/svelte-ant-design-icons/commit/984afeb3d699c3bbb87a7f662e907c87aa7ecf63))
+
 ### [0.5.5](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.5.4...v0.5.5) (2023-09-14)
 
 ### Features

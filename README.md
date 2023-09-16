@@ -1,7 +1,3 @@
----
-layout: mainLayout
----
-
 # Svelte Ant Design Icons
 
 <div class="flex gap-2 my-8">

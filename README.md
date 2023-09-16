@@ -8,9 +8,11 @@
 <a href="https://www.npmjs.com/package/svelte-ant-design-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-ant-design-icons.svg" alt="npm" height="25" style="height: 25px !important;"></a>
 </div>
 
-780+ Ant Design SVG Icons v4.2.1 for Svelte.
+## Introduction
 
-Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
+Svelte Ant Design Icons is a collection of over 780 Ant Design SVG Icons (v4.2.1) for Svelte. This open-source package allows you to easily incorporate these icons into your Svelte projects.
+
+If you find this package useful in your commercial projects, please consider supporting the developer by sponsoring them on [GitHub: Sponsor on GitHub](https://github.com/sponsors/shinokada). Your support helps maintain and enhance this package for the benefit of the community.
 
 ## Repo
 
@@ -28,13 +30,15 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 ## Installation
 
+You can install Svelte Ant Design Icons using the following command:
+
 ```sh
 pnpm i -D svelte-ant-design-icons
 ```
 
 ## Usage
 
-In a svelte file:
+In a Svelte file, you can import and use icons like this:
 
 ```html
 <script>
@@ -46,7 +50,9 @@ In a svelte file:
 
 ## Faster compiling
 
-If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
+If you only need a few icons from this library in your Svelte app, consider importing them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
+
+For example:
 
 ```html
 <script>
@@ -81,11 +87,13 @@ pnpm i -D typescript@latest
 
 ## IDE support
 
-If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link, props, and events.
+If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link and props.
 
 ## Variation
 
-Some icons have Filled, Outlined, and Twotone. You can find them at the end of filenames.
+Some icons have Filled, Outlined, and Twotone versions. You can find them at the end of filenames.
+
+For example:
 
 ```md
 AlertFilled.svelte
@@ -103,7 +111,7 @@ Use the `size` prop to change the size of icons.
 <AlertFilled size="50" />
 ```
 
-If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
+If you're using Tailwind CSS, you can customize the size using Tailwind CSS classes:
 
 ```html
 <AlertFilled class="shrink-0 h-20 w-20" />
@@ -111,9 +119,8 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 
 ## Setting Global Icon using setContext
 
-You can establish global icon preferences in your Svelte application using `setContext`. This allows you to configure icon-related properties once and share them across multiple components.
+You can establish global icon preferences in your Svelte application using `setContext`. This allows you to configure icon-related properties once and share them across multiple components. Here's how you can do it:
 
-In your `+layout.svelte` or `+page.svelte`, you can define and set global icon preferences as follows:
 
 ```html
 <script>
@@ -130,6 +137,7 @@ In your `+layout.svelte` or `+page.svelte`, you can define and set global icon p
 ```
 
 The `size`, `color`, and `role` properties are optional, allowing you to fine-tune the appearance and accessibility of your icons as needed.
+
 If you set `size`, icons can be customized with different colors. For example:
 
 ```html

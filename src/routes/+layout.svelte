@@ -20,7 +20,7 @@
   let ulClass =
     'flex flex-col py-3 my-4 lg:flex-row lg:my-0 text-sm font-medium gap-4 dark:lg:bg-transparent lg:bg-white lg:border-0';
 
-  afterNavigate((navigation) => {
+  afterNavigate(() => {
     document.getElementById('svelte')?.scrollTo({ top: 0 });
   });
 </script>
@@ -102,7 +102,7 @@
       <FooterLinkGroup
         ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0"
       >
-        <FooterLink href="/">Home</FooterLink>
+        <FooterLink href="/" data-sveltekit-reload>Home</FooterLink>
         <FooterLink href="/filled">Filled</FooterLink>
         <FooterLink href="/outlined">Outlined</FooterLink>
         <FooterLink href="/twotone">Twotone</FooterLink>

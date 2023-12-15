@@ -75,7 +75,7 @@
         nonActiveClass="md:!pl-3 md:!py-2 lg:!pl-0 text-gray-700 hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 dark:text-white lg:dark:hover:text-primary-700 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
         activeClass="md:!pl-3 md:!py-2 lg:!pl-0 lg:text-primary-700 text-white dark:text-white dark:lg:text-primary-500 bg-primary-700 lg:bg-transparent dark:bg-primary-600 lg:dark:bg-transparent cursor-default"
       >
-        <NavLi href="/" data-sveltekit-reload>Home</NavLi>
+        <NavLi href="/">Home</NavLi>
         <NavLi href="/filled">Filled</NavLi>
         <NavLi href="/outlined">Outlined</NavLi>
         <NavLi href="/twotone">Twotone</NavLi>

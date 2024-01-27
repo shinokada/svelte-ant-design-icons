@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.5.6...v1.1.0) (2024-01-27)
+
+
+### Features
+
+* add data-sveltekit-reload to Home link so that it reloads sidebar menu and afterNavigate scrollTo in the +layout.svelte ([82f08b8](https://github.com/shinokada/svelte-ant-design-icons/commit/82f08b866d63b5211a662e8daa7400503c5760de))
+
+
+### Bug Fixes
+
+* add {activeUrl} to NavUl ([f147c78](https://github.com/shinokada/svelte-ant-design-icons/commit/f147c782952dc56fc0cc9d233f27eb3bf9b59d16))
+* add data-sveltekit-reload to footer Home ([9005af9](https://github.com/shinokada/svelte-ant-design-icons/commit/9005af90f8f9d5db6eaafa88fe468bb0442a4bb9))
+* context example page ([4c8b939](https://github.com/shinokada/svelte-ant-design-icons/commit/4c8b9394342e0dd96df007990b76377e2498f2ac))
+* NavHamburger class="ml-3 m-0 lg:hidden md:block" ([960ecda](https://github.com/shinokada/svelte-ant-design-icons/commit/960ecda62bdb7c0c3c9debc0b0054206717a1600))
+* remove data-sveltekit-reload ([c681168](https://github.com/shinokada/svelte-ant-design-icons/commit/c6811687b10a87ae76cb031b5f0e1d3b1fc49586))
+
 ### [0.5.6](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.5.5...v0.5.6) (2023-09-14)
 
 ### Bug Fixes

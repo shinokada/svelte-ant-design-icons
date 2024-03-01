@@ -42,7 +42,6 @@ pnpm i -D svelte-ant-design-icons
 
 [ant-design/ant-design-icons v4.2.1](https://github.com/ant-design/ant-design-icons/tree/master/packages/icons-svg)
 
-
 ## Other icons
 
 [Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)

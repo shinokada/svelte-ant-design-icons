@@ -28,11 +28,6 @@ Please see [the Svelte Ant Design Icons documentation](https://svelte-ant-design
 
 [GitHub repo](https://github.com/shinokada/svelte-ant-design-icons)
 
-## Original source
-
-[ant-design/ant-design-icons](https://github.com/ant-design/ant-design-icons)
-
-
 ## Installation
 
 ### Svelte 3/4/5
@@ -46,6 +41,7 @@ pnpm i -D svelte-ant-design-icons
 ## Original source
 
 [ant-design/ant-design-icons v4.2.1](https://github.com/ant-design/ant-design-icons/tree/master/packages/icons-svg)
+
 
 ## Other icons
 

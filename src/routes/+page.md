@@ -22,16 +22,6 @@ If you find this package useful in your commercial projects, please consider sup
 
 [GitHub repo](https://github.com/shinokada/svelte-ant-design-icons)
 
-## Original source
-
-[ant-design/ant-design-icons](https://github.com/ant-design/ant-design-icons)
-
-## License
-
-[Svelte-Ant-Design-Icons License](https://github.com/ant-design/ant-design-icons/LICENSE)
-
-[Ant Design Icons License](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE)
-
 ## Installation
 
 You can install Svelte Ant Design Icons using the following command:
@@ -363,3 +353,9 @@ All icons have the following events:
 ## Other icons
 
 [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+
+## License
+
+[Svelte-Ant-Design-Icons License](https://github.com/ant-design/ant-design-icons/LICENSE)
+
+[Ant Design Icons License](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE)

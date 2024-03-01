@@ -9,7 +9,7 @@
     "url": "https://blog.codewithshin.com"
   },
   "bugs": "https://github.com/shinokada/svelte-ant-design-icons/issues",
-  "homepage": "https://svelte-ant-design-icons.vercel.app/",
+  "homepage": "https://svelte-ant-design-icons.codewithshin.com/",
   "license": "MIT",
   "scripts": {
     "dev": "vite dev",

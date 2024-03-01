@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/shinokada/svelte-ant-design-icons/compare/v1.1.0...v1.1.1) (2024-03-01)
+
+
+### Bug Fixes
+
+* update homepage in package.json by changing from vercel.app to codewithshin.com ([9211684](https://github.com/shinokada/svelte-ant-design-icons/commit/9211684ab62e7c9b3bd4e5e50fe0060297db3c0f))
+
 ## [1.1.0](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.5.6...v1.1.0) (2024-01-27)
 
 ### Features

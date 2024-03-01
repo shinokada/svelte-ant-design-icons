@@ -49,7 +49,7 @@ pnpm i -D svelte-ant-design-icons
 
 ## Other icons
 
-[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+[Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)
 
 ## License
 

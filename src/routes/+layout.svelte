@@ -96,8 +96,8 @@
   <Footer footerType="logo" class="dark:bg-sky-950">
     <div class="sm:flex sm:items-center sm:justify-between">
       <FooterBrand
-        href="https://svelte-ant-design-icons.vercel.app/"
-        name="Svelte Ant Design Icons"
+        href="https://codewithshin.com/"
+        name="codewithshin.com"
         classSpan="text-primary-700 dark:text-primary-500"
       />
       <FooterLinkGroup

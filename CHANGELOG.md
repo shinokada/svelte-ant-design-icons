@@ -1,6 +1,6 @@
 # svelte-ant-design-icons
 
-## 2.0.0
+## 2.0.0-next.1
 
 ### Major Changes
 

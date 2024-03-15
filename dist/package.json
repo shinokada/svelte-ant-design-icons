@@ -1,6 +1,6 @@
 {
   "name": "svelte-ant-design-icons",
-  "version": "2.0.0-next.1",
+  "version": "2.0.0-next.2",
   "main": "dist/index.js",
   "description": "Ant Design SVG Icon components for Svelte",
   "author": {
@@ -29,7 +29,7 @@
     "gen:compo-data": "svelte-lib-helpers compo-data",
     "copy:package": "svelte-lib-helpers package",
     "lib-helpers": "npm run format && npm run gen:docs5 && npm run gen:exports && npm run package && npm run copy:package",
-    "package:publish": "standard-version && git push --follow-tags origin main && npm run lib-helpers && npm publish"
+    "package:publish": "git push --follow-tags origin main && npm publish"
   },
   "files": [
     "dist",

@@ -13,7 +13,9 @@
   import FooterLinkGroup from 'flowbite-svelte/FooterLinkGroup.svelte';
   import FooterLink from 'flowbite-svelte/FooterLink.svelte';
   import { MetaTags } from 'svelte-meta-tags';
-
+  import { inject } from '@vercel/analytics';
+  inject();
+  
   $: activeUrl = $page.url.pathname;
   const title = 'Svelte Ant Design Icons';
   let divClass = 'w-full ml-auto lg:block lg:w-auto order-1 lg:order-none';

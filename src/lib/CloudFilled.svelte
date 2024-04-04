@@ -5,6 +5,17 @@
 		role?: string;
 		color?: string;
 	}
+
+	type TitleType = {
+		id?: string;
+		title?: string;
+	};
+
+	type DescType = {
+		id?: string;
+		desc?: string;
+	};
+
 	const ctx: CtxType = getContext('iconCtx') ?? {};
 	interface Props {
 		size?: string;
@@ -12,15 +23,30 @@
 		color?: string;
 		ariaLabel?: string;
 		class?: string;
+		title: TitleType;
+		desc: DescType;
 	}
+
 	let {
 		size = ctx.size || '24',
 		role = ctx.role || 'img',
 		color = ctx.color || 'currentColor',
 		ariaLabel = 'cloud filled,',
 		class: classname,
+		title = {},
+		desc = {},
 		...restProps
 	}: Props = $props();
+
+	const ariaDescribedby = `${title.id || ''} ${desc.id || ''}`;
+	let hasDescription = $state(false);
+	$effect(() => {
+		if (title.id || desc.id) {
+			hasDescription = true;
+		} else {
+			hasDescription = false;
+		}
+	});
 </script>
 
 <svg
@@ -34,6 +60,12 @@
 	aria-label={ariaLabel}
 	viewBox="0 0 1024 1024"
 >
+	{#if title.id && title.title}
+		<title id={title.id}>{title.title}</title>
+	{/if}
+	{#if desc.id && desc.desc}
+		<desc id={desc.id}>{desc.desc}</desc>
+	{/if}
 	<path
 		d="M811.4 418.7C765.6 297.9 648.9 212 512.2 212S258.8 297.8 213 418.6C127.3 441.1 64 519.1 64 612c0 110.5 89.5 200 199.9 200h496.2C870.5 812 960 722.5 960 612c0-92.7-63.1-170.7-148.6-193.3z"
 	/>
@@ -48,4 +80,6 @@
 @props:color?: string;
 @props:ariaLabel?: string;
 @props:class?: string;
+@props:title: TitleType;
+@props:desc: DescType;
 -->

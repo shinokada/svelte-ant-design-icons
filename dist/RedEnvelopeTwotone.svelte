@@ -1,4 +1,4 @@
-<script>import { getContext } from "svelte";
+<script lang="ts">import { getContext } from "svelte";
 const ctx = getContext("iconCtx") ?? {};
 let {
   size = ctx.size || "24",
@@ -6,8 +6,19 @@ let {
   color = ctx.color || "currentColor",
   ariaLabel = "red envelope twotone,",
   class: classname,
+  title = {},
+  desc = {},
   ...restProps
 } = $props();
+const ariaDescribedby = `${title.id || ""} ${desc.id || ""}`;
+let hasDescription = $state(false);
+$effect(() => {
+  if (title.id || desc.id) {
+    hasDescription = true;
+  } else {
+    hasDescription = false;
+  }
+});
 </script>
 
 <svg
@@ -21,6 +32,12 @@ let {
 	aria-label={ariaLabel}
 	viewBox="0 0 1024 1024"
 >
+	{#if title.id && title.title}
+		<title id={title.id}>{title.title}</title>
+	{/if}
+	{#if desc.id && desc.desc}
+		<desc id={desc.id}>{desc.desc}</desc>
+	{/if}
 	<path
 		fill="#333"
 		d="M832 64H192c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V96c0-17.7-14.3-32-32-32zm-40 824H232V193.1l260.3 204.1c11.6 9.1 27.9 9.1 39.5 0L792 193.1V888zm0-751.3h-31.7L512 331.3 263.7 136.7H232v-.7h560v.7z"
@@ -44,4 +61,6 @@ let {
 @props:color?: string;
 @props:ariaLabel?: string;
 @props:class?: string;
+@props:title: TitleType;
+@props:desc: DescType;
 -->

@@ -5,6 +5,17 @@
 		role?: string;
 		color?: string;
 	}
+
+	type TitleType = {
+		id?: string;
+		title?: string;
+	};
+
+	type DescType = {
+		id?: string;
+		desc?: string;
+	};
+
 	const ctx: CtxType = getContext('iconCtx') ?? {};
 	interface Props {
 		size?: string;
@@ -12,15 +23,30 @@
 		color?: string;
 		ariaLabel?: string;
 		class?: string;
+		title: TitleType;
+		desc: DescType;
 	}
+
 	let {
 		size = ctx.size || '24',
 		role = ctx.role || 'img',
 		color = ctx.color || 'currentColor',
 		ariaLabel = 'api twotone,',
 		class: classname,
+		title = {},
+		desc = {},
 		...restProps
 	}: Props = $props();
+
+	const ariaDescribedby = `${title.id || ''} ${desc.id || ''}`;
+	let hasDescription = $state(false);
+	$effect(() => {
+		if (title.id || desc.id) {
+			hasDescription = true;
+		} else {
+			hasDescription = false;
+		}
+	});
 </script>
 
 <svg
@@ -34,6 +60,12 @@
 	aria-label={ariaLabel}
 	viewBox="0 0 1024 1024"
 >
+	{#if title.id && title.title}
+		<title id={title.id}>{title.title}</title>
+	{/if}
+	{#if desc.id && desc.desc}
+		<desc id={desc.id}>{desc.desc}</desc>
+	{/if}
 	<path
 		fill="#D9D9D9"
 		d="M148.2 674.6zm106.7-92.3c-25 25-38.7 58.1-38.7 93.4s13.8 68.5 38.7 93.4c25 25 58.1 38.7 93.4 38.7 35.3 0 68.5-13.8 93.4-38.7l59.4-59.4-186.8-186.8-59.4 59.4zm420.8-366.1c-35.3 0-68.5 13.8-93.4 38.7l-59.4 59.4 186.8 186.8 59.4-59.4c24.9-25 38.7-58.1 38.7-93.4s-13.8-68.5-38.7-93.4c-25-25-58.1-38.7-93.4-38.7z"
@@ -52,4 +84,6 @@
 @props:color?: string;
 @props:ariaLabel?: string;
 @props:class?: string;
+@props:title: TitleType;
+@props:desc: DescType;
 -->

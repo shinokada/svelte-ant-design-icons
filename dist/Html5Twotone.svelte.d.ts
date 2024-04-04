@@ -6,6 +6,14 @@ declare const __propDef: {
         color?: string | undefined;
         ariaLabel?: string | undefined;
         class?: string | undefined;
+        title: {
+            id?: string | undefined;
+            title?: string | undefined;
+        };
+        desc: {
+            id?: string | undefined;
+            desc?: string | undefined;
+        };
     };
     events: {
         [evt: string]: CustomEvent<any>;
@@ -23,6 +31,8 @@ export type Html5TwotoneSlots = typeof __propDef.slots;
  * @props:color?: string;
  * @props:ariaLabel?: string;
  * @props:class?: string;
+ * @props:title: TitleType;
+ * @props:desc: DescType;
  */
 export default class Html5Twotone extends SvelteComponent<Html5TwotoneProps, Html5TwotoneEvents, Html5TwotoneSlots> {
 }

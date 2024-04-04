@@ -1,4 +1,4 @@
-<script>import { getContext } from "svelte";
+<script lang="ts">import { getContext } from "svelte";
 const ctx = getContext("iconCtx") ?? {};
 let {
   size = ctx.size || "24",
@@ -6,8 +6,19 @@ let {
   color = ctx.color || "currentColor",
   ariaLabel = "bilibili filled,",
   class: classname,
+  title = {},
+  desc = {},
   ...restProps
 } = $props();
+const ariaDescribedby = `${title.id || ""} ${desc.id || ""}`;
+let hasDescription = $state(false);
+$effect(() => {
+  if (title.id || desc.id) {
+    hasDescription = true;
+  } else {
+    hasDescription = false;
+  }
+});
 </script>
 
 <svg
@@ -21,6 +32,12 @@ let {
 	aria-label={ariaLabel}
 	viewBox="0 0 1024 1024"
 >
+	{#if title.id && title.title}
+		<title id={title.id}>{title.title}</title>
+	{/if}
+	{#if desc.id && desc.desc}
+		<desc id={desc.id}>{desc.desc}</desc>
+	{/if}
 	<g
 		><path
 			d="M198.134 484.45c-7.999-4.463-16.498-8.43-24.997-11.9a273.55 273.55 0 0 0-26.996-7.438c-2.5-.992-2.5.991-2.5 1.487 0 7.934.5 18.843 1.5 27.768 1 7.438 2 15.372 4 22.81 0 .496 0 .991.5 1.487.999.992 1.999 1.488 2.999.496 7.999-4.463 15.998-8.43 22.997-13.388 7.499-5.454 15.498-11.9 21.997-18.347 1.5-1.487 0-2.479.5-2.975m323.96-11.9a273.55 273.55 0 0 0-26.997-7.438c-2.5-.992-2.5.991-2.5 1.487 0 7.934.5 18.843 1.5 27.768 1 7.438 2 15.372 4 22.81 0 .496 0 .991.5 1.487 1 .992 2 1.488 3 .496 7.999-4.463 15.998-8.43 22.997-13.388 7.499-5.454 15.498-11.9 21.997-18.347 2-1.487.5-2.479.5-2.975-7.5-4.463-16.498-8.43-24.997-11.9"
@@ -41,4 +58,6 @@ let {
 @props:color?: string;
 @props:ariaLabel?: string;
 @props:class?: string;
+@props:title: TitleType;
+@props:desc: DescType;
 -->

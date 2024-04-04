@@ -20,9 +20,9 @@ export type IconSlots = typeof __propDef.slots;
  * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
  * ## Props
  * @props: icon: ComponentType;
- * @props:size?: number;
- * @props:role?: string;
- * @props:ariaLabel?: string;
+ * @props:size?:  number; = 24;
+ * @props:role?:  string; = 'img';
+ * @props:ariaLabel?:  string; = 'Icon';
  * @props:class?: string;
  */
 export default class Icon extends SvelteComponent<IconProps, IconEvents, IconSlots> {

@@ -12,8 +12,6 @@
 
 Svelte Ant Design Icons is a collection of over 780 Ant Design SVG Icons (v4.2.1) for Svelte. This open-source package allows you to easily incorporate these icons into your Svelte projects.
 
-If you find this package useful in your commercial projects, please consider supporting the developer by sponsoring them on [GitHub: Sponsor on GitHub](https://github.com/sponsors/shinokada). Your support helps maintain and enhance this package for the benefit of the community.
-
 ## Docs
 
 Please see [the Svelte Ant Design Icons documentation](https://svelte-ant-design-icons.codewithshin.com/) for more details on using the icons in your Svelte application.

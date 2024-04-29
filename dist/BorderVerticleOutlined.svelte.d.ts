@@ -27,6 +27,11 @@ declare const __propDef: {
 export type BorderVerticleOutlinedProps = typeof __propDef.props;
 export type BorderVerticleOutlinedEvents = typeof __propDef.events;
 export type BorderVerticleOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class BorderVerticleOutlined extends SvelteComponent<BorderVerticleOutlinedProps, BorderVerticleOutlinedEvents, BorderVerticleOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

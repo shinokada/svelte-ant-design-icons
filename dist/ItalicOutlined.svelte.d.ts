@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ItalicOutlinedProps = typeof __propDef.props;
 export type ItalicOutlinedEvents = typeof __propDef.events;
 export type ItalicOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ItalicOutlined extends SvelteComponent<ItalicOutlinedProps, ItalicOutlinedEvents, ItalicOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

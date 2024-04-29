@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ConsoleSqlOutlinedProps = typeof __propDef.props;
 export type ConsoleSqlOutlinedEvents = typeof __propDef.events;
 export type ConsoleSqlOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ConsoleSqlOutlined extends SvelteComponent<ConsoleSqlOutlinedProps, ConsoleSqlOutlinedEvents, ConsoleSqlOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

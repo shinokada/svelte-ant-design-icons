@@ -27,6 +27,11 @@ declare const __propDef: {
 export type BarcodeOutlinedProps = typeof __propDef.props;
 export type BarcodeOutlinedEvents = typeof __propDef.events;
 export type BarcodeOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class BarcodeOutlined extends SvelteComponent<BarcodeOutlinedProps, BarcodeOutlinedEvents, BarcodeOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

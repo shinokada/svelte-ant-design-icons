@@ -27,6 +27,11 @@ declare const __propDef: {
 export type DropboxOutlinedProps = typeof __propDef.props;
 export type DropboxOutlinedEvents = typeof __propDef.events;
 export type DropboxOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class DropboxOutlined extends SvelteComponent<DropboxOutlinedProps, DropboxOutlinedEvents, DropboxOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type OpenAiOutlinedProps = typeof __propDef.props;
 export type OpenAiOutlinedEvents = typeof __propDef.events;
 export type OpenAiOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class OpenAiOutlined extends SvelteComponent<OpenAiOutlinedProps, OpenAiOutlinedEvents, OpenAiOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

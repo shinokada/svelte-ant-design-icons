@@ -27,6 +27,11 @@ declare const __propDef: {
 export type NumberOutlinedProps = typeof __propDef.props;
 export type NumberOutlinedEvents = typeof __propDef.events;
 export type NumberOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class NumberOutlined extends SvelteComponent<NumberOutlinedProps, NumberOutlinedEvents, NumberOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

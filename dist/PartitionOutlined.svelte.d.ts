@@ -27,6 +27,11 @@ declare const __propDef: {
 export type PartitionOutlinedProps = typeof __propDef.props;
 export type PartitionOutlinedEvents = typeof __propDef.events;
 export type PartitionOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class PartitionOutlined extends SvelteComponent<PartitionOutlinedProps, PartitionOutlinedEvents, PartitionOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

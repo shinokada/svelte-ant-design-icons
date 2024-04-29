@@ -27,6 +27,11 @@ declare const __propDef: {
 export type LineChartOutlinedProps = typeof __propDef.props;
 export type LineChartOutlinedEvents = typeof __propDef.events;
 export type LineChartOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class LineChartOutlined extends SvelteComponent<LineChartOutlinedProps, LineChartOutlinedEvents, LineChartOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

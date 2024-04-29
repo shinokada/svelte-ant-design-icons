@@ -27,6 +27,11 @@ declare const __propDef: {
 export type PercentageOutlinedProps = typeof __propDef.props;
 export type PercentageOutlinedEvents = typeof __propDef.events;
 export type PercentageOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class PercentageOutlined extends SvelteComponent<PercentageOutlinedProps, PercentageOutlinedEvents, PercentageOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

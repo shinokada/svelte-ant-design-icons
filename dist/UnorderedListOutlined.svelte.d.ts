@@ -27,6 +27,11 @@ declare const __propDef: {
 export type UnorderedListOutlinedProps = typeof __propDef.props;
 export type UnorderedListOutlinedEvents = typeof __propDef.events;
 export type UnorderedListOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class UnorderedListOutlined extends SvelteComponent<UnorderedListOutlinedProps, UnorderedListOutlinedEvents, UnorderedListOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

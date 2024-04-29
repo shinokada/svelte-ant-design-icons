@@ -27,6 +27,11 @@ declare const __propDef: {
 export type RedoOutlinedProps = typeof __propDef.props;
 export type RedoOutlinedEvents = typeof __propDef.events;
 export type RedoOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class RedoOutlined extends SvelteComponent<RedoOutlinedProps, RedoOutlinedEvents, RedoOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

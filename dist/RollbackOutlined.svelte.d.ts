@@ -27,6 +27,11 @@ declare const __propDef: {
 export type RollbackOutlinedProps = typeof __propDef.props;
 export type RollbackOutlinedEvents = typeof __propDef.events;
 export type RollbackOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class RollbackOutlined extends SvelteComponent<RollbackOutlinedProps, RollbackOutlinedEvents, RollbackOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

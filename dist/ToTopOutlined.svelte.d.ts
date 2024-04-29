@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ToTopOutlinedProps = typeof __propDef.props;
 export type ToTopOutlinedEvents = typeof __propDef.events;
 export type ToTopOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ToTopOutlined extends SvelteComponent<ToTopOutlinedProps, ToTopOutlinedEvents, ToTopOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

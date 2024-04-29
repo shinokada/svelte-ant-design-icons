@@ -27,6 +27,11 @@ declare const __propDef: {
 export type BehanceCircleFilledProps = typeof __propDef.props;
 export type BehanceCircleFilledEvents = typeof __propDef.events;
 export type BehanceCircleFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class BehanceCircleFilled extends SvelteComponent<BehanceCircleFilledProps, BehanceCircleFilledEvents, BehanceCircleFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type PushpinTwotoneProps = typeof __propDef.props;
 export type PushpinTwotoneEvents = typeof __propDef.events;
 export type PushpinTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class PushpinTwotone extends SvelteComponent<PushpinTwotoneProps, PushpinTwotoneEvents, PushpinTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

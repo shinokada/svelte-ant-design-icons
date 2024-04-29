@@ -27,6 +27,11 @@ declare const __propDef: {
 export type WalletTwotoneProps = typeof __propDef.props;
 export type WalletTwotoneEvents = typeof __propDef.events;
 export type WalletTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class WalletTwotone extends SvelteComponent<WalletTwotoneProps, WalletTwotoneEvents, WalletTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

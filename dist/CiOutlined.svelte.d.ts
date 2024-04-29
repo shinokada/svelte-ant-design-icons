@@ -27,6 +27,11 @@ declare const __propDef: {
 export type CiOutlinedProps = typeof __propDef.props;
 export type CiOutlinedEvents = typeof __propDef.events;
 export type CiOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CiOutlined extends SvelteComponent<CiOutlinedProps, CiOutlinedEvents, CiOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type CameraTwotoneProps = typeof __propDef.props;
 export type CameraTwotoneEvents = typeof __propDef.events;
 export type CameraTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CameraTwotone extends SvelteComponent<CameraTwotoneProps, CameraTwotoneEvents, CameraTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

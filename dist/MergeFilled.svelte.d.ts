@@ -27,6 +27,11 @@ declare const __propDef: {
 export type MergeFilledProps = typeof __propDef.props;
 export type MergeFilledEvents = typeof __propDef.events;
 export type MergeFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class MergeFilled extends SvelteComponent<MergeFilledProps, MergeFilledEvents, MergeFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

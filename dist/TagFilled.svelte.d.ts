@@ -27,6 +27,11 @@ declare const __propDef: {
 export type TagFilledProps = typeof __propDef.props;
 export type TagFilledEvents = typeof __propDef.events;
 export type TagFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class TagFilled extends SvelteComponent<TagFilledProps, TagFilledEvents, TagFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

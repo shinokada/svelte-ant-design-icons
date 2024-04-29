@@ -27,6 +27,11 @@ declare const __propDef: {
 export type IeOutlinedProps = typeof __propDef.props;
 export type IeOutlinedEvents = typeof __propDef.events;
 export type IeOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class IeOutlined extends SvelteComponent<IeOutlinedProps, IeOutlinedEvents, IeOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

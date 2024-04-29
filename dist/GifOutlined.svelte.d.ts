@@ -27,6 +27,11 @@ declare const __propDef: {
 export type GifOutlinedProps = typeof __propDef.props;
 export type GifOutlinedEvents = typeof __propDef.events;
 export type GifOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class GifOutlined extends SvelteComponent<GifOutlinedProps, GifOutlinedEvents, GifOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

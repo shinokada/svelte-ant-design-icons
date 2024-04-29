@@ -27,6 +27,11 @@ declare const __propDef: {
 export type HarmonyOsOutlinedProps = typeof __propDef.props;
 export type HarmonyOsOutlinedEvents = typeof __propDef.events;
 export type HarmonyOsOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class HarmonyOsOutlined extends SvelteComponent<HarmonyOsOutlinedProps, HarmonyOsOutlinedEvents, HarmonyOsOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

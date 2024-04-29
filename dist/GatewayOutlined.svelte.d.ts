@@ -27,6 +27,11 @@ declare const __propDef: {
 export type GatewayOutlinedProps = typeof __propDef.props;
 export type GatewayOutlinedEvents = typeof __propDef.events;
 export type GatewayOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class GatewayOutlined extends SvelteComponent<GatewayOutlinedProps, GatewayOutlinedEvents, GatewayOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

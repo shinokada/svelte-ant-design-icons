@@ -27,6 +27,11 @@ declare const __propDef: {
 export type CompassTwotoneProps = typeof __propDef.props;
 export type CompassTwotoneEvents = typeof __propDef.events;
 export type CompassTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CompassTwotone extends SvelteComponent<CompassTwotoneProps, CompassTwotoneEvents, CompassTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

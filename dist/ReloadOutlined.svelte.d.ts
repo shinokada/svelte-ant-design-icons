@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ReloadOutlinedProps = typeof __propDef.props;
 export type ReloadOutlinedEvents = typeof __propDef.events;
 export type ReloadOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ReloadOutlined extends SvelteComponent<ReloadOutlinedProps, ReloadOutlinedEvents, ReloadOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

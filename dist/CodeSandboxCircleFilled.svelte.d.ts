@@ -27,6 +27,11 @@ declare const __propDef: {
 export type CodeSandboxCircleFilledProps = typeof __propDef.props;
 export type CodeSandboxCircleFilledEvents = typeof __propDef.events;
 export type CodeSandboxCircleFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CodeSandboxCircleFilled extends SvelteComponent<CodeSandboxCircleFilledProps, CodeSandboxCircleFilledEvents, CodeSandboxCircleFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

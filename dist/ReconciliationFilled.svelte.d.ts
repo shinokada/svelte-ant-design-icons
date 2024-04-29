@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ReconciliationFilledProps = typeof __propDef.props;
 export type ReconciliationFilledEvents = typeof __propDef.events;
 export type ReconciliationFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ReconciliationFilled extends SvelteComponent<ReconciliationFilledProps, ReconciliationFilledEvents, ReconciliationFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

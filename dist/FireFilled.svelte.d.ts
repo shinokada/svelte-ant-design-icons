@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FireFilledProps = typeof __propDef.props;
 export type FireFilledEvents = typeof __propDef.events;
 export type FireFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FireFilled extends SvelteComponent<FireFilledProps, FireFilledEvents, FireFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

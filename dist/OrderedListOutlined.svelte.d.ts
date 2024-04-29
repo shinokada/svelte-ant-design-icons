@@ -27,6 +27,11 @@ declare const __propDef: {
 export type OrderedListOutlinedProps = typeof __propDef.props;
 export type OrderedListOutlinedEvents = typeof __propDef.events;
 export type OrderedListOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class OrderedListOutlined extends SvelteComponent<OrderedListOutlinedProps, OrderedListOutlinedEvents, OrderedListOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

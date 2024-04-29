@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ProfileFilledProps = typeof __propDef.props;
 export type ProfileFilledEvents = typeof __propDef.events;
 export type ProfileFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ProfileFilled extends SvelteComponent<ProfileFilledProps, ProfileFilledEvents, ProfileFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

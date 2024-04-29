@@ -27,6 +27,11 @@ declare const __propDef: {
 export type SpotifyFilledProps = typeof __propDef.props;
 export type SpotifyFilledEvents = typeof __propDef.events;
 export type SpotifyFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class SpotifyFilled extends SvelteComponent<SpotifyFilledProps, SpotifyFilledEvents, SpotifyFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

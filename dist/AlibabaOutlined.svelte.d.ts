@@ -27,6 +27,11 @@ declare const __propDef: {
 export type AlibabaOutlinedProps = typeof __propDef.props;
 export type AlibabaOutlinedEvents = typeof __propDef.events;
 export type AlibabaOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class AlibabaOutlined extends SvelteComponent<AlibabaOutlinedProps, AlibabaOutlinedEvents, AlibabaOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

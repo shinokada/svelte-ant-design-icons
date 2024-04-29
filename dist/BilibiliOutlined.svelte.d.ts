@@ -27,6 +27,11 @@ declare const __propDef: {
 export type BilibiliOutlinedProps = typeof __propDef.props;
 export type BilibiliOutlinedEvents = typeof __propDef.events;
 export type BilibiliOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class BilibiliOutlined extends SvelteComponent<BilibiliOutlinedProps, BilibiliOutlinedEvents, BilibiliOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

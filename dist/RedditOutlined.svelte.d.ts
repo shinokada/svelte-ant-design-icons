@@ -27,6 +27,11 @@ declare const __propDef: {
 export type RedditOutlinedProps = typeof __propDef.props;
 export type RedditOutlinedEvents = typeof __propDef.events;
 export type RedditOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class RedditOutlined extends SvelteComponent<RedditOutlinedProps, RedditOutlinedEvents, RedditOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

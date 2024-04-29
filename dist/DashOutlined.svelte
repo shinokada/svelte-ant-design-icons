@@ -71,3 +71,10 @@ $effect(() => {
            <path d="M112 476h160v72H112zm320 0h160v72H432zm320 0h160v72H752z"/>  
   </svg>
 {/if}
+
+<!--
+@component
+[Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+## Props
+@props: 
+-->

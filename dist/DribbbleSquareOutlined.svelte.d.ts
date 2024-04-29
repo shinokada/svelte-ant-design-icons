@@ -27,6 +27,11 @@ declare const __propDef: {
 export type DribbbleSquareOutlinedProps = typeof __propDef.props;
 export type DribbbleSquareOutlinedEvents = typeof __propDef.events;
 export type DribbbleSquareOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class DribbbleSquareOutlined extends SvelteComponent<DribbbleSquareOutlinedProps, DribbbleSquareOutlinedEvents, DribbbleSquareOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FolderAddTwotoneProps = typeof __propDef.props;
 export type FolderAddTwotoneEvents = typeof __propDef.events;
 export type FolderAddTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FolderAddTwotone extends SvelteComponent<FolderAddTwotoneProps, FolderAddTwotoneEvents, FolderAddTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

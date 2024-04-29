@@ -27,6 +27,11 @@ declare const __propDef: {
 export type KubernetesOutlinedProps = typeof __propDef.props;
 export type KubernetesOutlinedEvents = typeof __propDef.events;
 export type KubernetesOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class KubernetesOutlined extends SvelteComponent<KubernetesOutlinedProps, KubernetesOutlinedEvents, KubernetesOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

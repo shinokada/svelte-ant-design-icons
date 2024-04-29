@@ -27,6 +27,11 @@ declare const __propDef: {
 export type DoubleRightOutlinedProps = typeof __propDef.props;
 export type DoubleRightOutlinedEvents = typeof __propDef.events;
 export type DoubleRightOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class DoubleRightOutlined extends SvelteComponent<DoubleRightOutlinedProps, DoubleRightOutlinedEvents, DoubleRightOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

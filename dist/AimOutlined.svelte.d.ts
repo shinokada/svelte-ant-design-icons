@@ -27,6 +27,11 @@ declare const __propDef: {
 export type AimOutlinedProps = typeof __propDef.props;
 export type AimOutlinedEvents = typeof __propDef.events;
 export type AimOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class AimOutlined extends SvelteComponent<AimOutlinedProps, AimOutlinedEvents, AimOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type EyeTwotoneProps = typeof __propDef.props;
 export type EyeTwotoneEvents = typeof __propDef.events;
 export type EyeTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class EyeTwotone extends SvelteComponent<EyeTwotoneProps, EyeTwotoneEvents, EyeTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -18,7 +18,11 @@ declare const __propDef: {
             desc?: string | undefined;
         } | undefined;
         ariaLabel?: string | undefined;
-    };
+    }; /**
+     * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+     * ## Props
+     * @props:
+     */
     events: {
         [evt: string]: CustomEvent<any>;
     };
@@ -27,6 +31,11 @@ declare const __propDef: {
 export type CopyrightCircleTwotoneProps = typeof __propDef.props;
 export type CopyrightCircleTwotoneEvents = typeof __propDef.events;
 export type CopyrightCircleTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CopyrightCircleTwotone extends SvelteComponent<CopyrightCircleTwotoneProps, CopyrightCircleTwotoneEvents, CopyrightCircleTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

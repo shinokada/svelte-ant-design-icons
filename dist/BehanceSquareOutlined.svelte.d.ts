@@ -27,6 +27,11 @@ declare const __propDef: {
 export type BehanceSquareOutlinedProps = typeof __propDef.props;
 export type BehanceSquareOutlinedEvents = typeof __propDef.events;
 export type BehanceSquareOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class BehanceSquareOutlined extends SvelteComponent<BehanceSquareOutlinedProps, BehanceSquareOutlinedEvents, BehanceSquareOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

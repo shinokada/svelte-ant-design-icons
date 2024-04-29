@@ -27,6 +27,11 @@ declare const __propDef: {
 export type UserSwitchOutlinedProps = typeof __propDef.props;
 export type UserSwitchOutlinedEvents = typeof __propDef.events;
 export type UserSwitchOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class UserSwitchOutlined extends SvelteComponent<UserSwitchOutlinedProps, UserSwitchOutlinedEvents, UserSwitchOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

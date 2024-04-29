@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FolderViewOutlinedProps = typeof __propDef.props;
 export type FolderViewOutlinedEvents = typeof __propDef.events;
 export type FolderViewOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FolderViewOutlined extends SvelteComponent<FolderViewOutlinedProps, FolderViewOutlinedEvents, FolderViewOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

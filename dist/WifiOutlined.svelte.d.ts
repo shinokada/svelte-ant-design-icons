@@ -27,6 +27,11 @@ declare const __propDef: {
 export type WifiOutlinedProps = typeof __propDef.props;
 export type WifiOutlinedEvents = typeof __propDef.events;
 export type WifiOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class WifiOutlined extends SvelteComponent<WifiOutlinedProps, WifiOutlinedEvents, WifiOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

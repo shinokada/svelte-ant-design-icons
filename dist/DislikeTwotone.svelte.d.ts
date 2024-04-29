@@ -27,6 +27,11 @@ declare const __propDef: {
 export type DislikeTwotoneProps = typeof __propDef.props;
 export type DislikeTwotoneEvents = typeof __propDef.events;
 export type DislikeTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class DislikeTwotone extends SvelteComponent<DislikeTwotoneProps, DislikeTwotoneEvents, DislikeTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

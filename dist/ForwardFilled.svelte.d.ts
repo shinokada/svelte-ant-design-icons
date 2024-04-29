@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ForwardFilledProps = typeof __propDef.props;
 export type ForwardFilledEvents = typeof __propDef.events;
 export type ForwardFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ForwardFilled extends SvelteComponent<ForwardFilledProps, ForwardFilledEvents, ForwardFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

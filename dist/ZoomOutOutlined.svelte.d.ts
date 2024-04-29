@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ZoomOutOutlinedProps = typeof __propDef.props;
 export type ZoomOutOutlinedEvents = typeof __propDef.events;
 export type ZoomOutOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ZoomOutOutlined extends SvelteComponent<ZoomOutOutlinedProps, ZoomOutOutlinedEvents, ZoomOutOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

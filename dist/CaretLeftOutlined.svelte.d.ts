@@ -27,6 +27,11 @@ declare const __propDef: {
 export type CaretLeftOutlinedProps = typeof __propDef.props;
 export type CaretLeftOutlinedEvents = typeof __propDef.events;
 export type CaretLeftOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CaretLeftOutlined extends SvelteComponent<CaretLeftOutlinedProps, CaretLeftOutlinedEvents, CaretLeftOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

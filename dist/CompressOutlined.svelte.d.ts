@@ -27,6 +27,11 @@ declare const __propDef: {
 export type CompressOutlinedProps = typeof __propDef.props;
 export type CompressOutlinedEvents = typeof __propDef.events;
 export type CompressOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CompressOutlined extends SvelteComponent<CompressOutlinedProps, CompressOutlinedEvents, CompressOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

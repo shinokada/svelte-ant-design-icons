@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ArrowsAltOutlinedProps = typeof __propDef.props;
 export type ArrowsAltOutlinedEvents = typeof __propDef.events;
 export type ArrowsAltOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ArrowsAltOutlined extends SvelteComponent<ArrowsAltOutlinedProps, ArrowsAltOutlinedEvents, ArrowsAltOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

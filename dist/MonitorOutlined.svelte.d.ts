@@ -27,6 +27,11 @@ declare const __propDef: {
 export type MonitorOutlinedProps = typeof __propDef.props;
 export type MonitorOutlinedEvents = typeof __propDef.events;
 export type MonitorOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class MonitorOutlined extends SvelteComponent<MonitorOutlinedProps, MonitorOutlinedEvents, MonitorOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

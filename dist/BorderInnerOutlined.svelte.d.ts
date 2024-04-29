@@ -27,6 +27,11 @@ declare const __propDef: {
 export type BorderInnerOutlinedProps = typeof __propDef.props;
 export type BorderInnerOutlinedEvents = typeof __propDef.events;
 export type BorderInnerOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class BorderInnerOutlined extends SvelteComponent<BorderInnerOutlinedProps, BorderInnerOutlinedEvents, BorderInnerOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

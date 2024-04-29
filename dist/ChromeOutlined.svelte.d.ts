@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ChromeOutlinedProps = typeof __propDef.props;
 export type ChromeOutlinedEvents = typeof __propDef.events;
 export type ChromeOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ChromeOutlined extends SvelteComponent<ChromeOutlinedProps, ChromeOutlinedEvents, ChromeOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

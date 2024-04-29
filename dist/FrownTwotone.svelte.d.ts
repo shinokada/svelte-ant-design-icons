@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FrownTwotoneProps = typeof __propDef.props;
 export type FrownTwotoneEvents = typeof __propDef.events;
 export type FrownTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FrownTwotone extends SvelteComponent<FrownTwotoneProps, FrownTwotoneEvents, FrownTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

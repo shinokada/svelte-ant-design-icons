@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FileJpgOutlinedProps = typeof __propDef.props;
 export type FileJpgOutlinedEvents = typeof __propDef.events;
 export type FileJpgOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FileJpgOutlined extends SvelteComponent<FileJpgOutlinedProps, FileJpgOutlinedEvents, FileJpgOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

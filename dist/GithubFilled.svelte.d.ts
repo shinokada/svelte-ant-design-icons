@@ -27,6 +27,11 @@ declare const __propDef: {
 export type GithubFilledProps = typeof __propDef.props;
 export type GithubFilledEvents = typeof __propDef.events;
 export type GithubFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class GithubFilled extends SvelteComponent<GithubFilledProps, GithubFilledEvents, GithubFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

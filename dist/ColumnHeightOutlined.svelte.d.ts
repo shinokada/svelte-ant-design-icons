@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ColumnHeightOutlinedProps = typeof __propDef.props;
 export type ColumnHeightOutlinedEvents = typeof __propDef.events;
 export type ColumnHeightOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ColumnHeightOutlined extends SvelteComponent<ColumnHeightOutlinedProps, ColumnHeightOutlinedEvents, ColumnHeightOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

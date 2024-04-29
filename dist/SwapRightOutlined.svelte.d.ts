@@ -27,6 +27,11 @@ declare const __propDef: {
 export type SwapRightOutlinedProps = typeof __propDef.props;
 export type SwapRightOutlinedEvents = typeof __propDef.events;
 export type SwapRightOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class SwapRightOutlined extends SvelteComponent<SwapRightOutlinedProps, SwapRightOutlinedEvents, SwapRightOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

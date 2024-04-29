@@ -27,6 +27,11 @@ declare const __propDef: {
 export type BackwardOutlinedProps = typeof __propDef.props;
 export type BackwardOutlinedEvents = typeof __propDef.events;
 export type BackwardOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class BackwardOutlined extends SvelteComponent<BackwardOutlinedProps, BackwardOutlinedEvents, BackwardOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

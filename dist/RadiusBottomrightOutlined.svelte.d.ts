@@ -27,6 +27,11 @@ declare const __propDef: {
 export type RadiusBottomrightOutlinedProps = typeof __propDef.props;
 export type RadiusBottomrightOutlinedEvents = typeof __propDef.events;
 export type RadiusBottomrightOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class RadiusBottomrightOutlined extends SvelteComponent<RadiusBottomrightOutlinedProps, RadiusBottomrightOutlinedEvents, RadiusBottomrightOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

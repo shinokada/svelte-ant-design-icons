@@ -27,6 +27,11 @@ declare const __propDef: {
 export type StarFilledProps = typeof __propDef.props;
 export type StarFilledEvents = typeof __propDef.events;
 export type StarFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class StarFilled extends SvelteComponent<StarFilledProps, StarFilledEvents, StarFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

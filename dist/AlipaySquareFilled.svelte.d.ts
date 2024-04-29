@@ -27,6 +27,11 @@ declare const __propDef: {
 export type AlipaySquareFilledProps = typeof __propDef.props;
 export type AlipaySquareFilledEvents = typeof __propDef.events;
 export type AlipaySquareFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class AlipaySquareFilled extends SvelteComponent<AlipaySquareFilledProps, AlipaySquareFilledEvents, AlipaySquareFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

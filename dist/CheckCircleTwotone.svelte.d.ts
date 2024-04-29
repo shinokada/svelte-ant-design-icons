@@ -27,6 +27,11 @@ declare const __propDef: {
 export type CheckCircleTwotoneProps = typeof __propDef.props;
 export type CheckCircleTwotoneEvents = typeof __propDef.events;
 export type CheckCircleTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CheckCircleTwotone extends SvelteComponent<CheckCircleTwotoneProps, CheckCircleTwotoneEvents, CheckCircleTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type RightCircleOutlinedProps = typeof __propDef.props;
 export type RightCircleOutlinedEvents = typeof __propDef.events;
 export type RightCircleOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class RightCircleOutlined extends SvelteComponent<RightCircleOutlinedProps, RightCircleOutlinedEvents, RightCircleOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

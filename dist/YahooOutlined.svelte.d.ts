@@ -27,6 +27,11 @@ declare const __propDef: {
 export type YahooOutlinedProps = typeof __propDef.props;
 export type YahooOutlinedEvents = typeof __propDef.events;
 export type YahooOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class YahooOutlined extends SvelteComponent<YahooOutlinedProps, YahooOutlinedEvents, YahooOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

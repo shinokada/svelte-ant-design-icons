@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FileZipTwotoneProps = typeof __propDef.props;
 export type FileZipTwotoneEvents = typeof __propDef.events;
 export type FileZipTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FileZipTwotone extends SvelteComponent<FileZipTwotoneProps, FileZipTwotoneEvents, FileZipTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

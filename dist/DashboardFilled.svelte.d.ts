@@ -19,6 +19,11 @@ declare const __propDef: {
         } | undefined;
         ariaLabel?: string | undefined;
     };
+    /**
+     * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+     * ## Props
+     * @props:
+     */
     events: {
         [evt: string]: CustomEvent<any>;
     };
@@ -27,6 +32,11 @@ declare const __propDef: {
 export type DashboardFilledProps = typeof __propDef.props;
 export type DashboardFilledEvents = typeof __propDef.events;
 export type DashboardFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class DashboardFilled extends SvelteComponent<DashboardFilledProps, DashboardFilledEvents, DashboardFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

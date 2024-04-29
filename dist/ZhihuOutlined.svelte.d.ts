@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ZhihuOutlinedProps = typeof __propDef.props;
 export type ZhihuOutlinedEvents = typeof __propDef.events;
 export type ZhihuOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ZhihuOutlined extends SvelteComponent<ZhihuOutlinedProps, ZhihuOutlinedEvents, ZhihuOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

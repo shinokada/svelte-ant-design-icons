@@ -27,6 +27,11 @@ declare const __propDef: {
 export type SkypeFilledProps = typeof __propDef.props;
 export type SkypeFilledEvents = typeof __propDef.events;
 export type SkypeFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class SkypeFilled extends SvelteComponent<SkypeFilledProps, SkypeFilledEvents, SkypeFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

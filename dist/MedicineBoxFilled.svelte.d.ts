@@ -27,6 +27,11 @@ declare const __propDef: {
 export type MedicineBoxFilledProps = typeof __propDef.props;
 export type MedicineBoxFilledEvents = typeof __propDef.events;
 export type MedicineBoxFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class MedicineBoxFilled extends SvelteComponent<MedicineBoxFilledProps, MedicineBoxFilledEvents, MedicineBoxFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

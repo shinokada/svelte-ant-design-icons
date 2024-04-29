@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FrownFilledProps = typeof __propDef.props;
 export type FrownFilledEvents = typeof __propDef.events;
 export type FrownFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FrownFilled extends SvelteComponent<FrownFilledProps, FrownFilledEvents, FrownFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

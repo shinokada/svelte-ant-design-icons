@@ -27,6 +27,11 @@ declare const __propDef: {
 export type PoweroffOutlinedProps = typeof __propDef.props;
 export type PoweroffOutlinedEvents = typeof __propDef.events;
 export type PoweroffOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class PoweroffOutlined extends SvelteComponent<PoweroffOutlinedProps, PoweroffOutlinedEvents, PoweroffOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

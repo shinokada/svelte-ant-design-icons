@@ -27,6 +27,11 @@ declare const __propDef: {
 export type CalendarOutlinedProps = typeof __propDef.props;
 export type CalendarOutlinedEvents = typeof __propDef.events;
 export type CalendarOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CalendarOutlined extends SvelteComponent<CalendarOutlinedProps, CalendarOutlinedEvents, CalendarOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

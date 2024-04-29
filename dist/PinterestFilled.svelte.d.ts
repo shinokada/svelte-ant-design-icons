@@ -27,6 +27,11 @@ declare const __propDef: {
 export type PinterestFilledProps = typeof __propDef.props;
 export type PinterestFilledEvents = typeof __propDef.events;
 export type PinterestFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class PinterestFilled extends SvelteComponent<PinterestFilledProps, PinterestFilledEvents, PinterestFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

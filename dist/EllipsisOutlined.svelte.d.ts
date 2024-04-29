@@ -27,6 +27,11 @@ declare const __propDef: {
 export type EllipsisOutlinedProps = typeof __propDef.props;
 export type EllipsisOutlinedEvents = typeof __propDef.events;
 export type EllipsisOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class EllipsisOutlined extends SvelteComponent<EllipsisOutlinedProps, EllipsisOutlinedEvents, EllipsisOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

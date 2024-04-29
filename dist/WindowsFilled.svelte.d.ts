@@ -27,6 +27,11 @@ declare const __propDef: {
 export type WindowsFilledProps = typeof __propDef.props;
 export type WindowsFilledEvents = typeof __propDef.events;
 export type WindowsFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class WindowsFilled extends SvelteComponent<WindowsFilledProps, WindowsFilledEvents, WindowsFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

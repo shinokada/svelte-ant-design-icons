@@ -27,6 +27,11 @@ declare const __propDef: {
 export type MoonOutlinedProps = typeof __propDef.props;
 export type MoonOutlinedEvents = typeof __propDef.events;
 export type MoonOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class MoonOutlined extends SvelteComponent<MoonOutlinedProps, MoonOutlinedEvents, MoonOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

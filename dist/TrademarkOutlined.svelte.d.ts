@@ -27,6 +27,11 @@ declare const __propDef: {
 export type TrademarkOutlinedProps = typeof __propDef.props;
 export type TrademarkOutlinedEvents = typeof __propDef.events;
 export type TrademarkOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class TrademarkOutlined extends SvelteComponent<TrademarkOutlinedProps, TrademarkOutlinedEvents, TrademarkOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

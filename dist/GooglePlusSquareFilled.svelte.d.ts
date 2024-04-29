@@ -27,6 +27,11 @@ declare const __propDef: {
 export type GooglePlusSquareFilledProps = typeof __propDef.props;
 export type GooglePlusSquareFilledEvents = typeof __propDef.events;
 export type GooglePlusSquareFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class GooglePlusSquareFilled extends SvelteComponent<GooglePlusSquareFilledProps, GooglePlusSquareFilledEvents, GooglePlusSquareFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

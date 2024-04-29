@@ -27,6 +27,11 @@ declare const __propDef: {
 export type BorderHorizontalOutlinedProps = typeof __propDef.props;
 export type BorderHorizontalOutlinedEvents = typeof __propDef.events;
 export type BorderHorizontalOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class BorderHorizontalOutlined extends SvelteComponent<BorderHorizontalOutlinedProps, BorderHorizontalOutlinedEvents, BorderHorizontalOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

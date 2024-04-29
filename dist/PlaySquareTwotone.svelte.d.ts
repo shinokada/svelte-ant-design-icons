@@ -27,6 +27,11 @@ declare const __propDef: {
 export type PlaySquareTwotoneProps = typeof __propDef.props;
 export type PlaySquareTwotoneEvents = typeof __propDef.events;
 export type PlaySquareTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class PlaySquareTwotone extends SvelteComponent<PlaySquareTwotoneProps, PlaySquareTwotoneEvents, PlaySquareTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

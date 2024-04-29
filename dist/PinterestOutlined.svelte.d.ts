@@ -22,11 +22,21 @@ declare const __propDef: {
     events: {
         [evt: string]: CustomEvent<any>;
     };
+    /**
+     * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+     * ## Props
+     * @props:
+     */
     slots: {};
 };
 export type PinterestOutlinedProps = typeof __propDef.props;
 export type PinterestOutlinedEvents = typeof __propDef.events;
 export type PinterestOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class PinterestOutlined extends SvelteComponent<PinterestOutlinedProps, PinterestOutlinedEvents, PinterestOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type CloudServerOutlinedProps = typeof __propDef.props;
 export type CloudServerOutlinedEvents = typeof __propDef.events;
 export type CloudServerOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CloudServerOutlined extends SvelteComponent<CloudServerOutlinedProps, CloudServerOutlinedEvents, CloudServerOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type NodeCollapseOutlinedProps = typeof __propDef.props;
 export type NodeCollapseOutlinedEvents = typeof __propDef.events;
 export type NodeCollapseOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class NodeCollapseOutlined extends SvelteComponent<NodeCollapseOutlinedProps, NodeCollapseOutlinedEvents, NodeCollapseOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

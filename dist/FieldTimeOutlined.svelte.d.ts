@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FieldTimeOutlinedProps = typeof __propDef.props;
 export type FieldTimeOutlinedEvents = typeof __propDef.events;
 export type FieldTimeOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FieldTimeOutlined extends SvelteComponent<FieldTimeOutlinedProps, FieldTimeOutlinedEvents, FieldTimeOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

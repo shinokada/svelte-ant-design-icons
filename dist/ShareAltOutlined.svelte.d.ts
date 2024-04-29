@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ShareAltOutlinedProps = typeof __propDef.props;
 export type ShareAltOutlinedEvents = typeof __propDef.events;
 export type ShareAltOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ShareAltOutlined extends SvelteComponent<ShareAltOutlinedProps, ShareAltOutlinedEvents, ShareAltOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

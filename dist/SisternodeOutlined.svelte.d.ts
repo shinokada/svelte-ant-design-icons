@@ -27,6 +27,11 @@ declare const __propDef: {
 export type SisternodeOutlinedProps = typeof __propDef.props;
 export type SisternodeOutlinedEvents = typeof __propDef.events;
 export type SisternodeOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class SisternodeOutlined extends SvelteComponent<SisternodeOutlinedProps, SisternodeOutlinedEvents, SisternodeOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

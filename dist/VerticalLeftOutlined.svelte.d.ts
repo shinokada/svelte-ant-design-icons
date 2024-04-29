@@ -27,6 +27,11 @@ declare const __propDef: {
 export type VerticalLeftOutlinedProps = typeof __propDef.props;
 export type VerticalLeftOutlinedEvents = typeof __propDef.events;
 export type VerticalLeftOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class VerticalLeftOutlined extends SvelteComponent<VerticalLeftOutlinedProps, VerticalLeftOutlinedEvents, VerticalLeftOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

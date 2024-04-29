@@ -27,6 +27,11 @@ declare const __propDef: {
 export type TwitchFilledProps = typeof __propDef.props;
 export type TwitchFilledEvents = typeof __propDef.events;
 export type TwitchFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class TwitchFilled extends SvelteComponent<TwitchFilledProps, TwitchFilledEvents, TwitchFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

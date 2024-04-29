@@ -1,5 +1,13 @@
 # svelte-ant-design-icons
 
+## 2.0.0
+
+### Patch Changes
+
+- feat: use runes-webkit ([`71840ced0dfcde11678e497bb4bafc14b21387e9`](https://github.com/shinokada/svelte-ant-design-icons/commit/71840ced0dfcde11678e497bb4bafc14b21387e9))
+  tests: update
+  docs: update all pages
+
 ## 2.0.0-next.2
 
 ### Patch Changes

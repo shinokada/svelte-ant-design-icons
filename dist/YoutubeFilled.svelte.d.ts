@@ -27,6 +27,11 @@ declare const __propDef: {
 export type YoutubeFilledProps = typeof __propDef.props;
 export type YoutubeFilledEvents = typeof __propDef.events;
 export type YoutubeFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class YoutubeFilled extends SvelteComponent<YoutubeFilledProps, YoutubeFilledEvents, YoutubeFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

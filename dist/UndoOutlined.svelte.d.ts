@@ -27,6 +27,11 @@ declare const __propDef: {
 export type UndoOutlinedProps = typeof __propDef.props;
 export type UndoOutlinedEvents = typeof __propDef.events;
 export type UndoOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class UndoOutlined extends SvelteComponent<UndoOutlinedProps, UndoOutlinedEvents, UndoOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

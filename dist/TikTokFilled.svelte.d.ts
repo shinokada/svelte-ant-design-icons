@@ -27,6 +27,11 @@ declare const __propDef: {
 export type TikTokFilledProps = typeof __propDef.props;
 export type TikTokFilledEvents = typeof __propDef.events;
 export type TikTokFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class TikTokFilled extends SvelteComponent<TikTokFilledProps, TikTokFilledEvents, TikTokFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

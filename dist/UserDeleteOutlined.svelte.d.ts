@@ -27,6 +27,11 @@ declare const __propDef: {
 export type UserDeleteOutlinedProps = typeof __propDef.props;
 export type UserDeleteOutlinedEvents = typeof __propDef.events;
 export type UserDeleteOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class UserDeleteOutlined extends SvelteComponent<UserDeleteOutlinedProps, UserDeleteOutlinedEvents, UserDeleteOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

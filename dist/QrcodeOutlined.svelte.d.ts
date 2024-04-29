@@ -27,6 +27,11 @@ declare const __propDef: {
 export type QrcodeOutlinedProps = typeof __propDef.props;
 export type QrcodeOutlinedEvents = typeof __propDef.events;
 export type QrcodeOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class QrcodeOutlined extends SvelteComponent<QrcodeOutlinedProps, QrcodeOutlinedEvents, QrcodeOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

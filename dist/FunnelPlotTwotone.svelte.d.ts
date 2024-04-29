@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FunnelPlotTwotoneProps = typeof __propDef.props;
 export type FunnelPlotTwotoneEvents = typeof __propDef.events;
 export type FunnelPlotTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FunnelPlotTwotone extends SvelteComponent<FunnelPlotTwotoneProps, FunnelPlotTwotoneEvents, FunnelPlotTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

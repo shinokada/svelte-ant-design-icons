@@ -27,6 +27,11 @@ declare const __propDef: {
 export type InsertRowRightOutlinedProps = typeof __propDef.props;
 export type InsertRowRightOutlinedEvents = typeof __propDef.events;
 export type InsertRowRightOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class InsertRowRightOutlined extends SvelteComponent<InsertRowRightOutlinedProps, InsertRowRightOutlinedEvents, InsertRowRightOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

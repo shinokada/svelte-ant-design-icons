@@ -27,6 +27,11 @@ declare const __propDef: {
 export type DiffOutlinedProps = typeof __propDef.props;
 export type DiffOutlinedEvents = typeof __propDef.events;
 export type DiffOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class DiffOutlined extends SvelteComponent<DiffOutlinedProps, DiffOutlinedEvents, DiffOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

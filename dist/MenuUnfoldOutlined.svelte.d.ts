@@ -27,6 +27,11 @@ declare const __propDef: {
 export type MenuUnfoldOutlinedProps = typeof __propDef.props;
 export type MenuUnfoldOutlinedEvents = typeof __propDef.events;
 export type MenuUnfoldOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class MenuUnfoldOutlined extends SvelteComponent<MenuUnfoldOutlinedProps, MenuUnfoldOutlinedEvents, MenuUnfoldOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

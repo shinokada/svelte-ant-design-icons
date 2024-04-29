@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ThunderboltOutlinedProps = typeof __propDef.props;
 export type ThunderboltOutlinedEvents = typeof __propDef.events;
 export type ThunderboltOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ThunderboltOutlined extends SvelteComponent<ThunderboltOutlinedProps, ThunderboltOutlinedEvents, ThunderboltOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

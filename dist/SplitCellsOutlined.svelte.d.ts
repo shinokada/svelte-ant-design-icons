@@ -27,6 +27,11 @@ declare const __propDef: {
 export type SplitCellsOutlinedProps = typeof __propDef.props;
 export type SplitCellsOutlinedEvents = typeof __propDef.events;
 export type SplitCellsOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class SplitCellsOutlined extends SvelteComponent<SplitCellsOutlinedProps, SplitCellsOutlinedEvents, SplitCellsOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

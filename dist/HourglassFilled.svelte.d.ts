@@ -27,6 +27,11 @@ declare const __propDef: {
 export type HourglassFilledProps = typeof __propDef.props;
 export type HourglassFilledEvents = typeof __propDef.events;
 export type HourglassFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class HourglassFilled extends SvelteComponent<HourglassFilledProps, HourglassFilledEvents, HourglassFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

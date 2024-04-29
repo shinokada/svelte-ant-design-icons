@@ -27,6 +27,11 @@ declare const __propDef: {
 export type DingtalkCircleFilledProps = typeof __propDef.props;
 export type DingtalkCircleFilledEvents = typeof __propDef.events;
 export type DingtalkCircleFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class DingtalkCircleFilled extends SvelteComponent<DingtalkCircleFilledProps, DingtalkCircleFilledEvents, DingtalkCircleFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

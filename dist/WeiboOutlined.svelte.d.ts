@@ -27,6 +27,11 @@ declare const __propDef: {
 export type WeiboOutlinedProps = typeof __propDef.props;
 export type WeiboOutlinedEvents = typeof __propDef.events;
 export type WeiboOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class WeiboOutlined extends SvelteComponent<WeiboOutlinedProps, WeiboOutlinedEvents, WeiboOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

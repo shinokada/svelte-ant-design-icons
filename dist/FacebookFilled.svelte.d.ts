@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FacebookFilledProps = typeof __propDef.props;
 export type FacebookFilledEvents = typeof __propDef.events;
 export type FacebookFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FacebookFilled extends SvelteComponent<FacebookFilledProps, FacebookFilledEvents, FacebookFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

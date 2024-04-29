@@ -27,6 +27,11 @@ declare const __propDef: {
 export type StopOutlinedProps = typeof __propDef.props;
 export type StopOutlinedEvents = typeof __propDef.events;
 export type StopOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class StopOutlined extends SvelteComponent<StopOutlinedProps, StopOutlinedEvents, StopOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

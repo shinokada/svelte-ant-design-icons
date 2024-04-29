@@ -27,6 +27,11 @@ declare const __propDef: {
 export type PicCenterOutlinedProps = typeof __propDef.props;
 export type PicCenterOutlinedEvents = typeof __propDef.events;
 export type PicCenterOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class PicCenterOutlined extends SvelteComponent<PicCenterOutlinedProps, PicCenterOutlinedEvents, PicCenterOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

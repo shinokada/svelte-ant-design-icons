@@ -27,6 +27,11 @@ declare const __propDef: {
 export type PullRequestOutlinedProps = typeof __propDef.props;
 export type PullRequestOutlinedEvents = typeof __propDef.events;
 export type PullRequestOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class PullRequestOutlined extends SvelteComponent<PullRequestOutlinedProps, PullRequestOutlinedEvents, PullRequestOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type RetweetOutlinedProps = typeof __propDef.props;
 export type RetweetOutlinedEvents = typeof __propDef.events;
 export type RetweetOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class RetweetOutlined extends SvelteComponent<RetweetOutlinedProps, RetweetOutlinedEvents, RetweetOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

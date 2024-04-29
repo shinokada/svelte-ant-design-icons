@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FullscreenOutlinedProps = typeof __propDef.props;
 export type FullscreenOutlinedEvents = typeof __propDef.events;
 export type FullscreenOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FullscreenOutlined extends SvelteComponent<FullscreenOutlinedProps, FullscreenOutlinedEvents, FullscreenOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

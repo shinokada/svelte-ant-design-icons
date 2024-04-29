@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FileExclamationOutlinedProps = typeof __propDef.props;
 export type FileExclamationOutlinedEvents = typeof __propDef.events;
 export type FileExclamationOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FileExclamationOutlined extends SvelteComponent<FileExclamationOutlinedProps, FileExclamationOutlinedEvents, FileExclamationOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

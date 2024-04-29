@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FundViewOutlinedProps = typeof __propDef.props;
 export type FundViewOutlinedEvents = typeof __propDef.events;
 export type FundViewOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FundViewOutlined extends SvelteComponent<FundViewOutlinedProps, FundViewOutlinedEvents, FundViewOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

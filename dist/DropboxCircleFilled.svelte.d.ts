@@ -27,6 +27,11 @@ declare const __propDef: {
 export type DropboxCircleFilledProps = typeof __propDef.props;
 export type DropboxCircleFilledEvents = typeof __propDef.events;
 export type DropboxCircleFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class DropboxCircleFilled extends SvelteComponent<DropboxCircleFilledProps, DropboxCircleFilledEvents, DropboxCircleFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

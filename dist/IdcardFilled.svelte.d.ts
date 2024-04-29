@@ -27,6 +27,11 @@ declare const __propDef: {
 export type IdcardFilledProps = typeof __propDef.props;
 export type IdcardFilledEvents = typeof __propDef.events;
 export type IdcardFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class IdcardFilled extends SvelteComponent<IdcardFilledProps, IdcardFilledEvents, IdcardFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

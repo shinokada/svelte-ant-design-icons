@@ -27,6 +27,11 @@ declare const __propDef: {
 export type SketchCircleFilledProps = typeof __propDef.props;
 export type SketchCircleFilledEvents = typeof __propDef.events;
 export type SketchCircleFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class SketchCircleFilled extends SvelteComponent<SketchCircleFilledProps, SketchCircleFilledEvents, SketchCircleFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

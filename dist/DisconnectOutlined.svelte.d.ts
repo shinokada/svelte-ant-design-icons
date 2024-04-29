@@ -27,6 +27,11 @@ declare const __propDef: {
 export type DisconnectOutlinedProps = typeof __propDef.props;
 export type DisconnectOutlinedEvents = typeof __propDef.events;
 export type DisconnectOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class DisconnectOutlined extends SvelteComponent<DisconnectOutlinedProps, DisconnectOutlinedEvents, DisconnectOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

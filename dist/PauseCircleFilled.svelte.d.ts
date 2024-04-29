@@ -27,6 +27,11 @@ declare const __propDef: {
 export type PauseCircleFilledProps = typeof __propDef.props;
 export type PauseCircleFilledEvents = typeof __propDef.events;
 export type PauseCircleFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class PauseCircleFilled extends SvelteComponent<PauseCircleFilledProps, PauseCircleFilledEvents, PauseCircleFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

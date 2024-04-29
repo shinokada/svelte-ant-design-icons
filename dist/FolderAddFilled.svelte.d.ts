@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FolderAddFilledProps = typeof __propDef.props;
 export type FolderAddFilledEvents = typeof __propDef.events;
 export type FolderAddFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FolderAddFilled extends SvelteComponent<FolderAddFilledProps, FolderAddFilledEvents, FolderAddFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

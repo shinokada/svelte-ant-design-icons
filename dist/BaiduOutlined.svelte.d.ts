@@ -27,6 +27,11 @@ declare const __propDef: {
 export type BaiduOutlinedProps = typeof __propDef.props;
 export type BaiduOutlinedEvents = typeof __propDef.events;
 export type BaiduOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class BaiduOutlined extends SvelteComponent<BaiduOutlinedProps, BaiduOutlinedEvents, BaiduOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

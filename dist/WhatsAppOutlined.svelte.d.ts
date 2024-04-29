@@ -27,6 +27,11 @@ declare const __propDef: {
 export type WhatsAppOutlinedProps = typeof __propDef.props;
 export type WhatsAppOutlinedEvents = typeof __propDef.events;
 export type WhatsAppOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class WhatsAppOutlined extends SvelteComponent<WhatsAppOutlinedProps, WhatsAppOutlinedEvents, WhatsAppOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

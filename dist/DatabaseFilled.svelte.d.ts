@@ -27,6 +27,11 @@ declare const __propDef: {
 export type DatabaseFilledProps = typeof __propDef.props;
 export type DatabaseFilledEvents = typeof __propDef.events;
 export type DatabaseFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class DatabaseFilled extends SvelteComponent<DatabaseFilledProps, DatabaseFilledEvents, DatabaseFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

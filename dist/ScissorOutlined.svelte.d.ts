@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ScissorOutlinedProps = typeof __propDef.props;
 export type ScissorOutlinedEvents = typeof __propDef.events;
 export type ScissorOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ScissorOutlined extends SvelteComponent<ScissorOutlinedProps, ScissorOutlinedEvents, ScissorOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

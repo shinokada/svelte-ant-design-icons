@@ -27,6 +27,11 @@ declare const __propDef: {
 export type CustomerServiceTwotoneProps = typeof __propDef.props;
 export type CustomerServiceTwotoneEvents = typeof __propDef.events;
 export type CustomerServiceTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CustomerServiceTwotone extends SvelteComponent<CustomerServiceTwotoneProps, CustomerServiceTwotoneEvents, CustomerServiceTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

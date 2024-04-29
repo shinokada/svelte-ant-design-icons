@@ -27,6 +27,11 @@ declare const __propDef: {
 export type TaobaoSquareFilledProps = typeof __propDef.props;
 export type TaobaoSquareFilledEvents = typeof __propDef.events;
 export type TaobaoSquareFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class TaobaoSquareFilled extends SvelteComponent<TaobaoSquareFilledProps, TaobaoSquareFilledEvents, TaobaoSquareFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

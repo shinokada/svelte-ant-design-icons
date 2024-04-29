@@ -27,6 +27,11 @@ declare const __propDef: {
 export type StepBackwardOutlinedProps = typeof __propDef.props;
 export type StepBackwardOutlinedEvents = typeof __propDef.events;
 export type StepBackwardOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class StepBackwardOutlined extends SvelteComponent<StepBackwardOutlinedProps, StepBackwardOutlinedEvents, StepBackwardOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

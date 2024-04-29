@@ -27,6 +27,11 @@ declare const __propDef: {
 export type CrownOutlinedProps = typeof __propDef.props;
 export type CrownOutlinedEvents = typeof __propDef.events;
 export type CrownOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CrownOutlined extends SvelteComponent<CrownOutlinedProps, CrownOutlinedEvents, CrownOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

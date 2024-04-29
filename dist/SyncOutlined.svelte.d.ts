@@ -27,6 +27,11 @@ declare const __propDef: {
 export type SyncOutlinedProps = typeof __propDef.props;
 export type SyncOutlinedEvents = typeof __propDef.events;
 export type SyncOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class SyncOutlined extends SvelteComponent<SyncOutlinedProps, SyncOutlinedEvents, SyncOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

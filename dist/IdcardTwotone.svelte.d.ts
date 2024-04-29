@@ -27,6 +27,11 @@ declare const __propDef: {
 export type IdcardTwotoneProps = typeof __propDef.props;
 export type IdcardTwotoneEvents = typeof __propDef.events;
 export type IdcardTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class IdcardTwotone extends SvelteComponent<IdcardTwotoneProps, IdcardTwotoneEvents, IdcardTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

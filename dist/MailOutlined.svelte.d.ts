@@ -27,6 +27,11 @@ declare const __propDef: {
 export type MailOutlinedProps = typeof __propDef.props;
 export type MailOutlinedEvents = typeof __propDef.events;
 export type MailOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class MailOutlined extends SvelteComponent<MailOutlinedProps, MailOutlinedEvents, MailOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

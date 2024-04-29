@@ -27,6 +27,11 @@ declare const __propDef: {
 export type VideoCameraAddOutlinedProps = typeof __propDef.props;
 export type VideoCameraAddOutlinedEvents = typeof __propDef.events;
 export type VideoCameraAddOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class VideoCameraAddOutlined extends SvelteComponent<VideoCameraAddOutlinedProps, VideoCameraAddOutlinedEvents, VideoCameraAddOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FileImageTwotoneProps = typeof __propDef.props;
 export type FileImageTwotoneEvents = typeof __propDef.events;
 export type FileImageTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FileImageTwotone extends SvelteComponent<FileImageTwotoneProps, FileImageTwotoneEvents, FileImageTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type SlackOutlinedProps = typeof __propDef.props;
 export type SlackOutlinedEvents = typeof __propDef.events;
 export type SlackOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class SlackOutlined extends SvelteComponent<SlackOutlinedProps, SlackOutlinedEvents, SlackOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

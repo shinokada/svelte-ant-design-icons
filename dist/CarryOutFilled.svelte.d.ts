@@ -27,6 +27,11 @@ declare const __propDef: {
 export type CarryOutFilledProps = typeof __propDef.props;
 export type CarryOutFilledEvents = typeof __propDef.events;
 export type CarryOutFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CarryOutFilled extends SvelteComponent<CarryOutFilledProps, CarryOutFilledEvents, CarryOutFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

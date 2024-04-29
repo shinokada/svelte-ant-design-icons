@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FileWordTwotoneProps = typeof __propDef.props;
 export type FileWordTwotoneEvents = typeof __propDef.events;
 export type FileWordTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FileWordTwotone extends SvelteComponent<FileWordTwotoneProps, FileWordTwotoneEvents, FileWordTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type GoldFilledProps = typeof __propDef.props;
 export type GoldFilledEvents = typeof __propDef.events;
 export type GoldFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class GoldFilled extends SvelteComponent<GoldFilledProps, GoldFilledEvents, GoldFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

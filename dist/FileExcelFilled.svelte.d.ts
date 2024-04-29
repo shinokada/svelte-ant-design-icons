@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FileExcelFilledProps = typeof __propDef.props;
 export type FileExcelFilledEvents = typeof __propDef.events;
 export type FileExcelFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FileExcelFilled extends SvelteComponent<FileExcelFilledProps, FileExcelFilledEvents, FileExcelFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

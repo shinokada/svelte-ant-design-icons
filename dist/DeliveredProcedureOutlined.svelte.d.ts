@@ -27,6 +27,11 @@ declare const __propDef: {
 export type DeliveredProcedureOutlinedProps = typeof __propDef.props;
 export type DeliveredProcedureOutlinedEvents = typeof __propDef.events;
 export type DeliveredProcedureOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class DeliveredProcedureOutlined extends SvelteComponent<DeliveredProcedureOutlinedProps, DeliveredProcedureOutlinedEvents, DeliveredProcedureOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

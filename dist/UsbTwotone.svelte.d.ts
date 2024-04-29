@@ -27,6 +27,11 @@ declare const __propDef: {
 export type UsbTwotoneProps = typeof __propDef.props;
 export type UsbTwotoneEvents = typeof __propDef.events;
 export type UsbTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class UsbTwotone extends SvelteComponent<UsbTwotoneProps, UsbTwotoneEvents, UsbTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

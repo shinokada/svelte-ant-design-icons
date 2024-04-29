@@ -27,6 +27,11 @@ declare const __propDef: {
 export type MacCommandOutlinedProps = typeof __propDef.props;
 export type MacCommandOutlinedEvents = typeof __propDef.events;
 export type MacCommandOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class MacCommandOutlined extends SvelteComponent<MacCommandOutlinedProps, MacCommandOutlinedEvents, MacCommandOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

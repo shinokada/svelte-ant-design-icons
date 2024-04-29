@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FilterTwotoneProps = typeof __propDef.props;
 export type FilterTwotoneEvents = typeof __propDef.events;
 export type FilterTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FilterTwotone extends SvelteComponent<FilterTwotoneProps, FilterTwotoneEvents, FilterTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

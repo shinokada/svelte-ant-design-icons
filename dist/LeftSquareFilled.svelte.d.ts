@@ -27,6 +27,11 @@ declare const __propDef: {
 export type LeftSquareFilledProps = typeof __propDef.props;
 export type LeftSquareFilledEvents = typeof __propDef.events;
 export type LeftSquareFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class LeftSquareFilled extends SvelteComponent<LeftSquareFilledProps, LeftSquareFilledEvents, LeftSquareFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

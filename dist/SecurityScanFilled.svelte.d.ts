@@ -27,6 +27,11 @@ declare const __propDef: {
 export type SecurityScanFilledProps = typeof __propDef.props;
 export type SecurityScanFilledEvents = typeof __propDef.events;
 export type SecurityScanFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class SecurityScanFilled extends SvelteComponent<SecurityScanFilledProps, SecurityScanFilledEvents, SecurityScanFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

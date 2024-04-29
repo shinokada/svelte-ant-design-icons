@@ -27,6 +27,11 @@ declare const __propDef: {
 export type SoundOutlinedProps = typeof __propDef.props;
 export type SoundOutlinedEvents = typeof __propDef.events;
 export type SoundOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class SoundOutlined extends SvelteComponent<SoundOutlinedProps, SoundOutlinedEvents, SoundOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type DragOutlinedProps = typeof __propDef.props;
 export type DragOutlinedEvents = typeof __propDef.events;
 export type DragOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class DragOutlined extends SvelteComponent<DragOutlinedProps, DragOutlinedEvents, DragOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

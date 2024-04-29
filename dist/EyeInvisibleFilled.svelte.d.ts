@@ -27,6 +27,11 @@ declare const __propDef: {
 export type EyeInvisibleFilledProps = typeof __propDef.props;
 export type EyeInvisibleFilledEvents = typeof __propDef.events;
 export type EyeInvisibleFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class EyeInvisibleFilled extends SvelteComponent<EyeInvisibleFilledProps, EyeInvisibleFilledEvents, EyeInvisibleFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

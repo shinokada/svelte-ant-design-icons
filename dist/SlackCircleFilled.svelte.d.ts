@@ -27,6 +27,11 @@ declare const __propDef: {
 export type SlackCircleFilledProps = typeof __propDef.props;
 export type SlackCircleFilledEvents = typeof __propDef.events;
 export type SlackCircleFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class SlackCircleFilled extends SvelteComponent<SlackCircleFilledProps, SlackCircleFilledEvents, SlackCircleFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

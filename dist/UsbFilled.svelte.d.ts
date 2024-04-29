@@ -27,6 +27,11 @@ declare const __propDef: {
 export type UsbFilledProps = typeof __propDef.props;
 export type UsbFilledEvents = typeof __propDef.events;
 export type UsbFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class UsbFilled extends SvelteComponent<UsbFilledProps, UsbFilledEvents, UsbFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

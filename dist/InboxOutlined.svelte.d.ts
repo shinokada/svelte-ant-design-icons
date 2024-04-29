@@ -27,6 +27,11 @@ declare const __propDef: {
 export type InboxOutlinedProps = typeof __propDef.props;
 export type InboxOutlinedEvents = typeof __propDef.events;
 export type InboxOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class InboxOutlined extends SvelteComponent<InboxOutlinedProps, InboxOutlinedEvents, InboxOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

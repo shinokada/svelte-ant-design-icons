@@ -27,6 +27,11 @@ declare const __propDef: {
 export type GoogleCircleFilledProps = typeof __propDef.props;
 export type GoogleCircleFilledEvents = typeof __propDef.events;
 export type GoogleCircleFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class GoogleCircleFilled extends SvelteComponent<GoogleCircleFilledProps, GoogleCircleFilledEvents, GoogleCircleFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

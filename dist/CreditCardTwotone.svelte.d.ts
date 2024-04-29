@@ -27,6 +27,11 @@ declare const __propDef: {
 export type CreditCardTwotoneProps = typeof __propDef.props;
 export type CreditCardTwotoneEvents = typeof __propDef.events;
 export type CreditCardTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CreditCardTwotone extends SvelteComponent<CreditCardTwotoneProps, CreditCardTwotoneEvents, CreditCardTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

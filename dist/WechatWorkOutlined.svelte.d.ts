@@ -27,6 +27,11 @@ declare const __propDef: {
 export type WechatWorkOutlinedProps = typeof __propDef.props;
 export type WechatWorkOutlinedEvents = typeof __propDef.events;
 export type WechatWorkOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class WechatWorkOutlined extends SvelteComponent<WechatWorkOutlinedProps, WechatWorkOutlinedEvents, WechatWorkOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

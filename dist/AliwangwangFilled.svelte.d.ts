@@ -27,6 +27,11 @@ declare const __propDef: {
 export type AliwangwangFilledProps = typeof __propDef.props;
 export type AliwangwangFilledEvents = typeof __propDef.events;
 export type AliwangwangFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class AliwangwangFilled extends SvelteComponent<AliwangwangFilledProps, AliwangwangFilledEvents, AliwangwangFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

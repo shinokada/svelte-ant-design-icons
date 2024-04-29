@@ -27,6 +27,11 @@ declare const __propDef: {
 export type GoldOutlinedProps = typeof __propDef.props;
 export type GoldOutlinedEvents = typeof __propDef.events;
 export type GoldOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class GoldOutlined extends SvelteComponent<GoldOutlinedProps, GoldOutlinedEvents, GoldOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type SafetyCertificateTwotoneProps = typeof __propDef.props;
 export type SafetyCertificateTwotoneEvents = typeof __propDef.events;
 export type SafetyCertificateTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class SafetyCertificateTwotone extends SvelteComponent<SafetyCertificateTwotoneProps, SafetyCertificateTwotoneEvents, SafetyCertificateTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

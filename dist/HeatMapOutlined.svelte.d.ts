@@ -27,6 +27,11 @@ declare const __propDef: {
 export type HeatMapOutlinedProps = typeof __propDef.props;
 export type HeatMapOutlinedEvents = typeof __propDef.events;
 export type HeatMapOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class HeatMapOutlined extends SvelteComponent<HeatMapOutlinedProps, HeatMapOutlinedEvents, HeatMapOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

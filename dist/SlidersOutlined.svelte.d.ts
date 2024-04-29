@@ -27,6 +27,11 @@ declare const __propDef: {
 export type SlidersOutlinedProps = typeof __propDef.props;
 export type SlidersOutlinedEvents = typeof __propDef.events;
 export type SlidersOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class SlidersOutlined extends SvelteComponent<SlidersOutlinedProps, SlidersOutlinedEvents, SlidersOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type PrinterFilledProps = typeof __propDef.props;
 export type PrinterFilledEvents = typeof __propDef.events;
 export type PrinterFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class PrinterFilled extends SvelteComponent<PrinterFilledProps, PrinterFilledEvents, PrinterFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

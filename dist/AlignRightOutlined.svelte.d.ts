@@ -27,6 +27,11 @@ declare const __propDef: {
 export type AlignRightOutlinedProps = typeof __propDef.props;
 export type AlignRightOutlinedEvents = typeof __propDef.events;
 export type AlignRightOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class AlignRightOutlined extends SvelteComponent<AlignRightOutlinedProps, AlignRightOutlinedEvents, AlignRightOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

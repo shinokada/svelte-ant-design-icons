@@ -27,6 +27,11 @@ declare const __propDef: {
 export type GitlabOutlinedProps = typeof __propDef.props;
 export type GitlabOutlinedEvents = typeof __propDef.events;
 export type GitlabOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class GitlabOutlined extends SvelteComponent<GitlabOutlinedProps, GitlabOutlinedEvents, GitlabOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

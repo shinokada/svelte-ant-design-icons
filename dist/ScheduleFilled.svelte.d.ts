@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ScheduleFilledProps = typeof __propDef.props;
 export type ScheduleFilledEvents = typeof __propDef.events;
 export type ScheduleFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ScheduleFilled extends SvelteComponent<ScheduleFilledProps, ScheduleFilledEvents, ScheduleFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

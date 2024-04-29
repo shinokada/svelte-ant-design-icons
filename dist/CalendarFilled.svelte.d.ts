@@ -27,6 +27,11 @@ declare const __propDef: {
 export type CalendarFilledProps = typeof __propDef.props;
 export type CalendarFilledEvents = typeof __propDef.events;
 export type CalendarFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CalendarFilled extends SvelteComponent<CalendarFilledProps, CalendarFilledEvents, CalendarFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

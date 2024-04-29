@@ -27,6 +27,11 @@ declare const __propDef: {
 export type DockerOutlinedProps = typeof __propDef.props;
 export type DockerOutlinedEvents = typeof __propDef.events;
 export type DockerOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class DockerOutlined extends SvelteComponent<DockerOutlinedProps, DockerOutlinedEvents, DockerOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

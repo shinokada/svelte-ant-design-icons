@@ -27,6 +27,11 @@ declare const __propDef: {
 export type TikTokOutlinedProps = typeof __propDef.props;
 export type TikTokOutlinedEvents = typeof __propDef.events;
 export type TikTokOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class TikTokOutlined extends SvelteComponent<TikTokOutlinedProps, TikTokOutlinedEvents, TikTokOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

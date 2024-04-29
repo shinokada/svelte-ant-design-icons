@@ -27,6 +27,11 @@ declare const __propDef: {
 export type CloudOutlinedProps = typeof __propDef.props;
 export type CloudOutlinedEvents = typeof __propDef.events;
 export type CloudOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class CloudOutlined extends SvelteComponent<CloudOutlinedProps, CloudOutlinedEvents, CloudOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

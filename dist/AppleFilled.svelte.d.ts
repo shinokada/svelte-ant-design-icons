@@ -27,6 +27,11 @@ declare const __propDef: {
 export type AppleFilledProps = typeof __propDef.props;
 export type AppleFilledEvents = typeof __propDef.events;
 export type AppleFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class AppleFilled extends SvelteComponent<AppleFilledProps, AppleFilledEvents, AppleFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

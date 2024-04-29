@@ -27,6 +27,11 @@ declare const __propDef: {
 export type PrinterTwotoneProps = typeof __propDef.props;
 export type PrinterTwotoneEvents = typeof __propDef.events;
 export type PrinterTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class PrinterTwotone extends SvelteComponent<PrinterTwotoneProps, PrinterTwotoneEvents, PrinterTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

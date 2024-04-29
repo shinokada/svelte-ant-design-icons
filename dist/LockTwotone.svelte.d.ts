@@ -27,6 +27,11 @@ declare const __propDef: {
 export type LockTwotoneProps = typeof __propDef.props;
 export type LockTwotoneEvents = typeof __propDef.events;
 export type LockTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class LockTwotone extends SvelteComponent<LockTwotoneProps, LockTwotoneEvents, LockTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type FontSizeOutlinedProps = typeof __propDef.props;
 export type FontSizeOutlinedEvents = typeof __propDef.events;
 export type FontSizeOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class FontSizeOutlined extends SvelteComponent<FontSizeOutlinedProps, FontSizeOutlinedEvents, FontSizeOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

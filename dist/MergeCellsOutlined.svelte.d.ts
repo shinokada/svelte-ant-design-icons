@@ -27,6 +27,11 @@ declare const __propDef: {
 export type MergeCellsOutlinedProps = typeof __propDef.props;
 export type MergeCellsOutlinedEvents = typeof __propDef.events;
 export type MergeCellsOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class MergeCellsOutlined extends SvelteComponent<MergeCellsOutlinedProps, MergeCellsOutlinedEvents, MergeCellsOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

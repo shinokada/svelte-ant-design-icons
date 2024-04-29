@@ -27,6 +27,11 @@ declare const __propDef: {
 export type PieChartTwotoneProps = typeof __propDef.props;
 export type PieChartTwotoneEvents = typeof __propDef.events;
 export type PieChartTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class PieChartTwotone extends SvelteComponent<PieChartTwotoneProps, PieChartTwotoneEvents, PieChartTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

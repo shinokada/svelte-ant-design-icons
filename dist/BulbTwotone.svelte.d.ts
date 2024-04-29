@@ -27,6 +27,11 @@ declare const __propDef: {
 export type BulbTwotoneProps = typeof __propDef.props;
 export type BulbTwotoneEvents = typeof __propDef.events;
 export type BulbTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class BulbTwotone extends SvelteComponent<BulbTwotoneProps, BulbTwotoneEvents, BulbTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

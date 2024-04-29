@@ -27,6 +27,11 @@ declare const __propDef: {
 export type ForkOutlinedProps = typeof __propDef.props;
 export type ForkOutlinedEvents = typeof __propDef.events;
 export type ForkOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class ForkOutlined extends SvelteComponent<ForkOutlinedProps, ForkOutlinedEvents, ForkOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

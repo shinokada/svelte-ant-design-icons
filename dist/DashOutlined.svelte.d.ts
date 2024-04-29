@@ -27,6 +27,11 @@ declare const __propDef: {
 export type DashOutlinedProps = typeof __propDef.props;
 export type DashOutlinedEvents = typeof __propDef.events;
 export type DashOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class DashOutlined extends SvelteComponent<DashOutlinedProps, DashOutlinedEvents, DashOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

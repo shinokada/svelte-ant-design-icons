@@ -27,6 +27,11 @@ declare const __propDef: {
 export type YuqueOutlinedProps = typeof __propDef.props;
 export type YuqueOutlinedEvents = typeof __propDef.events;
 export type YuqueOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class YuqueOutlined extends SvelteComponent<YuqueOutlinedProps, YuqueOutlinedEvents, YuqueOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

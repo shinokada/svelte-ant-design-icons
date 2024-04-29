@@ -27,6 +27,11 @@ declare const __propDef: {
 export type SlidersFilledProps = typeof __propDef.props;
 export type SlidersFilledEvents = typeof __propDef.events;
 export type SlidersFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class SlidersFilled extends SvelteComponent<SlidersFilledProps, SlidersFilledEvents, SlidersFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

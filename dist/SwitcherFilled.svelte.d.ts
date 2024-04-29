@@ -27,6 +27,11 @@ declare const __propDef: {
 export type SwitcherFilledProps = typeof __propDef.props;
 export type SwitcherFilledEvents = typeof __propDef.events;
 export type SwitcherFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class SwitcherFilled extends SvelteComponent<SwitcherFilledProps, SwitcherFilledEvents, SwitcherFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

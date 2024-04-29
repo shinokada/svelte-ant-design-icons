@@ -27,6 +27,11 @@ declare const __propDef: {
 export type UngroupOutlinedProps = typeof __propDef.props;
 export type UngroupOutlinedEvents = typeof __propDef.events;
 export type UngroupOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class UngroupOutlined extends SvelteComponent<UngroupOutlinedProps, UngroupOutlinedEvents, UngroupOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

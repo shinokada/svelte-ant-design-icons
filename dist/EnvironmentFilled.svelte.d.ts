@@ -27,6 +27,11 @@ declare const __propDef: {
 export type EnvironmentFilledProps = typeof __propDef.props;
 export type EnvironmentFilledEvents = typeof __propDef.events;
 export type EnvironmentFilledSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class EnvironmentFilled extends SvelteComponent<EnvironmentFilledProps, EnvironmentFilledEvents, EnvironmentFilledSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

@@ -27,6 +27,11 @@ declare const __propDef: {
 export type VideoCameraTwotoneProps = typeof __propDef.props;
 export type VideoCameraTwotoneEvents = typeof __propDef.events;
 export type VideoCameraTwotoneSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class VideoCameraTwotone extends SvelteComponent<VideoCameraTwotoneProps, VideoCameraTwotoneEvents, VideoCameraTwotoneSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

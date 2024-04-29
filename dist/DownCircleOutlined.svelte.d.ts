@@ -27,6 +27,11 @@ declare const __propDef: {
 export type DownCircleOutlinedProps = typeof __propDef.props;
 export type DownCircleOutlinedEvents = typeof __propDef.events;
 export type DownCircleOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class DownCircleOutlined extends SvelteComponent<DownCircleOutlinedProps, DownCircleOutlinedEvents, DownCircleOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

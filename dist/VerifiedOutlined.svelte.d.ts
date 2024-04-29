@@ -27,6 +27,11 @@ declare const __propDef: {
 export type VerifiedOutlinedProps = typeof __propDef.props;
 export type VerifiedOutlinedEvents = typeof __propDef.events;
 export type VerifiedOutlinedSlots = typeof __propDef.slots;
+/**
+ * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+ * ## Props
+ * @props:
+ */
 export default class VerifiedOutlined extends SvelteComponent<VerifiedOutlinedProps, VerifiedOutlinedEvents, VerifiedOutlinedSlots> {
     constructor(options?: import("svelte").ComponentConstructorOptions<{
         size?: string | undefined;

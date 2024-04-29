@@ -1,107 +1,103 @@
-<script lang="ts">
-	import { getContext } from 'svelte';
-	interface CtxType {
-		size?: string;
-		role?: string;
-		color?: string;
-	}
+<script lang='ts'>
+  import { getContext } from 'svelte';
+  type TitleType = {
+    id?: string;
+    title?: string;
+  };
+  type DescType = {
+    id?: string;
+    desc?: string;
+  };
+  interface BaseProps {
+    size?: string;
+    role?: string;
+    color?: string;
+    withEvents?: boolean;
+    onclick?: (event: MouseEvent) => void;
+    onkeydown?: (event: KeyboardEvent) => void;
+    onkeyup?: (event: KeyboardEvent) => void;
+    class?: string;
+  }
+  interface CtxType extends BaseProps {}
+  const ctx: CtxType = getContext('iconCtx') ?? {};
+  interface Props extends BaseProps{
+    title?: TitleType;
+    desc?: DescType;
+    ariaLabel?: string;
+  }
 
-	type TitleType = {
-		id?: string;
-		title?: string;
-	};
+  let { 
+    size = ctx.size || '24', 
+    role = ctx.role || 'img', 
+    color = ctx.color || 'currentColor', 
+    withEvents = ctx.withEvents || false, 
+    title = {}, 
+    desc = {}, 
+    class: classname, 
+    ariaLabel =  "twitch filled" , 
+    onclick, 
+    onkeydown, 
+    onkeyup,
+    ...restProps 
+  }: Props = $props();
 
-	type DescType = {
-		id?: string;
-		desc?: string;
-	};
+  let ariaDescribedby = `${title.id || ''} ${desc.id || ''}`;
+  let hasDescription = $state(false);
 
-	const ctx: CtxType = getContext('iconCtx') ?? {};
-	interface Props {
-		size?: string;
-		role?: string;
-		color?: string;
-		ariaLabel?: string;
-		class?: string;
-		title: TitleType;
-		desc: DescType;
-	}
+  function updateHasDescription() {
+    // Double negation converts truthy values to true, falsy to false
+    hasDescription = !!(title.id || desc.id); 
+  }
+  updateHasDescription();
 
-	let {
-		size = ctx.size || '24',
-		role = ctx.role || 'img',
-		color = ctx.color || 'currentColor',
-		ariaLabel = 'twitch filled,',
-		class: classname,
-		title = {},
-		desc = {},
-		...restProps
-	}: Props = $props();
-
-	const ariaDescribedby = `${title.id || ''} ${desc.id || ''}`;
-	let hasDescription = $state(false);
-	$effect(() => {
-		if (title.id || desc.id) {
-			hasDescription = true;
-		} else {
-			hasDescription = false;
-		}
-	});
+  $effect(() => {
+    updateHasDescription();
+  })
 </script>
 
-<svg
-	xmlns="http://www.w3.org/2000/svg"
-	{...restProps}
-	{role}
-	width={size}
-	height={size}
-	fill={color}
-	class={classname}
-	aria-label={ariaLabel}
-	viewBox="0 0 1042 1042"
->
-	{#if title.id && title.title}
-		<title id={title.id}>{title.title}</title>
-	{/if}
-	{#if desc.id && desc.desc}
-		<desc id={desc.id}>{desc.desc}</desc>
-	{/if}
-	<defs
-		><filter
-			id="a"
-			width="102.3%"
-			height="102.3%"
-			x="-1.2%"
-			y="-1.2%"
-			filterUnits="objectBoundingBox"
-			><feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" /><feGaussianBlur
-				in="shadowOffsetOuter1"
-				result="shadowBlurOuter1"
-				stdDeviation="2"
-			/><feColorMatrix
-				in="shadowBlurOuter1"
-				result="shadowMatrixOuter1"
-				values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-			/><feMerge><feMergeNode in="shadowMatrixOuter1" /><feMergeNode in="SourceGraphic" /></feMerge
-			></filter
-		></defs
-	><g filter="url(#a)" transform="translate(9 9)"
-		><path
-			d="M57.143 0 0 142.857v542.857h171.429V800h114.285L400 685.714h142.857l200-200V0zm314.286 428.571h-85.715V198.214h85.715zm200 0h-85.715V198.214h85.715z"
-			transform="translate(128 112)"
-		/></g
-	>
-</svg>
-
-<!--
-@component
-[Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
-## Props
-@props: size?: string;
-@props:role?: string;
-@props:color?: string;
-@props:ariaLabel?: string;
-@props:class?: string;
-@props:title: TitleType;
-@props:desc: DescType;
--->
+{#if withEvents}
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    {...restProps}
+    {role}
+    width={size}
+    height={size}
+    class={classname}
+    fill={color}
+    aria-label={ariaLabel}
+    aria-describedby={hasDescription ? ariaDescribedby : undefined}
+    viewBox="0 0 1042 1042"
+    onclick={onclick}
+    onkeydown={onkeydown}
+    onkeyup={onkeyup}
+  >
+    {#if title.id && title.title}
+      <title id="{title.id}">{title.title}</title>
+    {/if}
+    {#if desc.id && desc.desc}
+      <desc id="{desc.id}">{desc.desc}</desc>
+    {/if}
+      <defs><filter id="a" width="102.3%" height="102.3%" x="-1.2%" y="-1.2%" filterUnits="objectBoundingBox"><feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/><feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/><feMerge><feMergeNode in="shadowMatrixOuter1"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g filter="url(#a)" transform="translate(9 9)"><path d="M57.143 0 0 142.857v542.857h171.429V800h114.285L400 685.714h142.857l200-200V0zm314.286 428.571h-85.715V198.214h85.715zm200 0h-85.715V198.214h85.715z" transform="translate(128 112)"/></g>
+  </svg>
+{:else}
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    {...restProps}
+    {role}
+    width={size}
+    height={size}
+    class={classname}
+    fill={color}
+    aria-label={ariaLabel}
+    aria-describedby={hasDescription ? ariaDescribedby : undefined}
+    viewBox="0 0 1042 1042"
+  >
+    {#if title.id && title.title}
+      <title id="{title.id}">{title.title}</title>
+    {/if}
+    {#if desc.id && desc.desc}
+      <desc id="{desc.id}">{desc.desc}</desc>
+    {/if}
+      <defs><filter id="a" width="102.3%" height="102.3%" x="-1.2%" y="-1.2%" filterUnits="objectBoundingBox"><feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/><feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/><feMerge><feMergeNode in="shadowMatrixOuter1"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g filter="url(#a)" transform="translate(9 9)"><path d="M57.143 0 0 142.857v542.857h171.429V800h114.285L400 685.714h142.857l200-200V0zm314.286 428.571h-85.715V198.214h85.715zm200 0h-85.715V198.214h85.715z" transform="translate(128 112)"/></g>
+  </svg>
+{/if}

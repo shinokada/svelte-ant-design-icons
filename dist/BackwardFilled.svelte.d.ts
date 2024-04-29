@@ -4,16 +4,20 @@ declare const __propDef: {
         size?: string | undefined;
         role?: string | undefined;
         color?: string | undefined;
-        ariaLabel?: string | undefined;
+        withEvents?: boolean | undefined;
+        onclick?: ((event: MouseEvent) => void) | undefined;
+        onkeydown?: ((event: KeyboardEvent) => void) | undefined;
+        onkeyup?: ((event: KeyboardEvent) => void) | undefined;
         class?: string | undefined;
-        title: {
+        title?: {
             id?: string | undefined;
             title?: string | undefined;
-        };
-        desc: {
+        } | undefined;
+        desc?: {
             id?: string | undefined;
             desc?: string | undefined;
-        };
+        } | undefined;
+        ariaLabel?: string | undefined;
     };
     events: {
         [evt: string]: CustomEvent<any>;
@@ -23,17 +27,25 @@ declare const __propDef: {
 export type BackwardFilledProps = typeof __propDef.props;
 export type BackwardFilledEvents = typeof __propDef.events;
 export type BackwardFilledSlots = typeof __propDef.slots;
-/**
- * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
- * ## Props
- * @props: size?: string;
- * @props:role?: string;
- * @props:color?: string;
- * @props:ariaLabel?: string;
- * @props:class?: string;
- * @props:title: TitleType;
- * @props:desc: DescType;
- */
 export default class BackwardFilled extends SvelteComponent<BackwardFilledProps, BackwardFilledEvents, BackwardFilledSlots> {
+    constructor(options?: import("svelte").ComponentConstructorOptions<{
+        size?: string | undefined;
+        role?: string | undefined;
+        color?: string | undefined;
+        withEvents?: boolean | undefined;
+        onclick?: ((event: MouseEvent) => void) | undefined;
+        onkeydown?: ((event: KeyboardEvent) => void) | undefined;
+        onkeyup?: ((event: KeyboardEvent) => void) | undefined;
+        class?: string | undefined;
+        title?: {
+            id?: string | undefined;
+            title?: string | undefined;
+        } | undefined;
+        desc?: {
+            id?: string | undefined;
+            desc?: string | undefined;
+        } | undefined;
+        ariaLabel?: string | undefined;
+    }>);
 }
 export {};

@@ -16,15 +16,13 @@ declare const __propDef: {
 export type IconProps = typeof __propDef.props;
 export type IconEvents = typeof __propDef.events;
 export type IconSlots = typeof __propDef.slots;
-/**
- * [Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
- * ## Props
- * @props: icon: ComponentType;
- * @props:size?:  number; = 24;
- * @props:role?:  string; = 'img';
- * @props:ariaLabel?:  string; = 'Icon';
- * @props:class?: string;
- */
 export default class Icon extends SvelteComponent<IconProps, IconEvents, IconSlots> {
+    constructor(options?: import("svelte").ComponentConstructorOptions<{
+        icon: ComponentType;
+        size?: number | undefined;
+        role?: string | undefined;
+        ariaLabel?: string | undefined;
+        class?: string | undefined;
+    }>);
 }
 export {};

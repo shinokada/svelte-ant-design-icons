@@ -1,0 +1,9 @@
+<script lang="ts">
+  import type { ComponentType } from 'svelte';
+  import { IconPage, filterIconsByKeyword } from 'runes-webkit'
+  import * as icons from '$lib'
+  const keywordsToInclude = 'Filled';
+  const keyIcons = filterIconsByKeyword(icons, keywordsToInclude);
+</script>
+
+<IconPage icons={keyIcons as ComponentType} title="Filled Icons: Svelte Ant Design Icons" />

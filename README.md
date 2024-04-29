@@ -18,9 +18,9 @@ Please see [the Svelte Ant Design Icons documentation](https://svelte-ant-design
 
 ## Icons
 
-- [Filled](https://svelte-ant-design-icons.codewithshin.com/filled)
-- [Outlined](https://svelte-ant-design-icons.codewithshin.com/outlined)
-- [Twotone](https://svelte-ant-design-icons.codewithshin.com/twotone)
+- [Filled](https://svelte-ant-design-icons.codewithshin.com/filled-icons)
+- [Outlined](https://svelte-ant-design-icons.codewithshin.com/outlined-icons)
+- [Twotone](https://svelte-ant-design-icons.codewithshin.com/twotone-icons)
 
 ## Repo
 
@@ -35,6 +35,17 @@ You can install Svelte Ant Design Icons using the following command:
 ```sh
 pnpm i -D svelte-ant-design-icons
 ```
+
+### Svelte 5:Runes
+
+After installing Svelte 5 and enabling `runes` in `svelte.config.js`:
+
+```bash
+pnpm i -D svelte-ant-design-icons@2.0.0-next.x
+```
+
+Replace `next.x` with the latest release. Find out it a [GitHub repleases page](https://github.com/shinokada/svelte-ant-design-icons/releases).
+
 
 ## Original source
 

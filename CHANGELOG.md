@@ -1,13 +1,19 @@
 # Changelog
 
+## 1.1.2
+
+### Patch Changes
+
+- feat: changeset ([`d4b03f9f2a1743c11603943f18a47bb960fcb9d9`](https://github.com/shinokada/svelte-ant-design-icons/commit/d4b03f9f2a1743c11603943f18a47bb960fcb9d9))
+  fix: npm publish latest
+
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ### [1.1.1](https://github.com/shinokada/svelte-ant-design-icons/compare/v1.1.0...v1.1.1) (2024-03-01)
 
-
 ### Bug Fixes
 
-* update homepage in package.json by changing from vercel.app to codewithshin.com ([9211684](https://github.com/shinokada/svelte-ant-design-icons/commit/9211684ab62e7c9b3bd4e5e50fe0060297db3c0f))
+- update homepage in package.json by changing from vercel.app to codewithshin.com ([9211684](https://github.com/shinokada/svelte-ant-design-icons/commit/9211684ab62e7c9b3bd4e5e50fe0060297db3c0f))
 
 ## [1.1.0](https://github.com/shinokada/svelte-ant-design-icons/compare/v0.5.6...v1.1.0) (2024-01-27)
 

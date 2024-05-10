@@ -1,5 +1,14 @@
 # svelte-ant-design-icons
 
+## 2.0.0-next.4
+
+### Patch Changes
+
+- chore: update dependencies ([`4b0c4aed82ddfb2231c0bd5b600990a75a6174ed`](https://github.com/shinokada/svelte-ant-design-icons/commit/4b0c4aed82ddfb2231c0bd5b600990a75a6174ed))
+  feat: Enter prerelease mode and version packages
+
+- docs: Update CHANGELOG ([`f1f7a9d2097a610b3c7b8684f299ebe49492a1d9`](https://github.com/shinokada/svelte-ant-design-icons/commit/f1f7a9d2097a610b3c7b8684f299ebe49492a1d9))
+
 ## 2.0.0-next.3
 
 ### Patch Changes

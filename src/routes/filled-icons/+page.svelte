@@ -6,4 +6,4 @@
   const keyIcons = filterIconsByKeyword(icons, keywordsToInclude);
 </script>
 
-<IconPage icons={keyIcons as ComponentType} title="Filled Icons: Svelte Ant Design Icons" />
+<IconPage icons={keyIcons as ComponentType} title="Filled Icons: Svelte Ant Design Icons" i_p_tabitem_div_1='lg:grid-cols-3'/>

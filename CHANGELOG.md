@@ -1,5 +1,11 @@
 # svelte-ant-design-icons
 
+## 2.0.0-next.5
+
+### Patch Changes
+
+- fix: change hasDescription to derived ([`5814525a0be8f99dfe5b1689573da1c73ae90e7a`](https://github.com/shinokada/svelte-ant-design-icons/commit/5814525a0be8f99dfe5b1689573da1c73ae90e7a))
+
 ## 2.0.0-next.4
 
 ### Patch Changes

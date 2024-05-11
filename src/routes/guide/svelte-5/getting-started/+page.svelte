@@ -29,7 +29,7 @@
 
 <HighlightCompo codeLang="ts" code={modules['./md/installation.md'] as string} />
 
-<p>Replace 2.0.0-next.x with the latest v2 version. Check the latest version at the <A href="https://github.com/shinokada/svelte-ant-design-icons/releases" target="_blank">GitHub Releases</A>. Enable Runes in svelte.config.js:</p>
+<p>Enable Runes in svelte.config.js:</p>
 
 <HighlightCompo codeLang="ts" code={modules['./md/runes.md'] as string} />
 

@@ -15,6 +15,12 @@
 
 <HighlightCompo codeLang="ts" code={modules['./md/props.md'] as string} />
 
+
+<H2>Types</H2>
+
+<HighlightCompo codeLang="ts" code={modules['./md/types.md'] as string} />
+
+
 <H2>Size</H2>
 
 <p>To change the size of an icon, use the <Code>size</Code> prop and specify the desired size. For example:</p>
@@ -26,7 +32,7 @@
 
 <H2>CSS HEX Colors</H2>
 
-<p>Use the color attribute to change colors with HEX color code for Filled and Outlined components.</p>
+<p>Use the color attribute to change colors with HEX color code:</p>
 
 <HighlightCompo codeLang="ts" code={modules['./md/css-hex-color.md'] as string} />
 

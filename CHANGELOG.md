@@ -1,5 +1,11 @@
 # svelte-ant-design-icons
 
+## 2.0.0-next.6
+
+### Patch Changes
+
+- fix: component docs ([`c4c002587abcc29b7f7de42c4b50ae67d52722cf`](https://github.com/shinokada/svelte-ant-design-icons/commit/c4c002587abcc29b7f7de42c4b50ae67d52722cf))
+
 ## 2.0.0-next.5
 
 ### Patch Changes

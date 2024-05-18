@@ -1,5 +1,11 @@
 # svelte-ant-design-icons
 
+## 2.0.0-next.7
+
+### Patch Changes
+
+- fix: change size=number to string for Icon.svelte ([`7518c484cf02f1df56696e085e86dbca29ff5174`](https://github.com/shinokada/svelte-ant-design-icons/commit/7518c484cf02f1df56696e085e86dbca29ff5174))
+
 ## 2.0.0-next.6
 
 ### Patch Changes

@@ -1,4 +1,4 @@
-<script lang='ts'>
+<script lang="ts">
   import { getContext } from 'svelte';
   type TitleType = {
     id?: string;
@@ -20,25 +20,25 @@
   }
   interface CtxType extends BaseProps {}
   const ctx: CtxType = getContext('iconCtx') ?? {};
-  interface Props extends BaseProps{
+  interface Props extends BaseProps {
     title?: TitleType;
     desc?: DescType;
     ariaLabel?: string;
   }
 
-  let { 
-    size = ctx.size || '24', 
-    role = ctx.role || 'img', 
-    color = ctx.color || 'currentColor', 
-    withEvents = ctx.withEvents || false, 
-    title, 
-    desc, 
-    class: classname, 
-    ariaLabel =  "appstore twotone" , 
-    onclick, 
-    onkeydown, 
+  let {
+    size = ctx.size || '24',
+    role = ctx.role || 'img',
+    color = ctx.color || 'currentColor',
+    withEvents = ctx.withEvents || false,
+    title,
+    desc,
+    class: classname,
+    ariaLabel = 'appstore twotone',
+    onclick,
+    onkeydown,
     onkeyup,
-    ...restProps 
+    ...restProps
   }: Props = $props();
 
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
@@ -57,17 +57,23 @@
     aria-label={ariaLabel}
     aria-describedby={hasDescription ? ariaDescribedby : undefined}
     viewBox="0 0 1024 1024"
-    onclick={onclick}
-    onkeydown={onkeydown}
-    onkeyup={onkeyup}
+    {onclick}
+    {onkeydown}
+    {onkeyup}
   >
     {#if title?.id && title.title}
-      <title id="{title.id}">{title.title}</title>
+      <title id={title.id}>{title.title}</title>
     {/if}
     {#if desc?.id && desc.desc}
-      <desc id="{desc.id}">{desc.desc}</desc>
+      <desc id={desc.id}>{desc.desc}</desc>
     {/if}
-           <path  d="M864 144H560c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V160c0-8.8-7.2-16-16-16zm-52 268H612V212h200v200zM464 544H160c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V560c0-8.8-7.2-16-16-16zm-52 268H212V612h200v200zm52-668H160c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V160c0-8.8-7.2-16-16-16zm-52 268H212V212h200v200zm452 132H560c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V560c0-8.8-7.2-16-16-16zm-52 268H612V612h200v200z"/>   <path fill="#E6E6E6" d="M212 212h200v200H212zm400 0h200v200H612zM212 612h200v200H212zm400 0h200v200H612z"/>  
+    <path
+      d="M864 144H560c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V160c0-8.8-7.2-16-16-16zm-52 268H612V212h200v200zM464 544H160c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V560c0-8.8-7.2-16-16-16zm-52 268H212V612h200v200zm52-668H160c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V160c0-8.8-7.2-16-16-16zm-52 268H212V212h200v200zm452 132H560c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V560c0-8.8-7.2-16-16-16zm-52 268H612V612h200v200z"
+    />
+    <path
+      fill="#E6E6E6"
+      d="M212 212h200v200H212zm400 0h200v200H612zM212 612h200v200H212zm400 0h200v200H612z"
+    />
   </svg>
 {:else}
   <svg
@@ -83,12 +89,18 @@
     viewBox="0 0 1024 1024"
   >
     {#if title?.id && title.title}
-      <title id="{title.id}">{title.title}</title>
+      <title id={title.id}>{title.title}</title>
     {/if}
     {#if desc?.id && desc.desc}
-      <desc id="{desc.id}">{desc.desc}</desc>
+      <desc id={desc.id}>{desc.desc}</desc>
     {/if}
-           <path  d="M864 144H560c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V160c0-8.8-7.2-16-16-16zm-52 268H612V212h200v200zM464 544H160c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V560c0-8.8-7.2-16-16-16zm-52 268H212V612h200v200zm52-668H160c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V160c0-8.8-7.2-16-16-16zm-52 268H212V212h200v200zm452 132H560c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V560c0-8.8-7.2-16-16-16zm-52 268H612V612h200v200z"/>   <path fill="#E6E6E6" d="M212 212h200v200H212zm400 0h200v200H612zM212 612h200v200H212zm400 0h200v200H612z"/>  
+    <path
+      d="M864 144H560c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V160c0-8.8-7.2-16-16-16zm-52 268H612V212h200v200zM464 544H160c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V560c0-8.8-7.2-16-16-16zm-52 268H212V612h200v200zm52-668H160c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V160c0-8.8-7.2-16-16-16zm-52 268H212V212h200v200zm452 132H560c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V560c0-8.8-7.2-16-16-16zm-52 268H612V612h200v200z"
+    />
+    <path
+      fill="#E6E6E6"
+      d="M212 212h200v200H212zm400 0h200v200H612zM212 612h200v200H212zm400 0h200v200H612z"
+    />
   </svg>
 {/if}
 
@@ -103,7 +115,7 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "appstore twotone"
+@prop ariaLabel = 'appstore twotone'
 @prop onclick
 @prop onkeydown
 @prop onkeyup

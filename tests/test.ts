@@ -19,5 +19,3 @@ test('two tone page has expected h1', async ({ page }) => {
   await page.goto('/twotone-icons');
   await expect(page.locator('h1')).toHaveText('Twotone Icons: Svelte Ant Design Icons');
 });
-
-

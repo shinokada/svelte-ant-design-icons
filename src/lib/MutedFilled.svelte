@@ -1,4 +1,4 @@
-<script lang='ts'>
+<script lang="ts">
   import { getContext } from 'svelte';
   type TitleType = {
     id?: string;
@@ -20,25 +20,25 @@
   }
   interface CtxType extends BaseProps {}
   const ctx: CtxType = getContext('iconCtx') ?? {};
-  interface Props extends BaseProps{
+  interface Props extends BaseProps {
     title?: TitleType;
     desc?: DescType;
     ariaLabel?: string;
   }
 
-  let { 
-    size = ctx.size || '24', 
-    role = ctx.role || 'img', 
-    color = ctx.color || 'currentColor', 
-    withEvents = ctx.withEvents || false, 
-    title, 
-    desc, 
-    class: classname, 
-    ariaLabel =  "muted filled" , 
-    onclick, 
-    onkeydown, 
+  let {
+    size = ctx.size || '24',
+    role = ctx.role || 'img',
+    color = ctx.color || 'currentColor',
+    withEvents = ctx.withEvents || false,
+    title,
+    desc,
+    class: classname,
+    ariaLabel = 'muted filled',
+    onclick,
+    onkeydown,
     onkeyup,
-    ...restProps 
+    ...restProps
   }: Props = $props();
 
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
@@ -57,17 +57,19 @@
     aria-label={ariaLabel}
     aria-describedby={hasDescription ? ariaDescribedby : undefined}
     viewBox="0 0 1024 1024"
-    onclick={onclick}
-    onkeydown={onkeydown}
-    onkeyup={onkeyup}
+    {onclick}
+    {onkeydown}
+    {onkeyup}
   >
     {#if title?.id && title.title}
-      <title id="{title.id}">{title.title}</title>
+      <title id={title.id}>{title.title}</title>
     {/if}
     {#if desc?.id && desc.desc}
-      <desc id="{desc.id}">{desc.desc}</desc>
+      <desc id={desc.id}>{desc.desc}</desc>
     {/if}
-      <path d="M771.915 115c-5.863 0-11.877 1.644-17.42 5.267L400 351.966H236c-8.837 0-16 7.165-16 16.003V656.03c0 8.838 7.163 16.003 16 16.003h164l354.495 231.7c5.542 3.621 11.558 5.267 17.42 5.267C788.566 909 804 895.749 804 876.94V147.06c0-18.808-15.436-32.06-32.085-32.06"/>
+    <path
+      d="M771.915 115c-5.863 0-11.877 1.644-17.42 5.267L400 351.966H236c-8.837 0-16 7.165-16 16.003V656.03c0 8.838 7.163 16.003 16 16.003h164l354.495 231.7c5.542 3.621 11.558 5.267 17.42 5.267C788.566 909 804 895.749 804 876.94V147.06c0-18.808-15.436-32.06-32.085-32.06"
+    />
   </svg>
 {:else}
   <svg
@@ -83,12 +85,14 @@
     viewBox="0 0 1024 1024"
   >
     {#if title?.id && title.title}
-      <title id="{title.id}">{title.title}</title>
+      <title id={title.id}>{title.title}</title>
     {/if}
     {#if desc?.id && desc.desc}
-      <desc id="{desc.id}">{desc.desc}</desc>
+      <desc id={desc.id}>{desc.desc}</desc>
     {/if}
-      <path d="M771.915 115c-5.863 0-11.877 1.644-17.42 5.267L400 351.966H236c-8.837 0-16 7.165-16 16.003V656.03c0 8.838 7.163 16.003 16 16.003h164l354.495 231.7c5.542 3.621 11.558 5.267 17.42 5.267C788.566 909 804 895.749 804 876.94V147.06c0-18.808-15.436-32.06-32.085-32.06"/>
+    <path
+      d="M771.915 115c-5.863 0-11.877 1.644-17.42 5.267L400 351.966H236c-8.837 0-16 7.165-16 16.003V656.03c0 8.838 7.163 16.003 16 16.003h164l354.495 231.7c5.542 3.621 11.558 5.267 17.42 5.267C788.566 909 804 895.749 804 876.94V147.06c0-18.808-15.436-32.06-32.085-32.06"
+    />
   </svg>
 {/if}
 
@@ -103,7 +107,7 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "muted filled"
+@prop ariaLabel = 'muted filled'
 @prop onclick
 @prop onkeydown
 @prop onkeyup

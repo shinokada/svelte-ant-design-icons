@@ -5,7 +5,7 @@ import { metaTitle, metaDescription, metaImg } from 'runes-meta-tags';
 export const load = ({ url }) => {
   const siteName = metaTitle('/', __NAME__);
   const title = metaTitle(url.pathname, __NAME__);
-  const basicDesc = '780+ Ant Design SVG Icons for Svelte'
+  const basicDesc = '780+ Ant Design SVG Icons for Svelte';
   const description = metaDescription(url.pathname, basicDesc);
   const image = metaImg(url.pathname, __NAME__);
   const keywords = 'svelte, runes, Ant Design Icons, svg icons, svg, icons';
@@ -20,7 +20,7 @@ export const load = ({ url }) => {
       title,
       description,
       image,
-      imageAlt: title,
+      imageAlt: title
     },
     og: {
       type: 'website',

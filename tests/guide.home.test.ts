@@ -15,16 +15,25 @@ test('Guide home page has expected meta title', async ({ page }) => {
 
 test('Guide home page has expected meta description', async ({ page }) => {
   const metaDescription = page.locator('meta[name="description"]');
-  await expect(metaDescription).toHaveAttribute('content', 'Getting Started - Svelte Ant Design Icons');
+  await expect(metaDescription).toHaveAttribute(
+    'content',
+    'Getting Started - Svelte Ant Design Icons'
+  );
 });
 
 test('Guide home page has expected meta og', async ({ page }) => {
   const metaOgTitle = page.locator('meta[property="og:title"]');
   await expect(metaOgTitle).toHaveAttribute('content', 'Getting Started - Svelte Ant Design Icons');
   const metaOgDescription = page.locator('meta[property="og:description"]');
-  await expect(metaOgDescription).toHaveAttribute('content', 'Getting Started - Svelte Ant Design Icons');
+  await expect(metaOgDescription).toHaveAttribute(
+    'content',
+    'Getting Started - Svelte Ant Design Icons'
+  );
   const metaOgUrl = page.locator('meta[property="og:url"]');
-  await expect(metaOgUrl).toHaveAttribute('content', 'http://localhost:4173/guide/svelte-4/getting-started');
+  await expect(metaOgUrl).toHaveAttribute(
+    'content',
+    'http://localhost:4173/guide/svelte-4/getting-started'
+  );
   const metaOgImage = page.locator('meta[property="og:image"]');
   await expect(metaOgImage).toHaveAttribute(
     'content',
@@ -34,9 +43,15 @@ test('Guide home page has expected meta og', async ({ page }) => {
 
 test('Guide home page has expected meta twitter', async ({ page }) => {
   const metaTwitterTitle = page.locator('meta[name="twitter:title"]');
-  await expect(metaTwitterTitle).toHaveAttribute('content', 'Getting Started - Svelte Ant Design Icons');
+  await expect(metaTwitterTitle).toHaveAttribute(
+    'content',
+    'Getting Started - Svelte Ant Design Icons'
+  );
   const metaTwitterDescription = page.locator('meta[name="twitter:description"]');
-  await expect(metaTwitterDescription).toHaveAttribute('content', 'Getting Started - Svelte Ant Design Icons');
+  await expect(metaTwitterDescription).toHaveAttribute(
+    'content',
+    'Getting Started - Svelte Ant Design Icons'
+  );
   const metaTwitterImage = page.locator('meta[name="twitter:image"]');
   await expect(metaTwitterImage).toHaveAttribute(
     'content',

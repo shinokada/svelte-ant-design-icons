@@ -6,11 +6,11 @@ export const load = () => {
     description: 'Outlined Icons from Ant-Design-Icons for Svelte',
     og: {
       title: 'Outlined Icons - Svelte Ant Design Icons',
-      description: 'Outlined Icons from Ant-Design-Icons for Svelte',
+      description: 'Outlined Icons from Ant-Design-Icons for Svelte'
     },
     twitter: {
       title: 'Outlined Icons - Svelte Ant Design Icons',
-      description: 'Outlined Icons from Ant-Design-Icons for Svelte',
+      description: 'Outlined Icons from Ant-Design-Icons for Svelte'
     }
   }) satisfies MetaProps;
   return { pageMetaTags };

@@ -2,15 +2,15 @@ import type { MetaProps } from 'runes-meta-tags';
 
 export const load = () => {
   const pageMetaTags = Object.freeze({
-    title: 'No tabs example - Svelte Ant Design Icons',
-    description: 'No tabs example',
+    title: 'Twotone Icons - Svelte Ant Design Icons',
+    description: 'Twotone Icons',
     og: {
-      title: 'No tabs example - Svelte Ant Design Icons',
-      description: 'No tabs example'
+      title: 'Twotone Icons - Svelte Ant Design Icons',
+      description: 'Twotone Icons'
     },
     twitter: {
-      title: 'No tabs example - Svelte Ant Design Icons',
-      description: 'No tabs example'
+      title: 'Twotone Icons - Svelte Ant Design Icons',
+      description: 'Twotone Icons'
     }
   }) satisfies MetaProps;
   return { pageMetaTags };

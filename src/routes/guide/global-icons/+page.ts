@@ -2,15 +2,15 @@ import type { MetaProps } from 'runes-meta-tags';
 
 export const load = () => {
   const pageMetaTags = Object.freeze({
-    title: 'Global icons example - Svelte Ant Design Icons',
-    description: 'Global icons example',
+    title: 'Setting Global Icon - Svelte Ant Design Icons',
+    description: 'Setting Global Icon using setContext with Svelte Ant Design Icons',
     og: {
-      title: 'Global icons example - Svelte Ant Design Icons',
-      description: 'Global icons example'
+      title: 'Setting Global Icon - Svelte Ant Design Icons',
+      description: 'Setting Global Icon using setContext with Svelte Ant Design Icons'
     },
     twitter: {
-      title: 'Global icons example - Svelte Ant Design Icons',
-      description: 'Global icons example'
+      title: 'Setting Global Icon - Svelte Ant Design Icons',
+      description: 'Setting Global Icon using setContext with Svelte Ant Design Icons'
     }
   }) satisfies MetaProps;
   return { pageMetaTags };

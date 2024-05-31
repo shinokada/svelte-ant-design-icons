@@ -1,18 +1,18 @@
-<script context="module">
+<script context="module" lang="ts">
   const extra: ListType[] = [
     {
       name: 'Filled',
-      icon: ExpandOutline as ComponentType,
+      icon: ExpandOutline as Component,
       href: '/filled-icons'
     },
     {
       name: 'Outlined',
-      icon: CogOutline as ComponentType,
+      icon: CogOutline as Component,
       href: '/outlined-icons'
     },
     {
       name: 'Twotone',
-      icon: GridPlusOutline as ComponentType,
+      icon: GridPlusOutline as Component,
       href: '/twotone-icons'
     }
   ];
@@ -22,7 +22,7 @@
 <script lang="ts">
   import '../app.pcss';
   import { page } from '$app/stores';
-  import type { ComponentType } from 'svelte';
+  import type { Component } from 'svelte';
   import type { ListType } from 'runes-webkit';
   import {
     Footer,

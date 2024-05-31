@@ -16,7 +16,7 @@
   });
 </script>
 
-<h1>Svelte And Design Icons v1: Props</h1>
+<h1>Props - Svelte Ant Design Icons v1</h1>
 
 <H2>Props</H2>
 

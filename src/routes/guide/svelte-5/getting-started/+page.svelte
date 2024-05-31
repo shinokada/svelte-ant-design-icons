@@ -8,7 +8,7 @@
   });
 </script>
 
-<h1>Svelte Ant Design Icons v2 for Svelte Runes</h1>
+<h1>Getting Started - Svelte Ant Design Icons v2</h1>
 
 <div class="my-8 flex gap-2">
   <a href="https://github.com/sponsors/shinokada" target="_blank"

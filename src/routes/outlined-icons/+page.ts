@@ -1,19 +1,20 @@
 import type { MetaProps } from 'runes-meta-tags';
+
 const title = 'Outlined Icons - Svelte Ant Design Icons'
-const description = 'Easily Find & Copy Svelte Ant Design Outlined SVG Icon name for Your Project.'
-const ogUrl = 'http://localhost:4173/outlined-icons'
-const imgUrl = 'https://open-graph-vercel.vercel.app/api/svelte-ant-design-icons?title=Outlined Icons'
+const description = 'Easily Find & Copy SVG Icon name for Your Project'
+const imgUrl = 'https://open-graph-vercel.vercel.app/api/svelte-ant-design-icons'
 
 
-export const load = () => {
-  const pageMetaTags: MetaProps ={
+export const load = ({ url }) => {
+  const ogUrl = url.href
+  const pageMetaTags: MetaProps = {
     title,
     description,
     og: {
       title,
       description,
-      url: ogUrl,
-      image: imgUrl
+      image: imgUrl,
+      url: ogUrl
     },
     twitter: {
       title,

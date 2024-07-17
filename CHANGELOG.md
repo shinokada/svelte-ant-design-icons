@@ -1,5 +1,11 @@
 # svelte-ant-design-icons
 
+## 2.0.0-next.10
+
+### Patch Changes
+
+- fix: remove class from props ([`0fbc6b493692186f4b0b320b39f595e47630866c`](https://github.com/shinokada/svelte-ant-design-icons/commit/0fbc6b493692186f4b0b320b39f595e47630866c))
+
 ## 2.0.0-next.9
 
 ### Patch Changes

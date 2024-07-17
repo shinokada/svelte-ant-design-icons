@@ -14,7 +14,6 @@
     size?: string;
     role?: string;
     color?: string;
-    class?: string;
   }
   interface CtxType extends BaseProps {}
   const ctx: CtxType = getContext('iconCtx') ?? {};
@@ -30,7 +29,6 @@
     color = ctx.color || 'currentColor',
     title,
     desc,
-    class: classname,
     ariaLabel = 'plus square twotone',
     ...restProps
   }: Props = $props();
@@ -45,7 +43,6 @@
   {role}
   width={size}
   height={size}
-  class={classname}
   fill={color}
   aria-label={ariaLabel}
   aria-describedby={hasDescription ? ariaDescribedby : undefined}
@@ -79,7 +76,6 @@
 @prop color = ctx.color || 'currentColor'
 @prop title
 @prop desc
-@prop class: classname
 @prop ariaLabel = 'plus square twotone'
 @prop ...restProps
 -->

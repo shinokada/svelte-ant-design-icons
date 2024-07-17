@@ -14,7 +14,6 @@ interface BaseProps extends SVGAttributes<SVGElement>{
   size?: string;
   role?: string;
   color?: string;
-  class?: string;
 }
 
 interface CtxType extends BaseProps {}

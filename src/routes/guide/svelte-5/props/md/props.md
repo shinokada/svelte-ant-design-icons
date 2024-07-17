@@ -3,5 +3,4 @@
 - color = ctx.color || 'currentColor' 
 - title = {} 
 - desc = {} 
-- class: classname 
 - ariaLabel =  <icon file name>  

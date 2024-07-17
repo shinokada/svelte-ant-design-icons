@@ -1,39 +1,20 @@
 <script lang="ts">
-  import type { Component } from 'svelte';
-  interface Props {
-    icon: Component;
+  import type { ComponentType } from 'svelte';
+  interface Props{
+    icon: ComponentType;
     size?: string;
     role?: string;
     ariaLabel?: string;
     class?: string;
   }
-  let {
-    icon,
-    size = '24',
-    role = 'img',
-    ariaLabel = 'Icon',
-    class: classname,
-    ...restProps
-  }: Props = $props();
+  let {icon, size = '24', role = 'img', ariaLabel = 'Icon', class: classname, ...restProps}: Props = $props()
 </script>
 
-<svelte:component
-  this={icon}
-  {...restProps}
+<svelte:component 
+  {...restProps} 
   {role}
-  {size}
-  class={classname}
+  this={icon} 
+  {size} 
+  class={classname} 
   aria-label={ariaLabel}
 />
-
-<!--
-@component
-[Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
-## Props
-@prop icon
-@prop size = '24'
-@prop role = 'img'
-@prop ariaLabel = 'Icon'
-@prop class: classname
-@prop ...restProps
--->

@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "shopping filled"
+@prop ariaLabel = 'shopping filled'
 @prop ...restProps
 -->

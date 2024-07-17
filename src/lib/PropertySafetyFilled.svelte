@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "property safety filled"
+@prop ariaLabel = 'property safety filled'
 @prop ...restProps
 -->

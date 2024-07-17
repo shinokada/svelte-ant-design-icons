@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "html5 filled"
+@prop ariaLabel = 'html5 filled'
 @prop ...restProps
 -->

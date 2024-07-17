@@ -78,6 +78,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "python outlined"
+@prop ariaLabel = 'python outlined'
 @prop ...restProps
 -->

@@ -74,6 +74,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "audio muted outlined"
+@prop ariaLabel = 'audio muted outlined'
 @prop ...restProps
 -->

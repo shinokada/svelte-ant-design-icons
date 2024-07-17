@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "node expand outlined"
+@prop ariaLabel = 'node expand outlined'
 @prop ...restProps
 -->

@@ -76,6 +76,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "appstore twotone"
+@prop ariaLabel = 'appstore twotone'
 @prop ...restProps
 -->

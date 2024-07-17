@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "ungroup outlined"
+@prop ariaLabel = 'ungroup outlined'
 @prop ...restProps
 -->

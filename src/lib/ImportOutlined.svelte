@@ -73,6 +73,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "import outlined"
+@prop ariaLabel = 'import outlined'
 @prop ...restProps
 -->

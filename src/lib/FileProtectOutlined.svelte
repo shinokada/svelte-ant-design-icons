@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "file protect outlined"
+@prop ariaLabel = 'file protect outlined'
 @prop ...restProps
 -->

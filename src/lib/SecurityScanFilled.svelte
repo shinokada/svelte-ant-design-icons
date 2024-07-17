@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "security scan filled"
+@prop ariaLabel = 'security scan filled'
 @prop ...restProps
 -->

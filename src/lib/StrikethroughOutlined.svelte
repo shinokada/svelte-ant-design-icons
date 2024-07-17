@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "strikethrough outlined"
+@prop ariaLabel = 'strikethrough outlined'
 @prop ...restProps
 -->

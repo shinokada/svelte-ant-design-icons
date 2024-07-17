@@ -76,6 +76,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "cloud twotone"
+@prop ariaLabel = 'cloud twotone'
 @prop ...restProps
 -->

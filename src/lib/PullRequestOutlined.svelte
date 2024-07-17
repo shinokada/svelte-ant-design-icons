@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "pull request outlined"
+@prop ariaLabel = 'pull request outlined'
 @prop ...restProps
 -->

@@ -74,6 +74,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "whats app outlined"
+@prop ariaLabel = 'whats app outlined'
 @prop ...restProps
 -->

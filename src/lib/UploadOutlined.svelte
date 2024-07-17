@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "upload outlined"
+@prop ariaLabel = 'upload outlined'
 @prop ...restProps
 -->

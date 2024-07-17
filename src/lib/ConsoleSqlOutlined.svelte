@@ -76,6 +76,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "console sql outlined"
+@prop ariaLabel = 'console sql outlined'
 @prop ...restProps
 -->

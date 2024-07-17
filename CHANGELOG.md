@@ -1,5 +1,11 @@
 # svelte-ant-design-icons
 
+## 2.0.0-next.9
+
+### Patch Changes
+
+- fix: Icon.svelte extends SVGAttributes<SVGElement> ([`f00595c0efb6130a887e1c6ba16164d163ad1300`](https://github.com/shinokada/svelte-ant-design-icons/commit/f00595c0efb6130a887e1c6ba16164d163ad1300))
+
 ## 2.0.0-next.8
 
 ### Patch Changes

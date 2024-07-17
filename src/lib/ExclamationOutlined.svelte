@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "exclamation outlined"
+@prop ariaLabel = 'exclamation outlined'
 @prop ...restProps
 -->

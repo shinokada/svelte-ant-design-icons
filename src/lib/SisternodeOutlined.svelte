@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "sisternode outlined"
+@prop ariaLabel = 'sisternode outlined'
 @prop ...restProps
 -->

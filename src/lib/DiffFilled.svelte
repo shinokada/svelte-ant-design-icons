@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "diff filled"
+@prop ariaLabel = 'diff filled'
 @prop ...restProps
 -->

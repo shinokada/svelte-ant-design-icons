@@ -80,6 +80,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "right circle twotone"
+@prop ariaLabel = 'right circle twotone'
 @prop ...restProps
 -->

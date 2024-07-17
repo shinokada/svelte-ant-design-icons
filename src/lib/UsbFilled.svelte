@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "usb filled"
+@prop ariaLabel = 'usb filled'
 @prop ...restProps
 -->

@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "notification outlined"
+@prop ariaLabel = 'notification outlined'
 @prop ...restProps
 -->

@@ -80,6 +80,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "file zip twotone"
+@prop ariaLabel = 'file zip twotone'
 @prop ...restProps
 -->

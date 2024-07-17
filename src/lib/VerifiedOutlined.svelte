@@ -76,6 +76,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "verified outlined"
+@prop ariaLabel = 'verified outlined'
 @prop ...restProps
 -->

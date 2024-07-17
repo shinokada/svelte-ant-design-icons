@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "zoom out outlined"
+@prop ariaLabel = 'zoom out outlined'
 @prop ...restProps
 -->

@@ -73,6 +73,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "tik tok filled"
+@prop ariaLabel = 'tik tok filled'
 @prop ...restProps
 -->

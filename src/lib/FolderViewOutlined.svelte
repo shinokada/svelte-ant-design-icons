@@ -74,6 +74,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "folder view outlined"
+@prop ariaLabel = 'folder view outlined'
 @prop ...restProps
 -->

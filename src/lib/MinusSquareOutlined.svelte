@@ -75,6 +75,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "minus square outlined"
+@prop ariaLabel = 'minus square outlined'
 @prop ...restProps
 -->

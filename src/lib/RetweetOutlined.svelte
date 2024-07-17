@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "retweet outlined"
+@prop ariaLabel = 'retweet outlined'
 @prop ...restProps
 -->

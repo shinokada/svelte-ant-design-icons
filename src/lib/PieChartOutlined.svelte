@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "pie chart outlined"
+@prop ariaLabel = 'pie chart outlined'
 @prop ...restProps
 -->

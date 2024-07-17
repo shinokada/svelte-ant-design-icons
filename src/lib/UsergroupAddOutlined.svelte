@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "usergroup add outlined"
+@prop ariaLabel = 'usergroup add outlined'
 @prop ...restProps
 -->

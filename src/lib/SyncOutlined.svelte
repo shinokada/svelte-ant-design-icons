@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "sync outlined"
+@prop ariaLabel = 'sync outlined'
 @prop ...restProps
 -->

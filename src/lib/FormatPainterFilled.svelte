@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "format painter filled"
+@prop ariaLabel = 'format painter filled'
 @prop ...restProps
 -->

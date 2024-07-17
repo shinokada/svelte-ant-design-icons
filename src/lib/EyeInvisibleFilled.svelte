@@ -77,6 +77,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "eye invisible filled"
+@prop ariaLabel = 'eye invisible filled'
 @prop ...restProps
 -->

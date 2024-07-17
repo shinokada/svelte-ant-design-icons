@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "diff outlined"
+@prop ariaLabel = 'diff outlined'
 @prop ...restProps
 -->

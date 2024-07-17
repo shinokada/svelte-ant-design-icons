@@ -75,6 +75,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "cloud sync outlined"
+@prop ariaLabel = 'cloud sync outlined'
 @prop ...restProps
 -->

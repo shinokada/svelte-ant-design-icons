@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "split cells outlined"
+@prop ariaLabel = 'split cells outlined'
 @prop ...restProps
 -->

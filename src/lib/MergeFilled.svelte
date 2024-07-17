@@ -73,6 +73,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "merge filled"
+@prop ariaLabel = 'merge filled'
 @prop ...restProps
 -->

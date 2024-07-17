@@ -73,6 +73,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "box plot twotone"
+@prop ariaLabel = 'box plot twotone'
 @prop ...restProps
 -->

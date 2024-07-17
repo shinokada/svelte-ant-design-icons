@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "share alt outlined"
+@prop ariaLabel = 'share alt outlined'
 @prop ...restProps
 -->

@@ -73,6 +73,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "export outlined"
+@prop ariaLabel = 'export outlined'
 @prop ...restProps
 -->

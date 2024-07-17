@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "fast backward filled"
+@prop ariaLabel = 'fast backward filled'
 @prop ...restProps
 -->

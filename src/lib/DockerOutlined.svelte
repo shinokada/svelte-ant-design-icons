@@ -73,6 +73,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "docker outlined"
+@prop ariaLabel = 'docker outlined'
 @prop ...restProps
 -->

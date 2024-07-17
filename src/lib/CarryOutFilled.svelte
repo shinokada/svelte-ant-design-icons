@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "carry out filled"
+@prop ariaLabel = 'carry out filled'
 @prop ...restProps
 -->

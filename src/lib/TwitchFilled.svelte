@@ -94,6 +94,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "twitch filled"
+@prop ariaLabel = 'twitch filled'
 @prop ...restProps
 -->

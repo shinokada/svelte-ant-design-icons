@@ -79,6 +79,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "credit card twotone"
+@prop ariaLabel = 'credit card twotone'
 @prop ...restProps
 -->

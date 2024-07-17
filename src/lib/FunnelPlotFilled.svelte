@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "funnel plot filled"
+@prop ariaLabel = 'funnel plot filled'
 @prop ...restProps
 -->

@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "column width outlined"
+@prop ariaLabel = 'column width outlined'
 @prop ...restProps
 -->

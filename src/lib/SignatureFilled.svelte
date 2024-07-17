@@ -75,6 +75,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "signature filled"
+@prop ariaLabel = 'signature filled'
 @prop ...restProps
 -->

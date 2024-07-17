@@ -73,6 +73,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "wechat work outlined"
+@prop ariaLabel = 'wechat work outlined'
 @prop ...restProps
 -->

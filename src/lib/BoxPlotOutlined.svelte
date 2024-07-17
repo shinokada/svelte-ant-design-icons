@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "box plot outlined"
+@prop ariaLabel = 'box plot outlined'
 @prop ...restProps
 -->

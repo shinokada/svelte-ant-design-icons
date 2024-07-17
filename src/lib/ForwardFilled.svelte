@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "forward filled"
+@prop ariaLabel = 'forward filled'
 @prop ...restProps
 -->

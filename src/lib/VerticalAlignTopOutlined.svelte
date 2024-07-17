@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "vertical align top outlined"
+@prop ariaLabel = 'vertical align top outlined'
 @prop ...restProps
 -->

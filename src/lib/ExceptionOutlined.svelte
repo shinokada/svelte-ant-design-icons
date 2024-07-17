@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "exception outlined"
+@prop ariaLabel = 'exception outlined'
 @prop ...restProps
 -->

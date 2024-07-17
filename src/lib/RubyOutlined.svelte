@@ -73,6 +73,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "ruby outlined"
+@prop ariaLabel = 'ruby outlined'
 @prop ...restProps
 -->

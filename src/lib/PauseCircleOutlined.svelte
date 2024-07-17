@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "pause circle outlined"
+@prop ariaLabel = 'pause circle outlined'
 @prop ...restProps
 -->

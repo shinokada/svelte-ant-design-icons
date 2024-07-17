@@ -73,6 +73,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "kubernetes outlined"
+@prop ariaLabel = 'kubernetes outlined'
 @prop ...restProps
 -->

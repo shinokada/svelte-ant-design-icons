@@ -76,6 +76,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "mobile twotone"
+@prop ariaLabel = 'mobile twotone'
 @prop ...restProps
 -->

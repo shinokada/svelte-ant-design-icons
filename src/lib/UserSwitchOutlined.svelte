@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "user switch outlined"
+@prop ariaLabel = 'user switch outlined'
 @prop ...restProps
 -->

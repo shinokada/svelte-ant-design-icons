@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "switcher filled"
+@prop ariaLabel = 'switcher filled'
 @prop ...restProps
 -->

@@ -74,6 +74,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "rotate right outlined"
+@prop ariaLabel = 'rotate right outlined'
 @prop ...restProps
 -->

@@ -74,6 +74,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "merge outlined"
+@prop ariaLabel = 'merge outlined'
 @prop ...restProps
 -->

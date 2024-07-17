@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "calendar outlined"
+@prop ariaLabel = 'calendar outlined'
 @prop ...restProps
 -->

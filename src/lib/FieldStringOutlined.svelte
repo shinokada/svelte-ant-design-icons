@@ -74,6 +74,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "field string outlined"
+@prop ariaLabel = 'field string outlined'
 @prop ...restProps
 -->

@@ -73,6 +73,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "file twotone"
+@prop ariaLabel = 'file twotone'
 @prop ...restProps
 -->

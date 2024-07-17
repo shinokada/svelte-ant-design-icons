@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "insert row left outlined"
+@prop ariaLabel = 'insert row left outlined'
 @prop ...restProps
 -->

@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "fullscreen exit outlined"
+@prop ariaLabel = 'fullscreen exit outlined'
 @prop ...restProps
 -->

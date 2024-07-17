@@ -72,6 +72,6 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "reddit circle filled"
+@prop ariaLabel = 'reddit circle filled'
 @prop ...restProps
 -->

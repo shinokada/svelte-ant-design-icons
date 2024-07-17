@@ -14,7 +14,10 @@
 <H2>Props</H2>
 
 <P>
-  All icons are extended <A href="https://github.com/sveltejs/svelte/blob/main/packages/svelte/elements.d.ts">SVGAttributes from svelte/elements</A>.
+  All icons are extended <A
+    href="https://github.com/sveltejs/svelte/blob/main/packages/svelte/elements.d.ts"
+    >SVGAttributes from svelte/elements</A
+  >.
 </P>
 
 <HighlightCompo codeLang="ts" code={modules['./md/props.md'] as string} />
@@ -102,11 +105,11 @@
 
 <CodeWrapper>
   <AppstoreAddOutlined
-  id="my-svg"
-  transform="rotate(45)"
-  class="hover:cursor-pointer dark:text-white"
-  onclick={() => alert('hello')} 
-/>
+    id="my-svg"
+    transform="rotate(45)"
+    class="hover:cursor-pointer dark:text-white"
+    onclick={() => alert('hello')}
+  />
 </CodeWrapper>
 
 <HighlightCompo codeLang="ts" code={modules['./md/passing-down-other-attributes.md'] as string} />

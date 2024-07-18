@@ -10,5 +10,5 @@
 <IconPage
   icons={keyIcons as Component}
   title="Outlined Icons - Svelte Ant Design Icons"
-  div1Class="lg:grid-cols-3"
+  tab1Class="md:grid-cols-2 lg:grid-cols-3"
 />

@@ -10,7 +10,7 @@
   minSize="16"
   defaultSize="24"
   maxSize="36"
-  div3Class="lg:grid-cols-3 md:grid-cols-2 "
+  tab1Class="md:grid-cols-2 lg:grid-cols-3"
   icons={keyIcons as Component}
   threeTabs={false}
   title="Twotone Icons - Svelte Ant Design Icons"

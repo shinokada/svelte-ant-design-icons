@@ -1,5 +1,11 @@
 # svelte-ant-design-icons
 
+## 2.0.0-next.11
+
+### Patch Changes
+
+- feat: types.ts ([`6427cd95f7d0433fac1720376b7b2a70376fd820`](https://github.com/shinokada/svelte-ant-design-icons/commit/6427cd95f7d0433fac1720376b7b2a70376fd820))
+
 ## 2.0.0-next.10
 
 ### Patch Changes

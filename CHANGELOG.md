@@ -1,5 +1,11 @@
 # svelte-ant-design-icons
 
+## 2.0.0-next.12
+
+### Patch Changes
+
+- fix: update peerDependencies ([`246c091181317597e26c9b42dfb7c902d25a8044`](https://github.com/shinokada/svelte-ant-design-icons/commit/246c091181317597e26c9b42dfb7c902d25a8044))
+
 ## 2.0.0-next.11
 
 ### Patch Changes

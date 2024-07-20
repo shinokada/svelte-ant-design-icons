@@ -96,7 +96,10 @@
 <H2>Passing down other attributes</H2>
 
 <P>
-  As default all icons are extended <A href='https://github.com/sveltejs/svelte/blob/svelte%405.0.0-next.182/packages/svelte/elements.d.ts'>SVGAttributes SVGElement</A> interface. This means you can add any standard SVG attribute or event listener to our icon components.
+  As default all icons are extended <A
+    href="https://github.com/sveltejs/svelte/blob/svelte%405.0.0-next.182/packages/svelte/elements.d.ts"
+    >SVGAttributes SVGElement</A
+  > interface. This means you can add any standard SVG attribute or event listener to our icon components.
 </P>
 
 <CodeWrapper>

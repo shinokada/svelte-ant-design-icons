@@ -7,7 +7,7 @@
 </script>
 
 <IconPage
-  icons={keyIcons}
+  icons={keyIcons as Component}
   title="Filled Icons - Svelte Ant Design Icons"
   tab1Class="md:grid-cols-2 lg:grid-cols-3"
 />

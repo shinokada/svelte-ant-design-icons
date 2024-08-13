@@ -75,10 +75,6 @@
 
 <HighlightCompo codeLang="ts" code={modules['./md/passing-down-other-attributes.md'] as string} />
 
-<H2>Using svelte:component</H2>
-
-<HighlightCompo codeLang="ts" code={modules['./md/using-svelte-component.md'] as string} />
-
 <H2>Using onMount</H2>
 <HighlightCompo codeLang="ts" code={modules['./md/using-onmount.md'] as string} />
 

@@ -1,5 +1,11 @@
 # svelte-ant-design-icons
 
+## 2.0.0-next.13
+
+### Patch Changes
+
+- fix: Icon.svelte removed deprecated svelte:component ([`b729a6319ef0de44f806bcca1583d47a8ca9dc87`](https://github.com/shinokada/svelte-ant-design-icons/commit/b729a6319ef0de44f806bcca1583d47a8ca9dc87))
+
 ## 2.0.0-next.12
 
 ### Patch Changes

@@ -6,10 +6,10 @@
     Icon: Component;
   }
 
-  let { Icon, size = '24', role = 'img', ariaLabel = 'Icon', ...restProps }: IconProps = $props();
+  let { Icon, size = '24', color = 'currentColor', role = 'img', ariaLabel = 'Icon', ...restProps }: IconProps = $props();
 </script>
 
-<Icon {...restProps} {role} {size} aria-label={ariaLabel} />
+<Icon {...restProps} {role} {color} {size} {ariaLabel} />
 
 <!--
 @component
@@ -17,6 +17,7 @@
 ## Props
 @prop Icon
 @prop size = '24'
+@prop color = 'currentColor'
 @prop role = 'img'
 @prop ariaLabel = 'Icon'
 @prop ...restProps

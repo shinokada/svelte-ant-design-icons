@@ -1,5 +1,11 @@
 # svelte-ant-design-icons
 
+## 2.0.0-next.14
+
+### Patch Changes
+
+- fix: Icon.svelte ariaLabel ([`f75d3fbaf96e3c7c0ad43163f519eb5cf5808b2e`](https://github.com/shinokada/svelte-ant-design-icons/commit/f75d3fbaf96e3c7c0ad43163f519eb5cf5808b2e))
+
 ## 2.0.0-next.13
 
 ### Patch Changes

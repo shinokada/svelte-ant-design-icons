@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Icon as AntIcon } from '$lib';
+  import { Icon as AntIcon } from 'svelte-ant-design-icons';
   import { type Component } from 'svelte';
   const config: { size: string, color: string, ariaLabel: string, class: string } = {
     size: "30",

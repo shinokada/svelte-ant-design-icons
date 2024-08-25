@@ -18,12 +18,11 @@
     random_tailwind_color,
     DotsHorizontalOutline,
     XSolid,
-    Sidebar,
-    sidebarList
+    Sidebar
   } from 'runes-webkit';
   import DynamicCodeBlockStyle from './DynamicCodeBlockStyle.svelte';
   import { sineIn } from 'svelte/easing';
-  import { newSidebarList } from './helper';
+  import { newSidebarList } from './helpers';
 
   function isIncluded(url: string, allowedUrls: string[]): boolean {
     return allowedUrls.some((allowedUrl) => url.startsWith(allowedUrl));
@@ -220,7 +219,7 @@
   <Sidebar
     sidebarList={newSidebarList}
     asideClass="w-60 p-0 border-none mt-20 ml-4 !important"
-    divClass="dark_bg_theme"
+    divClass="dark_bg_theme bg-white"
     sidebarClose={closeNavDrawer}
   />
 </Drawer>

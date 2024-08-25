@@ -1,23 +1,17 @@
 <script lang="ts">
   import '../app.pcss';
   import { page } from '$app/stores';
-  import type { Component } from 'svelte';
-  import type { ListType } from 'runes-webkit';
   import {
     Footer,
     OnThisPage,
     extract,
     Sidebar,
-    removeHyphensAndCapitalize,
-    sidebarList,
-    ExpandOutline,
-    GridPlusOutline,
-    CogOutline
+    removeHyphensAndCapitalize
   } from 'runes-webkit';
   import { RunesMetaTags, deepMerge } from 'runes-meta-tags';
   import Nav from './utils/Nav.svelte';
   import { Runatics } from 'runatics';
-  import { newSidebarList } from './utils/helper';
+  import { newSidebarList } from './utils/helpers';
 
   let { children, data } = $props();
   const analyticsId = data.ANALYTICS_ID_TWO;

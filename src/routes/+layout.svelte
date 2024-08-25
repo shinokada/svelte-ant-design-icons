@@ -1,24 +1,3 @@
-<script context="module" lang="ts">
-  const extra: ListType[] = [
-    {
-      name: 'Filled',
-      icon: ExpandOutline as Component,
-      href: '/filled-icons'
-    },
-    {
-      name: 'Outlined',
-      icon: CogOutline as Component,
-      href: '/outlined-icons'
-    },
-    {
-      name: 'Twotone',
-      icon: GridPlusOutline as Component,
-      href: '/twotone-icons'
-    }
-  ];
-  export const newSidebarList: ListType[] = [...sidebarList, ...extra];
-</script>
-
 <script lang="ts">
   import '../app.pcss';
   import { page } from '$app/stores';
@@ -38,6 +17,7 @@
   import { RunesMetaTags, deepMerge } from 'runes-meta-tags';
   import Nav from './utils/Nav.svelte';
   import { Runatics } from 'runatics';
+  import { newSidebarList } from './utils/helper';
 
   let { children, data } = $props();
   const analyticsId = data.ANALYTICS_ID_TWO;

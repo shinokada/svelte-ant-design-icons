@@ -4,17 +4,17 @@ import { type ListType, sidebarList, CogOutline, ExpandOutline, GridPlusOutline 
 const extra: ListType[] = [
   {
     name: 'Filled',
-    icon: ExpandOutline as Component,
+    Icon: ExpandOutline as Component,
     href: '/filled-icons'
   },
   {
     name: 'Outlined',
-    icon: CogOutline as Component,
+    Icon: CogOutline as Component,
     href: '/outlined-icons'
   },
   {
     name: 'Twotone',
-    icon: GridPlusOutline as Component,
+    Icon: GridPlusOutline as Component,
     href: '/twotone-icons'
   }
 ];

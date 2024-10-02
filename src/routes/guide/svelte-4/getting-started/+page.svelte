@@ -19,22 +19,38 @@
 <h1>Getting Started - Svelte Ant Design Icons v1</h1>
 
 <div class="my-8 flex gap-2">
-  <a href="https://github.com/sponsors/shinokada" target="_blank" rel="nofollow" aria-label="Sponsor @shinokada"
+  <a
+    href="https://github.com/sponsors/shinokada"
+    target="_blank"
+    rel="nofollow"
+    aria-label="Sponsor @shinokada"
     ><img
       src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86"
       alt="sponsor"
     /></a
   >
-  <a href="https://www.npmjs.com/package/svelte-ant-design-icons" rel="nofollow" target="_blank" aria-label="npm svelte-ant-design-icons"
+  <a
+    href="https://www.npmjs.com/package/svelte-ant-design-icons"
+    rel="nofollow"
+    target="_blank"
+    aria-label="npm svelte-ant-design-icons"
     ><img src="https://img.shields.io/npm/v/svelte-ant-design-icons" alt="npm" /></a
   >
-  <a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank" aria-label="MIT License"
+  <a
+    href="https://opensource.org/licenses/MIT"
+    rel="nofollow"
+    target="_blank"
+    aria-label="MIT License"
     ><img
       src="https://img.shields.io/github/license/shinokada/svelte-ant-design-icons"
       alt="License"
     /></a
   >
-  <a href="https://www.npmjs.com/package/svelte-ant-design-icons" rel="nofollow" target="_blank" aria-label="npm svelte-ant-design-icons"
+  <a
+    href="https://www.npmjs.com/package/svelte-ant-design-icons"
+    rel="nofollow"
+    target="_blank"
+    aria-label="npm svelte-ant-design-icons"
     ><img src="https://img.shields.io/npm/dw/svelte-ant-design-icons.svg" alt="npm" /></a
   >
 </div>

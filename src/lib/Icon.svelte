@@ -6,7 +6,14 @@
     Icon: Component;
   }
 
-  let { Icon, size = '24', color = 'currentColor', role = 'img', ariaLabel = 'Icon', ...restProps }: IconProps = $props();
+  let {
+    Icon,
+    size = '24',
+    color = 'currentColor',
+    role = 'img',
+    ariaLabel = 'Icon',
+    ...restProps
+  }: IconProps = $props();
 </script>
 
 <Icon {...restProps} {role} {color} {size} {ariaLabel} />

@@ -51,3 +51,16 @@
     d="M605.4 549.3c34.8-12.8 78.4-49 78.4-119.2 0-71.2-45.4-131.1-144.2-131.1H384c-4.4 0-8 3.6-8 8v410c0 4.4 3.6 8 8 8h54.7c4.4 0 8-3.6 8-8V561.2h88.7L610 720.4c1.3 2.8 4.1 4.6 7.2 4.6h62c1.2 0 2.4-.3 3.5-.8 3.9-2 5.6-6.8 3.5-10.7l-80.8-164.2zM528 505h-81.5V357h83.4c48 0 80.9 25.3 80.9 75.6 0 46.8-29.8 72.4-82.8 72.4z"
   />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop title
+@prop desc
+@prop ariaLabel = 'trademark circle twotone'
+@prop ...restProps
+-->

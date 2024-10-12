@@ -37,3 +37,16 @@
   {/if}
   <path d="M112 476h160v72H112zm320 0h160v72H432zm320 0h160v72H752z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop title
+@prop desc
+@prop ariaLabel = 'dash outlined'
+@prop ...restProps
+-->

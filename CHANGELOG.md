@@ -1,5 +1,11 @@
 # svelte-ant-design-icons
 
+## 2.0.0-next.15
+
+### Patch Changes
+
+- fix: remove CtxProps ([`92ea4211ebeb4eaac918a2af851db0dd22d44060`](https://github.com/shinokada/svelte-ant-design-icons/commit/92ea4211ebeb4eaac918a2af851db0dd22d44060))
+
 ## 2.0.0-next.14
 
 ### Patch Changes

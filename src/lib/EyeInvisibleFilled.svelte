@@ -1,8 +1,8 @@
 <script lang="ts">
   import { getContext } from 'svelte';
-  import type { CtxType, Props } from './types';
+  import type { BaseProps, Props } from './types';
 
-  const ctx: CtxType = getContext('iconCtx') ?? {};
+  const ctx: BaseProps = getContext('iconCtx') ?? {};
 
   let {
     size = ctx.size || '24',
@@ -44,16 +44,3 @@
     d="M942.2 486.2Q889.4 375 816.51 304.85L672.37 449A176.08 176.08 0 0 1 445 676.37L322.74 798.63Q407.82 838 512 838q288.3 0 430.2-300.3a60.29 60.29 0 0 0 0-51.5z"
   />
 </svg>
-
-<!--
-@component
-[Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
-## Props
-@prop size = ctx.size || '24'
-@prop role = ctx.role || 'img'
-@prop color = ctx.color || 'currentColor'
-@prop title
-@prop desc
-@prop ariaLabel =  "eye invisible filled"
-@prop ...restProps
--->

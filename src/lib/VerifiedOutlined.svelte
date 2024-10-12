@@ -1,8 +1,8 @@
 <script lang="ts">
   import { getContext } from 'svelte';
-  import type { CtxType, Props } from './types';
+  import type { BaseProps, Props } from './types';
 
-  const ctx: CtxType = getContext('iconCtx') ?? {};
+  const ctx: BaseProps = getContext('iconCtx') ?? {};
 
   let {
     size = ctx.size || '24',
@@ -43,16 +43,3 @@
     d="M452 297v36c0 4.4 3.6 8 8 8h108v274h-38V405c0-4.4-3.6-8-8-8h-35c-4.4 0-8 3.6-8 8v210h-31c-4.4 0-8 3.6-8 8v37c0 4.4 3.6 8 8 8h244c4.4 0 8-3.6 8-8v-37c0-4.4-3.6-8-8-8h-72V493h58c4.4 0 8-3.6 8-8v-35c0-4.4-3.6-8-8-8h-58V341h63c4.4 0 8-3.6 8-8v-36c0-4.4-3.6-8-8-8H460c-4.4 0-8 3.6-8 8z"
   ></path>
 </svg>
-
-<!--
-@component
-[Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
-## Props
-@prop size = ctx.size || '24'
-@prop role = ctx.role || 'img'
-@prop color = ctx.color || 'currentColor'
-@prop title
-@prop desc
-@prop ariaLabel =  "verified outlined"
-@prop ...restProps
--->

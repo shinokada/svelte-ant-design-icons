@@ -1,8 +1,8 @@
 <script lang="ts">
   import { getContext } from 'svelte';
-  import type { CtxType, Props } from './types';
+  import type { BaseProps, Props } from './types';
 
-  const ctx: CtxType = getContext('iconCtx') ?? {};
+  const ctx: BaseProps = getContext('iconCtx') ?? {};
 
   let {
     size = ctx.size || '24',
@@ -47,16 +47,3 @@
     d="M443.7 306.9l-38.6-18.3c-3.4-1.6-7.3.2-8.4 3.7-17.5 58.5-45.2 110.2-82.2 153.6a5.7 5.7 0 0 0-1.2 5.6l13.2 43.5c1.4 4.5 7 5.8 10.2 2.4 7.7-8.1 15.4-16.8 23.1-26V656c0 4.4 3.6 8 8 8h37.3c4.4 0 8-3.6 8-8h.2V393.1a429.2 429.2 0 0 0 33.6-79c.9-2.8-.5-5.9-3.2-7.2zm26.8 9.1v127.4c0 4.4 3.6 8 8 8h65.9V470h-94.9c-4.4 0-8 3.6-8 8v35.6c0 4.4 3.6 8 8 8h55.1c-19.1 30.8-42.4 55.7-71 76a6 6 0 0 0-1.6 8.1l22.8 36.5c.9 1.5 2.4 2.5 4.1 2.8 1.7.3 3.5-.2 4.8-1.4 31.6-26.8 58.6-62.9 80.6-107.6v120c0 4.4 3.6 8 8 8h36.2c4.4 0 8-3.6 8-8V535.9c21.3 41.7 47.5 77.6 78.1 106.9 2.6 2.5 6.7 2.2 8.9-.7l26.3-35.3c2-2.6 1.4-6.4-1.2-8.5-30.5-22.6-54.2-47.8-72.3-76.9h59c4.4 0 8-3.6 8-8v-35.6c0-4.4-3.6-8-8-8h-98.8v-18.6h66.7c4.4 0 8-3.6 8-8V316c0-4.4-3.6-8-8-8H478.5c-4.4 0-8 3.6-8 8zm51.4 42.8h97.9v41.6h-97.9v-41.6z"
   />
 </svg>
-
-<!--
-@component
-[Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
-## Props
-@prop size = ctx.size || '24'
-@prop role = ctx.role || 'img'
-@prop color = ctx.color || 'currentColor'
-@prop title
-@prop desc
-@prop ariaLabel =  "insurance twotone"
-@prop ...restProps
--->

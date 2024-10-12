@@ -69,9 +69,10 @@
     href: 'https://codewithshin.com'
   };
   const urlsToIncludeSwitcherAndSidebar = ['/guide/', '/guide2/', '/how-to-use', '/quick-start'];
+  /*eslint no-undef: "off"*/
   const siteName = removeHyphensAndCapitalize(__NAME__);
-  const twitterUrl = 'https://twitter.com/shinokada';
   const githubUrl = `https://github.com/shinokada/${__NAME__}`;
+  const twitterUrl = 'https://twitter.com/shinokada';
 
   // nav
   let nav = uiHelpers();
@@ -99,8 +100,6 @@
     easing: sineIn
   };
   // sidebar
-  let iconClass =
-    'fixed inset-0 z-30 flex-none h-full lg:static lg:h-auto lg:overflow-y-visible bg-white dark_bg_theme lg:pt-0 lg:block';
   $effect(() => {
     navStatus = nav.isOpen;
     dropdownStatus = dropdown.isOpen;

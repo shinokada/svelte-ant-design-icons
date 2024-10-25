@@ -1,5 +1,44 @@
 # svelte-ant-design-icons
 
+## 2.0.0
+
+### Patch Changes
+
+- fix: remove class from props ([`0fbc6b4`](https://github.com/shinokada/svelte-ant-design-icons/commit/0fbc6b493692186f4b0b320b39f595e47630866c))
+
+- fix: update peerDependencies ([`246c091`](https://github.com/shinokada/svelte-ant-design-icons/commit/246c091181317597e26c9b42dfb7c902d25a8044))
+
+- chore: update dependencies ([`4b0c4ae`](https://github.com/shinokada/svelte-ant-design-icons/commit/4b0c4aed82ddfb2231c0bd5b600990a75a6174ed))
+  feat: Enter prerelease mode and version packages
+
+- feat: types.ts ([`6427cd9`](https://github.com/shinokada/svelte-ant-design-icons/commit/6427cd95f7d0433fac1720376b7b2a70376fd820))
+
+- docs: Update CHANGELOG ([`f1f7a9d`](https://github.com/shinokada/svelte-ant-design-icons/commit/f1f7a9d2097a610b3c7b8684f299ebe49492a1d9))
+
+- feat: for v2.0.0
+
+- fix: remove CtxProps ([`92ea421`](https://github.com/shinokada/svelte-ant-design-icons/commit/92ea4211ebeb4eaac918a2af851db0dd22d44060))
+
+- fix: Icon.svelte ariaLabel ([`f75d3fb`](https://github.com/shinokada/svelte-ant-design-icons/commit/f75d3fbaf96e3c7c0ad43163f519eb5cf5808b2e))
+
+- fix: change size=number to string for Icon.svelte ([`7518c48`](https://github.com/shinokada/svelte-ant-design-icons/commit/7518c484cf02f1df56696e085e86dbca29ff5174))
+
+- feat: extends svelte SVGAttributes<SVGElement> ([`1b59399`](https://github.com/shinokada/svelte-ant-design-icons/commit/1b593999dd1000da9b02b4f01f0cb5cc99af33d0))
+
+- fix: Icon.svelte extends SVGAttributes<SVGElement> ([`f00595c`](https://github.com/shinokada/svelte-ant-design-icons/commit/f00595c0efb6130a887e1c6ba16164d163ad1300))
+
+- fix: component docs ([`c4c0025`](https://github.com/shinokada/svelte-ant-design-icons/commit/c4c002587abcc29b7f7de42c4b50ae67d52722cf))
+
+- fix: change hasDescription to derived ([`5814525`](https://github.com/shinokada/svelte-ant-design-icons/commit/5814525a0be8f99dfe5b1689573da1c73ae90e7a))
+
+- fix: Icon.svelte removed deprecated svelte:component ([`b729a63`](https://github.com/shinokada/svelte-ant-design-icons/commit/b729a6319ef0de44f806bcca1583d47a8ca9dc87))
+
+## 2.0.0-next.16
+
+### Patch Changes
+
+- feat: for v2.0.0
+
 ## 2.0.0-next.15
 
 ### Patch Changes

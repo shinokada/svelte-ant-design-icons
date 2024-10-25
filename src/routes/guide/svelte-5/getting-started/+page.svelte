@@ -52,10 +52,6 @@
 
 <HighlightCompo codeLang="ts" code={modules['./md/installation.md'] as string} />
 
-<p>Enable Runes in svelte.config.js:</p>
-
-<HighlightCompo codeLang="ts" code={modules['./md/runes.md'] as string} />
-
 <H2>Basic Usage</H2>
 
 <p>In a svelte file:</p>

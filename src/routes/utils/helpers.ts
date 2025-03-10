@@ -24,4 +24,8 @@ const extra: ListType[] = [
     href: '/twotone-icons'
   }
 ];
-export const newSidebarList: ListType[] = [...sidebarList, ...extra];
+
+export const newSidebarList: ListType[] = [
+	...(Array.isArray(sidebarList) ? sidebarList : []),
+	...extra
+];

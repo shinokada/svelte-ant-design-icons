@@ -1,8 +1,8 @@
 <script lang="ts">
-  import '../app.pcss';
+  import '../app.css';
   import { sineIn } from 'svelte/easing';
   import type { Component } from 'svelte';
-  import { page } from '$app/stores';
+  import { page } from '$app/state';
   import { newSidebarList } from './utils/helpers';
   import {
     Footer,
@@ -36,6 +36,11 @@
   import { Runatics } from 'runatics';
   import DynamicCodeBlockStyle from './utils/DynamicCodeBlockStyle.svelte';
 
+  let activeUrl = $state(page.url.pathname);
+  $effect(() => {
+    activeUrl = page.url.pathname;
+  });
+
   type LiType = {
     name: string;
     href: string;
@@ -45,8 +50,8 @@
   const analyticsId = data.ANALYTICS_ID_TWO;
   // metaTags
   let metaTags = $state(
-    $page.data.pageMetaTags
-      ? deepMerge($page.data.layoutMetaTags, $page.data.pageMetaTags)
+    page.data.pageMetaTags
+      ? deepMerge(page.data.layoutMetaTags, page.data.pageMetaTags)
       : data.layoutMetaTags
   );
   // sidebar
@@ -54,7 +59,7 @@
   let isOpen = $state(false);
   const closeSidebar = sidebarUi.close;
 
-  let currentUrl = $state($page.url.pathname);
+  let currentUrl = $state(page.url.pathname);
   const hasPath = (key: string) => currentUrl.includes(key);
 
   const lis = [
@@ -84,7 +89,7 @@
   let headerCls =
     'sticky top-0 z-40 mx-auto w-full flex-none border-b border-gray-200 bg-gray-100 dark:border-gray-600 dark:bg-sky-950';
   let navClass =
-    'w-full divide-gray-200 border-gray-200 bg-gray-50 dark_bg_theme text-gray-500 dark:divide-gray-700 dark:border-gray-700 dark:transparent dark:text-gray-400 sm:px-4';
+    'w-full divide-gray-200 border-gray-200 bg-gray-50 dark:bg-sky-950 text-gray-500 dark:divide-gray-700 dark:border-gray-700 dark:transparent dark:text-gray-400 sm:px-4';
   let divClass = 'ml-auto w-full';
   let ulclass = 'dark:lg:bg-transparent lg:space-x-4';
   function isIncluded(url: string, allowedUrls: string[]): boolean {
@@ -105,9 +110,9 @@
   $effect(() => {
     navStatus = nav.isOpen;
     dropdownStatus = dropdown.isOpen;
-    currentUrl = $page.url.pathname;
-    metaTags = $page.data.pageMetaTags
-      ? deepMerge($page.data.layoutMetaTags, $page.data.pageMetaTags)
+    currentUrl = page.url.pathname;
+    metaTags = page.data.pageMetaTags
+      ? deepMerge(page.data.layoutMetaTags, page.data.pageMetaTags)
       : data.layoutMetaTags;
     isOpen = sidebarUi.isOpen;
   });
@@ -200,7 +205,7 @@
       </div>
     {/snippet}
     {#if lis}
-      <NavUl class={ulclass}>
+      <NavUl {activeUrl} class={ulclass}>
         {@render navLi(lis)}
       </NavUl>
     {/if}
@@ -210,13 +215,14 @@
 <div class="lg:flex">
   {#if urlsToIncludeSwitcherAndSidebar.some((path) => currentUrl.startsWith(path))}
     <Sidebar
+      {activeUrl}
       {isOpen}
       {closeSidebar}
       breakpoint="lg"
       activeClass="flex items-center p-1 text-base font-normal text-white dark:hover:text-white hover:text-gray-900 bg-primary-700 dark:bg-primary-700 rounded-lg dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
       nonActiveClass="p-1 hover:bg-gray-200"
-      divClass="dark_bg_theme bg-gray-50"
-      class="dark_bg_theme h-screen border-r border-gray-50 lg:top-[58px] dark:border-gray-700"
+      divClass="dark:bg-sky-950 bg-gray-50"
+      class="dark:bg-sky-950 h-screen border-r border-gray-50 lg:top-[58px] dark:border-gray-700"
     >
       <CloseButton
         onclick={closeSidebar}

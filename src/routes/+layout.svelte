@@ -58,12 +58,12 @@
 	const hasPath = (key: string) => currentUrl.includes(key);
 
 	const lis: LiType[] = [
-    { name: 'Guide', href: '/guide/svelte-5/getting-started' },
-    { name: 'Filled', href: '/filled-icons' },
-    { name: 'Outlined', href: '/outlined-icons' },
-    { name: 'Twotone', href: '/twotone-icons' },
-    { name: 'Icon sets', href: 'https://svelte-svg-icons.codewithshin.com/' }
-  ];
+		{ name: 'Guide', href: '/guide/svelte-5/getting-started' },
+		{ name: 'Filled', href: '/filled-icons' },
+		{ name: 'Outlined', href: '/outlined-icons' },
+		{ name: 'Twotone', href: '/twotone-icons' },
+		{ name: 'Icon sets', href: 'https://svelte-svg-icons.codewithshin.com/' }
+	];
 	const brand = {
 		name: 'codewithshin.com',
 		href: 'https://codewithshin.com'
@@ -95,8 +95,8 @@
 		isOpen = sidebarUi.isOpen;
 	});
 
-  let activeClass = "p-2 text-sm xl:text-base";
-  let nonActiveClass = "p-2 text-sm xl:text-base";
+	let activeClass = 'p-2 text-sm xl:text-base';
+	let nonActiveClass = 'p-2 text-sm xl:text-base';
 </script>
 
 <Runatics {analyticsId} />
@@ -105,7 +105,7 @@
 <Navbar
 	breakpoint="xl"
 	fluid
-	class="fixed top-0 left-0 z-50 border-b border-gray-100 bg-white sm:px-12 xl:py-0 dark:border-gray-700 dark-bg-theme"
+	class="dark-bg-theme fixed top-0 left-0 z-50 border-b border-gray-100 bg-white sm:px-12 xl:py-0 dark:border-gray-700"
 	navContainerClass="xl:justify-between"
 >
 	<NavBrand href="/">
@@ -173,7 +173,7 @@
 				active:
 					'flex items-center p-1 text-base font-normal text-white dark:hover:text-white hover:text-gray-900 bg-primary-700 dark:bg-primary-700 rounded-lg dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700'
 			}}
-			class="h-screen border-r border-gray-100 xl:top-[74px] dark:border-gray-700 bg-white dark-bg-theme mt-16 xl:mt-0"
+			class="dark-bg-theme mt-16 h-screen border-r border-gray-100 bg-white xl:top-[74px] xl:mt-0 dark:border-gray-700"
 		>
 			<SidebarGroup>
 				{#each newSidebarList as { name, Icon, children, href }}
@@ -213,4 +213,4 @@
 	{/if}
 	{@render children()}
 </div>
-<Footer {brand} {lis}/>
+<Footer {brand} {lis} />

@@ -13,4 +13,5 @@
 
   let { Icon }: Props = $props();
 </script>
+
 <AntIcon {...config} {Icon} />

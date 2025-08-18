@@ -1,43 +1,43 @@
 <script lang="ts">
-  import { getContext } from 'svelte';
-  import type { BaseProps, Props } from './types';
+	import { getContext } from 'svelte';
+	import type { BaseProps, Props } from './types';
 
-  const ctx: BaseProps = getContext('iconCtx') ?? {};
+	const ctx: BaseProps = getContext('iconCtx') ?? {};
 
-  let {
-    size = ctx.size || '24',
-    role = ctx.role || 'img',
-    color = ctx.color || 'currentColor',
-    title,
-    desc,
-    ariaLabel = 'trademark circle outlined',
-    ...restProps
-  }: Props = $props();
+	let {
+		size = ctx.size || '24',
+		role = ctx.role || 'img',
+		color = ctx.color || 'currentColor',
+		title,
+		desc,
+		ariaLabel = 'trademark circle outlined',
+		...restProps
+	}: Props = $props();
 
-  let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
-  const hasDescription = $derived(!!(title?.id || desc?.id));
+	let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
+	const hasDescription = $derived(!!(title?.id || desc?.id));
 </script>
 
 <svg
-  xmlns="http://www.w3.org/2000/svg"
-  {...restProps}
-  {role}
-  width={size}
-  height={size}
-  fill={color}
-  aria-label={ariaLabel}
-  aria-describedby={hasDescription ? ariaDescribedby : undefined}
-  viewBox="0 0 1024 1024"
+	xmlns="http://www.w3.org/2000/svg"
+	{...restProps}
+	{role}
+	width={size}
+	height={size}
+	fill={color}
+	aria-label={ariaLabel}
+	aria-describedby={hasDescription ? ariaDescribedby : undefined}
+	viewBox="0 0 1024 1024"
 >
-  {#if title?.id && title.title}
-    <title id={title.id}>{title.title}</title>
-  {/if}
-  {#if desc?.id && desc.desc}
-    <desc id={desc.id}>{desc.desc}</desc>
-  {/if}
-  <path
-    d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372zm87.5-334.7c34.8-12.8 78.4-49 78.4-119.2 0-71.2-45.5-131.1-144.2-131.1H378c-4.4 0-8 3.6-8 8v410c0 4.4 3.6 8 8 8h54.5c4.4 0 8-3.6 8-8V561.2h88.7l74.6 159.2c1.3 2.8 4.1 4.6 7.2 4.6h62a7.9 7.9 0 0 0 7.1-11.5l-80.6-164.2zM522 505h-81.5V357h83.4c48 0 80.9 25.3 80.9 75.5 0 46.9-29.8 72.5-82.8 72.5z"
-  />
+	{#if title?.id && title.title}
+		<title id={title.id}>{title.title}</title>
+	{/if}
+	{#if desc?.id && desc.desc}
+		<desc id={desc.id}>{desc.desc}</desc>
+	{/if}
+	<path
+		d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372zm87.5-334.7c34.8-12.8 78.4-49 78.4-119.2 0-71.2-45.5-131.1-144.2-131.1H378c-4.4 0-8 3.6-8 8v410c0 4.4 3.6 8 8 8h54.5c4.4 0 8-3.6 8-8V561.2h88.7l74.6 159.2c1.3 2.8 4.1 4.6 7.2 4.6h62a7.9 7.9 0 0 0 7.1-11.5l-80.6-164.2zM522 505h-81.5V357h83.4c48 0 80.9 25.3 80.9 75.5 0 46.9-29.8 72.5-82.8 72.5z"
+	/>
 </svg>
 
 <!--

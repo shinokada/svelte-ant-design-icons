@@ -38,19 +38,19 @@
 
 <H2>Requirements</H2>
 
-<HighlightCompo codeLang="ts" code={modules['./md/requirement.md'] as string} />
+<HighlightCompo codeLang="ts" code={modules['./md/requirement.md'] as string} clipboardClass="top-2" />
 
 <H2>Installation</H2>
 
 <p>Install Svelte and Svelte Ant Design Icons:</p>
 
-<HighlightCompo codeLang="ts" code={modules['./md/installation.md'] as string} />
+<HighlightCompo codeLang="ts" code={modules['./md/installation.md'] as string} clipboardClass="top-2" />
 
 <H2>Basic Usage</H2>
 
 <p>In a svelte file:</p>
 
-<HighlightCompo codeLang="ts" code={modules['./md/basic-usage.md'] as string} />
+<HighlightCompo codeLang="ts" code={modules['./md/basic-usage.md'] as string} clipboardClass="top-2" />
 
 <H2>A11y friendly</H2>
 
@@ -58,7 +58,7 @@
   Use <Code>title</Code>, <Code>desc</Code>, and <Code>ariaLabel</Code> props to make your icons accessible.
 </p>
 
-<HighlightCompo codeLang="ts" code={modules['./md/a11y-friendly.md'] as string} />
+<HighlightCompo codeLang="ts" code={modules['./md/a11y-friendly.md'] as string} clipboardClass="top-2" />
 
 <H2>Faster compiling</H2>
 
@@ -68,23 +68,23 @@
   compilation.
 </p>
 
-<HighlightCompo codeLang="ts" code={modules['./md/faster-compiling.md'] as string} />
+<HighlightCompo codeLang="ts" code={modules['./md/faster-compiling.md'] as string} clipboardClass="top-2" />
 
 <H2>Passing down other attributes</H2>
 
 <p>Since all icons have <Code>...$$restProps</Code>, you can pass other attibutes as well.</p>
 
-<HighlightCompo codeLang="ts" code={modules['./md/passing-down-other-attributes.md'] as string} />
+<HighlightCompo codeLang="ts" code={modules['./md/passing-down-other-attributes.md'] as string} clipboardClass="top-2" />
 
 <H2>Using svelte:component</H2>
 
-<HighlightCompo codeLang="ts" code={modules['./md/using-svelte-component.md'] as string} />
+<HighlightCompo codeLang="ts" code={modules['./md/using-svelte-component.md'] as string} clipboardClass="top-2" />
 
 <H2>Using onMount</H2>
-<HighlightCompo codeLang="ts" code={modules['./md/using-onmount.md'] as string} />
+<HighlightCompo codeLang="ts" code={modules['./md/using-onmount.md'] as string} clipboardClass="top-2" />
 
 <H2>Import all</H2>
 
 <p>Use <Code>import * as Icon from 'svelte-ant-design-icons</Code>.</p>
 
-<HighlightCompo codeLang="ts" code={modules['./md/import-all.md'] as string} />
+<HighlightCompo codeLang="ts" code={modules['./md/import-all.md'] as string} clipboardClass="top-2" />

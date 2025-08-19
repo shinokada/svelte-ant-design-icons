@@ -20,18 +20,18 @@
 	>.
 </P>
 
-<HighlightCompo codeLang="ts" code={modules['./md/props.md'] as string} clipboardClass="top-2" />
+<HighlightCompo codeLang="ts" code={modules['./md/props.md'] as string}  />
 
 <H2>Types</H2>
 
-<HighlightCompo codeLang="ts" code={modules['./md/types.md'] as string} clipboardClass="top-2" />
+<HighlightCompo codeLang="ts" code={modules['./md/types.md'] as string}  />
 
 <H2>Size</H2>
 
 <p>
 	To change the size of an icon, use the <Code>size</Code> prop and specify the desired size. For example:
 </p>
-<HighlightCompo codeLang="ts" code={modules['./md/size.md'] as string} clipboardClass="top-2" />
+<HighlightCompo codeLang="ts" code={modules['./md/size.md'] as string}  />
 
 <p>
 	You can add a custom size using Tailwind CSS by including the desired classes in the <Code
@@ -39,7 +39,7 @@
 	> prop. For example:
 </p>
 
-<HighlightCompo codeLang="ts" code={modules['./md/size-2.md'] as string} clipboardClass="top-2" />
+<HighlightCompo codeLang="ts" code={modules['./md/size-2.md'] as string}  />
 
 <H2>CSS HEX Colors</H2>
 
@@ -48,7 +48,7 @@
 <HighlightCompo
 	codeLang="ts"
 	code={modules['./md/css-hex-color.md'] as string}
-	clipboardClass="top-2"
+	
 />
 
 <H2>CSS framework</H2>
@@ -63,7 +63,7 @@
 <HighlightCompo
 	codeLang="ts"
 	code={modules['./md/tailwind-css.md'] as string}
-	clipboardClass="top-2"
+	
 />
 
 <H3>Bootstrap</H3>
@@ -71,7 +71,7 @@
 <HighlightCompo
 	codeLang="ts"
 	code={modules['./md/bootstrap.md'] as string}
-	clipboardClass="top-2"
+	
 />
 
 <H2>Dark mode</H2>
@@ -81,7 +81,7 @@
 <HighlightCompo
 	codeLang="ts"
 	code={modules['./md/dark-mode.md'] as string}
-	clipboardClass="top-2"
+	
 />
 
 <H2>A11y</H2>
@@ -92,13 +92,13 @@
 	>. Use <Code>ariaLabel</Code> prop to modify the <Code>aria-label</Code> value.
 </p>
 
-<HighlightCompo codeLang="ts" code={modules['./md/a11y.md'] as string} clipboardClass="top-2" />
+<HighlightCompo codeLang="ts" code={modules['./md/a11y.md'] as string}  />
 
 <p>
 	Use <Code>title</Code>, <Code>desc</Code>, and <Code>ariaLabel</Code> props to make your icons accessible.
 </p>
 
-<HighlightCompo codeLang="ts" code={modules['./md/a11y-2.md'] as string} clipboardClass="top-2" />
+<HighlightCompo codeLang="ts" code={modules['./md/a11y-2.md'] as string}  />
 
 <CodeWrapper>
 	<AppstoreAddOutlined
@@ -130,5 +130,5 @@
 <HighlightCompo
 	codeLang="ts"
 	code={modules['./md/passing-down-other-attributes.md'] as string}
-	clipboardClass="top-2"
+	
 />

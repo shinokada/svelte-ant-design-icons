@@ -11,26 +11,20 @@
     type CardType
   } from 'runes-webkit';
 
+	let { data } = $props();
+
   const brand = {
     title: `${removeHyphensAndCapitalize(__NAME__)}`,
-    description: `${__DESCRIPTION__}`,
+    description: `${data.fileCount} ${__DESCRIPTION__}`,
     Icon: BellActiveAltOutline,
     icon_class: 'text-blue-500'
   };
 
-  const iconVersion = {
-    title: 'Source: Ant Design Icons',
-    description: `Version: ${__ICONVERSION__}`,
-    Icon: InfoCircleOutline,
-    href: `https://github.com/ant-design/ant-design-icons`,
-    icon_class: 'text-purple-500'
-  };
-
-  const filteredCards = [brand, iconVersion, ...cards];
+  const filteredCards = [brand, ...cards];
 
   const originalSource = {
-    title: 'Original source',
-    description: `${__ORIGINAL_SOURCE_NAME__}`,
+    title: `Original source: ${__ORIGINAL_SOURCE_NAME__}`,
+    description: `Version: ${__ICONVERSION__}`,
     Icon: InfoCircleOutline,
     href: `${__ORIGINAL_SOURCE_URL__}`,
     icon_class: 'text-orange-500'

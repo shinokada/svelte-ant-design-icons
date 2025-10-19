@@ -19,14 +19,14 @@
   };
 
   const iconVersion = {
-    title: 'Ant Design Icons',
+    title: 'Source: Ant Design Icons',
     description: `Version: ${__ICONVERSION__}`,
     Icon: InfoCircleOutline,
     href: `https://github.com/ant-design/ant-design-icons`,
     icon_class: 'text-purple-500'
   };
 
-  const filteredCards = [brand, ...cards];
+  const filteredCards = [brand, iconVersion, ...cards];
 
   const originalSource = {
     title: 'Original source',

@@ -1,4 +1,4 @@
 <button>
-  <AppstoreAddOutlined /> Notifications
+  <AppstoreAddOutlined />App store
 </button>
-<!-- Screen reader reads: "Notifications button" -->
+<!-- Screen reader reads: "App store button" -->

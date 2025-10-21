@@ -1,8 +1,8 @@
 - size = ctx.size || '24'
 - role = ctx.role || 'img'
 - color = ctx.color || 'currentColor'
-- title = {}
-- desc = {}
+- title
+- desc
 - focusable = 'false'
 - ariaLabel,
 - ...restProps

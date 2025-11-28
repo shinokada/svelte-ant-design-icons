@@ -11,7 +11,7 @@
     type CardType
   } from 'runes-webkit';
 
-	let { data } = $props();
+  let { data } = $props();
 
   const brand = {
     title: `${removeHyphensAndCapitalize(__NAME__)}`,

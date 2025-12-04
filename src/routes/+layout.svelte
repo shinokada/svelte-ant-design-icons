@@ -90,9 +90,6 @@
   let include = $derived(isIncluded(activeUrl, urlsToIncludeSwitcher));
 
   $effect(() => {
-    metaTags = page.data.pageMetaTags
-      ? deepMerge(page.data.layoutMetaTags, page.data.pageMetaTags)
-      : data.layoutMetaTags;
     isOpen = sidebarUi.isOpen;
   });
 

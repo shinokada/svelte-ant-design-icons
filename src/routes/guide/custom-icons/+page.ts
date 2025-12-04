@@ -4,19 +4,24 @@ const title = 'Custom icons - Svelte Ant Design Icons';
 const description = 'How to create a custom icons with Svelte Ant Design Icons';
 const imgUrl = 'https://open-graph-vercel.vercel.app/api/svelte-ant-design-icons';
 export const load = () => {
-  const pageMetaTags: MetaProps = {
-    title,
-    description,
-    og: {
+  try {
+    const pageMetaTags: MetaProps = {
       title,
       description,
-      image: imgUrl
-    },
-    twitter: {
-      title,
-      description,
-      image: imgUrl
-    }
-  };
-  return { pageMetaTags };
+      og: {
+        title,
+        description,
+        image: imgUrl
+      },
+      twitter: {
+        title,
+        description,
+        image: imgUrl
+      }
+    };
+    return { pageMetaTags };
+  } catch (err) {
+    console.error('meta load error:', err);
+    throw err;
+  }
 };

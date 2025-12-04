@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shinokada/svelte-ant-design-icons"
+    "url": "git+https://github.com/shinokada/svelte-ant-design-icons.git"
   },
   "bugs": "https://github.com/shinokada/svelte-ant-design-icons/issues",
   "keywords": [
@@ -91,7 +91,7 @@
     "publint": "^0.3.15",
     "runatics": "^0.1.4",
     "runes-meta-tags": "^0.4.5",
-    "runes-webkit": "^0.12.0",
+    "runes-webkit": "^0.12.1",
     "super-sitemap": "^1.0.5",
     "svelte": "^5.45.5",
     "svelte-check": "^4.3.4",

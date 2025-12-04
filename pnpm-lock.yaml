@@ -87,8 +87,8 @@ importers:
         specifier: ^0.4.5
         version: 0.4.5(svelte@5.45.5)
       runes-webkit:
-        specifier: ^0.12.0
-        version: 0.12.0(@sveltejs/kit@2.49.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.45.5)(vite@7.2.6(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.45.5)(vite@7.2.6(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.45.5)(tailwindcss@4.1.17)
+        specifier: ^0.12.1
+        version: 0.12.1(@sveltejs/kit@2.49.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.45.5)(vite@7.2.6(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.45.5)(vite@7.2.6(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.45.5)(tailwindcss@4.1.17)
       super-sitemap:
         specifier: ^1.0.5
         version: 1.0.5(svelte@5.45.5)
@@ -2033,8 +2033,8 @@ packages:
     peerDependencies:
       svelte: ^5.0.0
 
-  runes-webkit@0.12.0:
-    resolution: {integrity: sha512-fIJBGlevLtCTeHJ6xu9tT/337C1p9l5WTTeOntVh7PEmckEoPQPGVKEic780pjGq3jhslE5sEXPI0tcb42jXsg==}
+  runes-webkit@0.12.1:
+    resolution: {integrity: sha512-1pvY/8BHX0HqQ/4x6a1W8Duxnzzs11iaZH/bYf+AgorcrOU1spczbHTCKNYRxz5rga374yNStCx/hGIkpn0k+Q==}
     peerDependencies:
       '@sveltejs/kit': ^2.5.5
       svelte: ^5.29.0
@@ -4270,7 +4270,7 @@ snapshots:
     dependencies:
       svelte: 5.45.5
 
-  runes-webkit@0.12.0(@sveltejs/kit@2.49.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.45.5)(vite@7.2.6(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.45.5)(vite@7.2.6(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.45.5)(tailwindcss@4.1.17):
+  runes-webkit@0.12.1(@sveltejs/kit@2.49.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.45.5)(vite@7.2.6(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.45.5)(vite@7.2.6(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.45.5)(tailwindcss@4.1.17):
     dependencies:
       '@sveltejs/kit': 2.49.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.45.5)(vite@7.2.6(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.45.5)(vite@7.2.6(jiti@2.6.1)(lightningcss@1.30.2))
       clsx: 2.1.1

@@ -182,8 +182,7 @@
             <SidebarDropdownWrapper
               label={name}
               isOpen={isDropdownOpen(children)}
-              svgClass="me-4"
-              btnClass="p-1"
+              classes={{ btn: 'p-1', svg: 'me-4' }}
             >
               {#snippet icon()}
                 <Icon />

@@ -17,3 +17,15 @@
 </script>
 
 <Icon {...restProps} {role} {color} {size} {ariaLabel} />
+
+<!--
+@component
+[Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
+## Props
+@prop Icon
+@prop size = '24'
+@prop color = 'currentColor'
+@prop role = 'img'
+@prop ariaLabel = 'Icon'
+@prop ...restProps
+-->

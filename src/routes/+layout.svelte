@@ -41,9 +41,9 @@
     Icon?: Component;
   };
   let { children, data } = $props();
-  const analyticsId = data.ANALYTICS_ID_TWO;
+  const analyticsId = $derived(data.ANALYTICS_ID_TWO);
   // metaTags
-  let metaTags = $state(
+  let metaTags = $derived(
     page.data.pageMetaTags
       ? deepMerge(page.data.layoutMetaTags, page.data.pageMetaTags)
       : data.layoutMetaTags
@@ -90,9 +90,6 @@
   let include = $derived(isIncluded(activeUrl, urlsToIncludeSwitcher));
 
   $effect(() => {
-    metaTags = page.data.pageMetaTags
-      ? deepMerge(page.data.layoutMetaTags, page.data.pageMetaTags)
-      : data.layoutMetaTags;
     isOpen = sidebarUi.isOpen;
   });
 
@@ -182,8 +179,7 @@
             <SidebarDropdownWrapper
               label={name}
               isOpen={isDropdownOpen(children)}
-              svgClass="me-4"
-              btnClass="p-1"
+              classes={{ btn: 'p-1', svg: 'me-4' }}
             >
               {#snippet icon()}
                 <Icon />

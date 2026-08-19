@@ -26,7 +26,7 @@
     {
       "name": "ant-design/ant-design-icons",
       "url": "https://github.com/ant-design/ant-design-icons",
-      "iconVersion": "4.4.2"
+      "iconVersion": "4.5.0"
     }
   ],
   "scripts": {
@@ -40,7 +40,7 @@
     "format": "prettier --write .",
     "lint": "prettier --check . && eslint .",
     "test:unit": "vitest",
-    "test": "npm run test:unit -- --run && npm run test:e2e",
+    "test": "pnpm run test:e2e && pnpm run test:unit --run",
     "test:e2e": "playwright test",
     "gen:exports": "svelte-lib-helpers exports",
     "copy:packagejson": "svelte-lib-helpers package",

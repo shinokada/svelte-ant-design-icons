@@ -43,17 +43,3 @@
     transform="translate(64 64)"
   />
 </svg>
-
-<!--
-@component
-[Go to docs](https://svelte-ant-design-icons.codewithshin.com/)
-## Props
-@prop size = ctx.size || '24'
-@prop role = ctx.role || 'img'
-@prop color = ctx.color || 'currentColor'
-@prop title
-@prop desc
-@prop focusable = 'false'
-@prop ariaLabel
-@prop ...restProps
--->

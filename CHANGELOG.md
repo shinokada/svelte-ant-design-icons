@@ -1,5 +1,20 @@
 # svelte-ant-design-icons
 
+## 3.1.0
+
+### Minor Changes
+
+- 61f103e: feat: update ant-design-icons@4.5.0
+- - **New Features**
+    - Added 17 filled icons, including Anthropic, Claude, Gemini, Netflix, Telegram, Threads, and others.
+    - Icons support customizable size, color, SVG attributes, and accessibility labels, titles, and descriptions.
+  - **Improvements**
+    - Refined the Twitch icon rendering for cleaner output.
+  - **Release**
+    - Updated the icon package to version 4.5.0.
+  - **Documentation**
+    - Added development notes covering icon version checks and update workflows.
+
 ## 3.0.1
 
 ### Patch Changes

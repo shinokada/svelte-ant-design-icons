@@ -26,7 +26,7 @@
     {
       "name": "ant-design/ant-design-icons",
       "url": "https://github.com/ant-design/ant-design-icons",
-      "iconVersion": "4.4.2"
+      "iconVersion": "4.5.0"
     }
   ],
   "scripts": {
@@ -40,7 +40,7 @@
     "format": "prettier --write .",
     "lint": "prettier --check . && eslint .",
     "test:unit": "vitest",
-    "test": "npm run test:unit -- --run && npm run test:e2e",
+    "test": "pnpm run test:e2e && pnpm run test:unit --run",
     "test:e2e": "playwright test",
     "gen:exports": "svelte-lib-helpers exports",
     "copy:packagejson": "svelte-lib-helpers package",
@@ -214,6 +214,10 @@
     "./AntDesignOutlined.svelte": {
       "types": "./dist/AntDesignOutlined.svelte.d.ts",
       "svelte": "./dist/AntDesignOutlined.svelte"
+    },
+    "./AnthropicFilled.svelte": {
+      "types": "./dist/AnthropicFilled.svelte.d.ts",
+      "svelte": "./dist/AnthropicFilled.svelte"
     },
     "./ApartmentOutlined.svelte": {
       "types": "./dist/ApartmentOutlined.svelte.d.ts",
@@ -635,6 +639,10 @@
       "types": "./dist/CiTwotone.svelte.d.ts",
       "svelte": "./dist/CiTwotone.svelte"
     },
+    "./ClaudeFilled.svelte": {
+      "types": "./dist/ClaudeFilled.svelte.d.ts",
+      "svelte": "./dist/ClaudeFilled.svelte"
+    },
     "./ClearOutlined.svelte": {
       "types": "./dist/ClearOutlined.svelte.d.ts",
       "svelte": "./dist/ClearOutlined.svelte"
@@ -919,6 +927,10 @@
       "types": "./dist/DatabaseTwotone.svelte.d.ts",
       "svelte": "./dist/DatabaseTwotone.svelte"
     },
+    "./DeepSeekFilled.svelte": {
+      "types": "./dist/DeepSeekFilled.svelte.d.ts",
+      "svelte": "./dist/DeepSeekFilled.svelte"
+    },
     "./DeleteColumnOutlined.svelte": {
       "types": "./dist/DeleteColumnOutlined.svelte.d.ts",
       "svelte": "./dist/DeleteColumnOutlined.svelte"
@@ -1118,6 +1130,10 @@
     "./EditTwotone.svelte": {
       "types": "./dist/EditTwotone.svelte.d.ts",
       "svelte": "./dist/EditTwotone.svelte"
+    },
+    "./ElevenLabsFilled.svelte": {
+      "types": "./dist/ElevenLabsFilled.svelte.d.ts",
+      "svelte": "./dist/ElevenLabsFilled.svelte"
     },
     "./EllipsisOutlined.svelte": {
       "types": "./dist/EllipsisOutlined.svelte.d.ts",
@@ -1607,6 +1623,10 @@
       "types": "./dist/GatewayOutlined.svelte.d.ts",
       "svelte": "./dist/GatewayOutlined.svelte"
     },
+    "./GeminiFilled.svelte": {
+      "types": "./dist/GeminiFilled.svelte.d.ts",
+      "svelte": "./dist/GeminiFilled.svelte"
+    },
     "./GifOutlined.svelte": {
       "types": "./dist/GifOutlined.svelte.d.ts",
       "svelte": "./dist/GifOutlined.svelte"
@@ -1774,6 +1794,10 @@
     "./Html5Twotone.svelte": {
       "types": "./dist/Html5Twotone.svelte.d.ts",
       "svelte": "./dist/Html5Twotone.svelte"
+    },
+    "./HuggingFaceFilled.svelte": {
+      "types": "./dist/HuggingFaceFilled.svelte.d.ts",
+      "svelte": "./dist/HuggingFaceFilled.svelte"
     },
     "./Icon.svelte": {
       "types": "./dist/Icon.svelte.d.ts",
@@ -2035,6 +2059,10 @@
       "types": "./dist/ManOutlined.svelte.d.ts",
       "svelte": "./dist/ManOutlined.svelte"
     },
+    "./MastodonFilled.svelte": {
+      "types": "./dist/MastodonFilled.svelte.d.ts",
+      "svelte": "./dist/MastodonFilled.svelte"
+    },
     "./MedicineBoxFilled.svelte": {
       "types": "./dist/MedicineBoxFilled.svelte.d.ts",
       "svelte": "./dist/MedicineBoxFilled.svelte"
@@ -2111,6 +2139,10 @@
       "types": "./dist/MessageTwotone.svelte.d.ts",
       "svelte": "./dist/MessageTwotone.svelte"
     },
+    "./MetaFilled.svelte": {
+      "types": "./dist/MetaFilled.svelte.d.ts",
+      "svelte": "./dist/MetaFilled.svelte"
+    },
     "./MinusCircleFilled.svelte": {
       "types": "./dist/MinusCircleFilled.svelte.d.ts",
       "svelte": "./dist/MinusCircleFilled.svelte"
@@ -2138,6 +2170,10 @@
     "./MinusSquareTwotone.svelte": {
       "types": "./dist/MinusSquareTwotone.svelte.d.ts",
       "svelte": "./dist/MinusSquareTwotone.svelte"
+    },
+    "./MistralFilled.svelte": {
+      "types": "./dist/MistralFilled.svelte.d.ts",
+      "svelte": "./dist/MistralFilled.svelte"
     },
     "./MobileFilled.svelte": {
       "types": "./dist/MobileFilled.svelte.d.ts",
@@ -2187,6 +2223,10 @@
       "types": "./dist/MutedOutlined.svelte.d.ts",
       "svelte": "./dist/MutedOutlined.svelte"
     },
+    "./NetflixFilled.svelte": {
+      "types": "./dist/NetflixFilled.svelte.d.ts",
+      "svelte": "./dist/NetflixFilled.svelte"
+    },
     "./NodeCollapseOutlined.svelte": {
       "types": "./dist/NodeCollapseOutlined.svelte.d.ts",
       "svelte": "./dist/NodeCollapseOutlined.svelte"
@@ -2214,6 +2254,10 @@
     "./NumberOutlined.svelte": {
       "types": "./dist/NumberOutlined.svelte.d.ts",
       "svelte": "./dist/NumberOutlined.svelte"
+    },
+    "./OllamaFilled.svelte": {
+      "types": "./dist/OllamaFilled.svelte.d.ts",
+      "svelte": "./dist/OllamaFilled.svelte"
     },
     "./OneToOneOutlined.svelte": {
       "types": "./dist/OneToOneOutlined.svelte.d.ts",
@@ -2266,6 +2310,10 @@
     "./PercentageOutlined.svelte": {
       "types": "./dist/PercentageOutlined.svelte.d.ts",
       "svelte": "./dist/PercentageOutlined.svelte"
+    },
+    "./PerplexityFilled.svelte": {
+      "types": "./dist/PerplexityFilled.svelte.d.ts",
+      "svelte": "./dist/PerplexityFilled.svelte"
     },
     "./PhoneFilled.svelte": {
       "types": "./dist/PhoneFilled.svelte.d.ts",
@@ -2503,6 +2551,10 @@
       "types": "./dist/QuestionOutlined.svelte.d.ts",
       "svelte": "./dist/QuestionOutlined.svelte"
     },
+    "./QwenFilled.svelte": {
+      "types": "./dist/QwenFilled.svelte.d.ts",
+      "svelte": "./dist/QwenFilled.svelte"
+    },
     "./RadarChartOutlined.svelte": {
       "types": "./dist/RadarChartOutlined.svelte.d.ts",
       "svelte": "./dist/RadarChartOutlined.svelte"
@@ -2578,6 +2630,10 @@
     "./ReloadOutlined.svelte": {
       "types": "./dist/ReloadOutlined.svelte.d.ts",
       "svelte": "./dist/ReloadOutlined.svelte"
+    },
+    "./ReplicateFilled.svelte": {
+      "types": "./dist/ReplicateFilled.svelte.d.ts",
+      "svelte": "./dist/ReplicateFilled.svelte"
     },
     "./RestFilled.svelte": {
       "types": "./dist/RestFilled.svelte.d.ts",
@@ -2879,6 +2935,10 @@
       "types": "./dist/SmileTwotone.svelte.d.ts",
       "svelte": "./dist/SmileTwotone.svelte"
     },
+    "./SnapchatFilled.svelte": {
+      "types": "./dist/SnapchatFilled.svelte.d.ts",
+      "svelte": "./dist/SnapchatFilled.svelte"
+    },
     "./SnippetsFilled.svelte": {
       "types": "./dist/SnippetsFilled.svelte.d.ts",
       "svelte": "./dist/SnippetsFilled.svelte"
@@ -3074,6 +3134,14 @@
     "./TeamOutlined.svelte": {
       "types": "./dist/TeamOutlined.svelte.d.ts",
       "svelte": "./dist/TeamOutlined.svelte"
+    },
+    "./TelegramFilled.svelte": {
+      "types": "./dist/TelegramFilled.svelte.d.ts",
+      "svelte": "./dist/TelegramFilled.svelte"
+    },
+    "./ThreadsFilled.svelte": {
+      "types": "./dist/ThreadsFilled.svelte.d.ts",
+      "svelte": "./dist/ThreadsFilled.svelte"
     },
     "./ThunderboltFilled.svelte": {
       "types": "./dist/ThunderboltFilled.svelte.d.ts",

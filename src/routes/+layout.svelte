@@ -105,7 +105,7 @@
 >
   <NavBrand href="/">
     <span
-      class="text-primary-900 dark:text-primary-500 self-center text-xl font-semibold whitespace-nowrap xl:ml-8 xl:text-3xl"
+      class="text-primary-900 dark:text-primary-500 self-center text-xl font-semibold whitespace-nowrap ml-8 xl:text-3xl"
       >Svelte Ant Design Icons</span
     >
   </NavBrand>
